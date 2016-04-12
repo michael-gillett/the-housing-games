@@ -4,15 +4,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="data/css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <script src="data/js/script.js"></script>
   </head>
   <body>
-    <div class="splash">
+   <!--  <div class="splash">
       <img src="data/images/logo.png" class="logo center-block">
       <img src="data/images/symbol.png" class="center-block">
-    </div>
-    <audio autoplay preload>
-      <source src="data/audio/whistle.mp3" type="audio/mp3">
-    </audio>
+      <audio autoplay preload>
+        <source src="data/audio/whistle.mp3" type="audio/mp3">
+      </audio>
+    </div> -->
+    <h1 class="text-center">
+      The Housing Games
+    </h1>
+    <div id="map" class="center-block"></div>
   </body>
 </html>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<script src="data/js/script.js" async defer></script>
