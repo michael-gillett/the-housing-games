@@ -1,0 +1,4088 @@
+res_hall,remaining,total,num_picks
+Caswell Hall,39,39,1
+Olney House,26,26,1
+Harkness House,23,23,1
+Drop to 199,1,1,1
+Marcy House,20,20,1
+Drop to 191,2,2,1
+Goddard House,34,34,1
+New Pembroke #3,8,8,1
+Young Orchard #4,14,14,1
+Young Orchard #2,13,13,1
+Hope College,11,11,1
+Drop to 545,1,1,1
+Morriss Hall,4,4,1
+New Pembroke #2,19,19,1
+Champlin,5,5,1
+No Show,53,54,1
+Woolley,28,28,1
+Grad Center C,19,19,1
+New Pembroke #4,20,20,1
+Drop to 159,1,1,1
+Metcalf,48,48,1
+Drop to 113,0,1,1
+Drop to 368,1,1,1
+Drop to 320,1,1,1
+Drop to 249,1,1,1
+Slater Hall,22,24,1
+Drop to 588,1,1,1
+Sears House,26,26,1
+Jameson House,7,7,1
+Chapin House,11,11,1
+Gregorian Quad A,49,51,1
+Drop to 430,1,1,1
+Grad Center A,17,17,1
+Barbour Hall,19,19,1
+111 Brown Street,4,4,1
+Minden,51,57,1
+Bronson House,7,7,1
+Young Orchard #10,13,13,1
+Machado,19,19,1
+Drop to 433,1,1,1
+Emery,17,17,1
+Grad Center B,18,18,1
+Drop to 266,1,1,1
+Drop to 235,1,1,1
+Everett House,3,3,1
+West Andrews,28,30,1
+Poland House,19,19,1
+New Pembroke #1,16,16,1
+Wayland House,17,18,1
+Drop to 399,1,1,1
+Archibald House,14,14,1
+Gregorian Quad B,52,53,1
+Drop to 517,1,1,1
+Drop to 679,1,1,1
+Miller,11,11,1
+Drop to 393,1,1,1
+Drop to 415,1,1,1
+Hegeman,38,41,1
+Drop to 299,1,1,1
+Drop to 453,1,1,1
+Grad Center D,18,18,1
+Diman House,35,35,1
+East Andrews,30,30,1
+Pass,47,47,1
+Barbour Hall Apartments,25,25,1
+Mead House,10,10,1
+Drop to 379,1,1,1
+Caswell Hall,39,39,2
+Olney House,26,26,2
+Harkness House,23,23,2
+Drop to 199,1,1,2
+Marcy House,20,20,2
+Drop to 191,2,2,2
+Goddard House,34,34,2
+New Pembroke #3,8,8,2
+Young Orchard #4,14,14,2
+Young Orchard #2,13,13,2
+Hope College,11,11,2
+Drop to 545,1,1,2
+Morriss Hall,4,4,2
+New Pembroke #2,19,19,2
+Champlin,5,5,2
+No Show,51,54,2
+Woolley,28,28,2
+Grad Center C,19,19,2
+New Pembroke #4,20,20,2
+Drop to 159,1,1,2
+Metcalf,45,48,2
+Drop to 113,0,1,2
+Drop to 368,1,1,2
+Drop to 320,1,1,2
+Drop to 249,1,1,2
+Slater Hall,20,24,2
+Drop to 588,1,1,2
+Sears House,26,26,2
+Jameson House,7,7,2
+Chapin House,11,11,2
+Gregorian Quad A,49,51,2
+Drop to 430,1,1,2
+Grad Center A,17,17,2
+Barbour Hall,18,19,2
+111 Brown Street,4,4,2
+Minden,47,57,2
+Bronson House,7,7,2
+Young Orchard #10,13,13,2
+Machado,19,19,2
+Drop to 433,1,1,2
+Emery,16,17,2
+Grad Center B,18,18,2
+Drop to 266,1,1,2
+Drop to 235,1,1,2
+Everett House,3,3,2
+West Andrews,26,30,2
+Poland House,19,19,2
+New Pembroke #1,16,16,2
+Wayland House,17,18,2
+Drop to 399,1,1,2
+Archibald House,14,14,2
+Gregorian Quad B,51,53,2
+Drop to 517,1,1,2
+Drop to 679,1,1,2
+Miller,11,11,2
+Drop to 393,1,1,2
+Drop to 415,1,1,2
+Hegeman,38,41,2
+Drop to 299,1,1,2
+Drop to 453,1,1,2
+Grad Center D,18,18,2
+Diman House,35,35,2
+East Andrews,30,30,2
+Pass,47,47,2
+Barbour Hall Apartments,25,25,2
+Mead House,10,10,2
+Drop to 379,1,1,2
+Caswell Hall,39,39,3
+Olney House,26,26,3
+Harkness House,23,23,3
+Drop to 199,1,1,3
+Marcy House,20,20,3
+Drop to 191,2,2,3
+Goddard House,34,34,3
+New Pembroke #3,8,8,3
+Young Orchard #4,14,14,3
+Young Orchard #2,13,13,3
+Hope College,11,11,3
+Drop to 545,1,1,3
+Morriss Hall,4,4,3
+New Pembroke #2,19,19,3
+Champlin,5,5,3
+No Show,49,54,3
+Woolley,28,28,3
+Grad Center C,18,19,3
+New Pembroke #4,20,20,3
+Drop to 159,1,1,3
+Metcalf,41,48,3
+Drop to 113,0,1,3
+Drop to 368,1,1,3
+Drop to 320,1,1,3
+Drop to 249,1,1,3
+Slater Hall,20,24,3
+Drop to 588,1,1,3
+Sears House,26,26,3
+Jameson House,7,7,3
+Chapin House,11,11,3
+Gregorian Quad A,48,51,3
+Drop to 430,1,1,3
+Grad Center A,17,17,3
+Barbour Hall,18,19,3
+111 Brown Street,4,4,3
+Minden,47,57,3
+Bronson House,7,7,3
+Young Orchard #10,13,13,3
+Machado,19,19,3
+Drop to 433,1,1,3
+Emery,16,17,3
+Grad Center B,18,18,3
+Drop to 266,1,1,3
+Drop to 235,1,1,3
+Everett House,3,3,3
+West Andrews,25,30,3
+Poland House,19,19,3
+New Pembroke #1,16,16,3
+Wayland House,17,18,3
+Drop to 399,1,1,3
+Archibald House,14,14,3
+Gregorian Quad B,49,53,3
+Drop to 517,1,1,3
+Drop to 679,1,1,3
+Miller,10,11,3
+Drop to 393,1,1,3
+Drop to 415,1,1,3
+Hegeman,37,41,3
+Drop to 299,1,1,3
+Drop to 453,1,1,3
+Grad Center D,18,18,3
+Diman House,35,35,3
+East Andrews,28,30,3
+Pass,47,47,3
+Barbour Hall Apartments,25,25,3
+Mead House,10,10,3
+Drop to 379,1,1,3
+Caswell Hall,39,39,4
+Olney House,26,26,4
+Harkness House,23,23,4
+Drop to 199,1,1,4
+Marcy House,20,20,4
+Drop to 191,2,2,4
+Goddard House,34,34,4
+New Pembroke #3,8,8,4
+Young Orchard #4,13,14,4
+Young Orchard #2,13,13,4
+Hope College,11,11,4
+Drop to 545,1,1,4
+Morriss Hall,4,4,4
+New Pembroke #2,19,19,4
+Champlin,5,5,4
+No Show,47,54,4
+Woolley,28,28,4
+Grad Center C,18,19,4
+New Pembroke #4,20,20,4
+Drop to 159,1,1,4
+Metcalf,41,48,4
+Drop to 113,0,1,4
+Drop to 368,1,1,4
+Drop to 320,1,1,4
+Drop to 249,1,1,4
+Slater Hall,17,24,4
+Drop to 588,1,1,4
+Sears House,26,26,4
+Jameson House,7,7,4
+Chapin House,11,11,4
+Gregorian Quad A,46,51,4
+Drop to 430,1,1,4
+Grad Center A,17,17,4
+Barbour Hall,18,19,4
+111 Brown Street,4,4,4
+Minden,46,57,4
+Bronson House,7,7,4
+Young Orchard #10,13,13,4
+Machado,19,19,4
+Drop to 433,1,1,4
+Emery,16,17,4
+Grad Center B,18,18,4
+Drop to 266,1,1,4
+Drop to 235,1,1,4
+Everett House,3,3,4
+West Andrews,24,30,4
+Poland House,19,19,4
+New Pembroke #1,16,16,4
+Wayland House,15,18,4
+Drop to 399,1,1,4
+Archibald House,14,14,4
+Gregorian Quad B,46,53,4
+Drop to 517,1,1,4
+Drop to 679,1,1,4
+Miller,10,11,4
+Drop to 393,1,1,4
+Drop to 415,1,1,4
+Hegeman,37,41,4
+Drop to 299,1,1,4
+Drop to 453,1,1,4
+Grad Center D,18,18,4
+Diman House,35,35,4
+East Andrews,28,30,4
+Pass,47,47,4
+Barbour Hall Apartments,25,25,4
+Mead House,10,10,4
+Drop to 379,1,1,4
+Caswell Hall,39,39,5
+Olney House,26,26,5
+Harkness House,23,23,5
+Drop to 199,1,1,5
+Marcy House,20,20,5
+Drop to 191,2,2,5
+Goddard House,34,34,5
+New Pembroke #3,8,8,5
+Young Orchard #4,13,14,5
+Young Orchard #2,12,13,5
+Hope College,11,11,5
+Drop to 545,1,1,5
+Morriss Hall,4,4,5
+New Pembroke #2,19,19,5
+Champlin,5,5,5
+No Show,47,54,5
+Woolley,28,28,5
+Grad Center C,18,19,5
+New Pembroke #4,19,20,5
+Drop to 159,1,1,5
+Metcalf,39,48,5
+Drop to 113,0,1,5
+Drop to 368,1,1,5
+Drop to 320,1,1,5
+Drop to 249,1,1,5
+Slater Hall,17,24,5
+Drop to 588,1,1,5
+Sears House,26,26,5
+Jameson House,7,7,5
+Chapin House,11,11,5
+Gregorian Quad A,41,51,5
+Drop to 430,1,1,5
+Grad Center A,17,17,5
+Barbour Hall,18,19,5
+111 Brown Street,4,4,5
+Minden,46,57,5
+Bronson House,7,7,5
+Young Orchard #10,13,13,5
+Machado,19,19,5
+Drop to 433,1,1,5
+Emery,16,17,5
+Grad Center B,18,18,5
+Drop to 266,1,1,5
+Drop to 235,1,1,5
+Everett House,3,3,5
+West Andrews,24,30,5
+Poland House,19,19,5
+New Pembroke #1,16,16,5
+Wayland House,15,18,5
+Drop to 399,1,1,5
+Archibald House,14,14,5
+Gregorian Quad B,45,53,5
+Drop to 517,1,1,5
+Drop to 679,1,1,5
+Miller,10,11,5
+Drop to 393,1,1,5
+Drop to 415,1,1,5
+Hegeman,37,41,5
+Drop to 299,1,1,5
+Drop to 453,1,1,5
+Grad Center D,18,18,5
+Diman House,35,35,5
+East Andrews,23,30,5
+Pass,47,47,5
+Barbour Hall Apartments,24,25,5
+Mead House,10,10,5
+Drop to 379,1,1,5
+Caswell Hall,39,39,6
+Olney House,26,26,6
+Harkness House,23,23,6
+Drop to 199,1,1,6
+Marcy House,20,20,6
+Drop to 191,2,2,6
+Goddard House,34,34,6
+New Pembroke #3,8,8,6
+Young Orchard #4,13,14,6
+Young Orchard #2,9,13,6
+Hope College,11,11,6
+Drop to 545,1,1,6
+Morriss Hall,4,4,6
+New Pembroke #2,18,19,6
+Champlin,5,5,6
+No Show,46,54,6
+Woolley,28,28,6
+Grad Center C,18,19,6
+New Pembroke #4,19,20,6
+Drop to 159,1,1,6
+Metcalf,38,48,6
+Drop to 113,0,1,6
+Drop to 368,1,1,6
+Drop to 320,1,1,6
+Drop to 249,1,1,6
+Slater Hall,17,24,6
+Drop to 588,1,1,6
+Sears House,26,26,6
+Jameson House,7,7,6
+Chapin House,11,11,6
+Gregorian Quad A,41,51,6
+Drop to 430,1,1,6
+Grad Center A,17,17,6
+Barbour Hall,17,19,6
+111 Brown Street,4,4,6
+Minden,45,57,6
+Bronson House,7,7,6
+Young Orchard #10,11,13,6
+Machado,19,19,6
+Drop to 433,1,1,6
+Emery,16,17,6
+Grad Center B,18,18,6
+Drop to 266,1,1,6
+Drop to 235,1,1,6
+Everett House,3,3,6
+West Andrews,23,30,6
+Poland House,19,19,6
+New Pembroke #1,16,16,6
+Wayland House,15,18,6
+Drop to 399,1,1,6
+Archibald House,14,14,6
+Gregorian Quad B,40,53,6
+Drop to 517,1,1,6
+Drop to 679,1,1,6
+Miller,10,11,6
+Drop to 393,1,1,6
+Drop to 415,1,1,6
+Hegeman,35,41,6
+Drop to 299,1,1,6
+Drop to 453,1,1,6
+Grad Center D,18,18,6
+Diman House,35,35,6
+East Andrews,20,30,6
+Pass,47,47,6
+Barbour Hall Apartments,24,25,6
+Mead House,10,10,6
+Drop to 379,1,1,6
+Caswell Hall,39,39,7
+Olney House,26,26,7
+Harkness House,23,23,7
+Drop to 199,1,1,7
+Marcy House,20,20,7
+Drop to 191,2,2,7
+Goddard House,34,34,7
+New Pembroke #3,8,8,7
+Young Orchard #4,11,14,7
+Young Orchard #2,7,13,7
+Hope College,9,11,7
+Drop to 545,1,1,7
+Morriss Hall,4,4,7
+New Pembroke #2,18,19,7
+Champlin,5,5,7
+No Show,44,54,7
+Woolley,28,28,7
+Grad Center C,18,19,7
+New Pembroke #4,19,20,7
+Drop to 159,1,1,7
+Metcalf,36,48,7
+Drop to 113,0,1,7
+Drop to 368,1,1,7
+Drop to 320,1,1,7
+Drop to 249,1,1,7
+Slater Hall,17,24,7
+Drop to 588,1,1,7
+Sears House,26,26,7
+Jameson House,7,7,7
+Chapin House,11,11,7
+Gregorian Quad A,35,51,7
+Drop to 430,1,1,7
+Grad Center A,17,17,7
+Barbour Hall,17,19,7
+111 Brown Street,4,4,7
+Minden,45,57,7
+Bronson House,7,7,7
+Young Orchard #10,11,13,7
+Machado,19,19,7
+Drop to 433,1,1,7
+Emery,16,17,7
+Grad Center B,18,18,7
+Drop to 266,1,1,7
+Drop to 235,1,1,7
+Everett House,3,3,7
+West Andrews,22,30,7
+Poland House,18,19,7
+New Pembroke #1,16,16,7
+Wayland House,15,18,7
+Drop to 399,1,1,7
+Archibald House,14,14,7
+Gregorian Quad B,40,53,7
+Drop to 517,1,1,7
+Drop to 679,1,1,7
+Miller,8,11,7
+Drop to 393,1,1,7
+Drop to 415,1,1,7
+Hegeman,35,41,7
+Drop to 299,1,1,7
+Drop to 453,1,1,7
+Grad Center D,18,18,7
+Diman House,35,35,7
+East Andrews,20,30,7
+Pass,47,47,7
+Barbour Hall Apartments,24,25,7
+Mead House,10,10,7
+Drop to 379,1,1,7
+Caswell Hall,39,39,8
+Olney House,26,26,8
+Harkness House,23,23,8
+Drop to 199,1,1,8
+Marcy House,20,20,8
+Drop to 191,2,2,8
+Goddard House,34,34,8
+New Pembroke #3,8,8,8
+Young Orchard #4,11,14,8
+Young Orchard #2,2,13,8
+Hope College,9,11,8
+Drop to 545,1,1,8
+Morriss Hall,4,4,8
+New Pembroke #2,18,19,8
+Champlin,5,5,8
+No Show,44,54,8
+Woolley,28,28,8
+Grad Center C,18,19,8
+New Pembroke #4,19,20,8
+Drop to 159,0,1,8
+Metcalf,33,48,8
+Drop to 113,0,1,8
+Drop to 368,1,1,8
+Drop to 320,1,1,8
+Drop to 249,1,1,8
+Slater Hall,17,24,8
+Drop to 588,1,1,8
+Sears House,26,26,8
+Jameson House,7,7,8
+Chapin House,11,11,8
+Gregorian Quad A,34,51,8
+Drop to 430,1,1,8
+Grad Center A,17,17,8
+Barbour Hall,16,19,8
+111 Brown Street,4,4,8
+Minden,45,57,8
+Bronson House,7,7,8
+Young Orchard #10,10,13,8
+Machado,19,19,8
+Drop to 433,1,1,8
+Emery,16,17,8
+Grad Center B,18,18,8
+Drop to 266,1,1,8
+Drop to 235,1,1,8
+Everett House,3,3,8
+West Andrews,18,30,8
+Poland House,18,19,8
+New Pembroke #1,16,16,8
+Wayland House,15,18,8
+Drop to 399,1,1,8
+Archibald House,14,14,8
+Gregorian Quad B,36,53,8
+Drop to 517,1,1,8
+Drop to 679,1,1,8
+Miller,8,11,8
+Drop to 393,1,1,8
+Drop to 415,1,1,8
+Hegeman,35,41,8
+Drop to 299,1,1,8
+Drop to 453,1,1,8
+Grad Center D,18,18,8
+Diman House,35,35,8
+East Andrews,17,30,8
+Pass,47,47,8
+Barbour Hall Apartments,23,25,8
+Mead House,10,10,8
+Drop to 379,1,1,8
+Caswell Hall,39,39,8
+Olney House,26,26,8
+Harkness House,23,23,8
+Drop to 199,1,1,8
+Marcy House,20,20,8
+Drop to 191,2,2,8
+Goddard House,34,34,8
+New Pembroke #3,8,8,8
+Young Orchard #4,11,14,8
+Young Orchard #2,2,13,8
+Hope College,9,11,8
+Drop to 545,1,1,8
+Morriss Hall,4,4,8
+New Pembroke #2,18,19,8
+Champlin,5,5,8
+No Show,44,54,8
+Woolley,28,28,8
+Grad Center C,18,19,8
+New Pembroke #4,19,20,8
+Drop to 159,0,1,8
+Metcalf,33,48,8
+Drop to 113,0,1,8
+Drop to 368,1,1,8
+Drop to 320,1,1,8
+Drop to 249,1,1,8
+Slater Hall,17,24,8
+Drop to 588,1,1,8
+Sears House,26,26,8
+Jameson House,7,7,8
+Chapin House,11,11,8
+Gregorian Quad A,33,51,8
+Drop to 430,1,1,8
+Grad Center A,17,17,8
+Barbour Hall,16,19,8
+111 Brown Street,4,4,8
+Minden,45,57,8
+Bronson House,7,7,8
+Young Orchard #10,10,13,8
+Machado,19,19,8
+Drop to 433,1,1,8
+Emery,16,17,8
+Grad Center B,18,18,8
+Drop to 266,1,1,8
+Drop to 235,1,1,8
+Everett House,3,3,8
+West Andrews,18,30,8
+Poland House,18,19,8
+New Pembroke #1,16,16,8
+Wayland House,15,18,8
+Drop to 399,1,1,8
+Archibald House,14,14,8
+Gregorian Quad B,36,53,8
+Drop to 517,1,1,8
+Drop to 679,1,1,8
+Miller,8,11,8
+Drop to 393,1,1,8
+Drop to 415,1,1,8
+Hegeman,35,41,8
+Drop to 299,1,1,8
+Drop to 453,1,1,8
+Grad Center D,18,18,8
+Diman House,35,35,8
+East Andrews,17,30,8
+Pass,47,47,8
+Barbour Hall Apartments,23,25,8
+Mead House,10,10,8
+Drop to 379,1,1,8
+Caswell Hall,39,39,9
+Olney House,26,26,9
+Harkness House,23,23,9
+Drop to 199,1,1,9
+Marcy House,20,20,9
+Drop to 191,2,2,9
+Goddard House,34,34,9
+New Pembroke #3,8,8,9
+Young Orchard #4,9,14,9
+Young Orchard #2,2,13,9
+Hope College,8,11,9
+Drop to 545,1,1,9
+Morriss Hall,4,4,9
+New Pembroke #2,18,19,9
+Champlin,5,5,9
+No Show,44,54,9
+Woolley,28,28,9
+Grad Center C,18,19,9
+New Pembroke #4,19,20,9
+Drop to 159,0,1,9
+Metcalf,29,48,9
+Drop to 113,0,1,9
+Drop to 368,1,1,9
+Drop to 320,1,1,9
+Drop to 249,1,1,9
+Slater Hall,17,24,9
+Drop to 588,1,1,9
+Sears House,26,26,9
+Jameson House,7,7,9
+Chapin House,11,11,9
+Gregorian Quad A,32,51,9
+Drop to 430,1,1,9
+Grad Center A,17,17,9
+Barbour Hall,16,19,9
+111 Brown Street,4,4,9
+Minden,44,57,9
+Bronson House,7,7,9
+Young Orchard #10,10,13,9
+Machado,19,19,9
+Drop to 433,1,1,9
+Emery,15,17,9
+Grad Center B,18,18,9
+Drop to 266,1,1,9
+Drop to 235,1,1,9
+Everett House,3,3,9
+West Andrews,17,30,9
+Poland House,18,19,9
+New Pembroke #1,16,16,9
+Wayland House,13,18,9
+Drop to 399,1,1,9
+Archibald House,14,14,9
+Gregorian Quad B,35,53,9
+Drop to 517,1,1,9
+Drop to 679,1,1,9
+Miller,7,11,9
+Drop to 393,1,1,9
+Drop to 415,1,1,9
+Hegeman,35,41,9
+Drop to 299,1,1,9
+Drop to 453,1,1,9
+Grad Center D,18,18,9
+Diman House,35,35,9
+East Andrews,15,30,9
+Pass,47,47,9
+Barbour Hall Apartments,22,25,9
+Mead House,10,10,9
+Drop to 379,1,1,9
+Caswell Hall,39,39,10
+Olney House,26,26,10
+Harkness House,23,23,10
+Drop to 199,0,1,10
+Marcy House,20,20,10
+Drop to 191,2,2,10
+Goddard House,34,34,10
+New Pembroke #3,8,8,10
+Young Orchard #4,7,14,10
+Young Orchard #2,2,13,10
+Hope College,8,11,10
+Drop to 545,1,1,10
+Morriss Hall,4,4,10
+New Pembroke #2,18,19,10
+Champlin,5,5,10
+No Show,42,54,10
+Woolley,28,28,10
+Grad Center C,18,19,10
+New Pembroke #4,19,20,10
+Drop to 159,0,1,10
+Metcalf,28,48,10
+Drop to 113,0,1,10
+Drop to 368,1,1,10
+Drop to 320,1,1,10
+Drop to 249,1,1,10
+Slater Hall,17,24,10
+Drop to 588,1,1,10
+Sears House,26,26,10
+Jameson House,7,7,10
+Chapin House,11,11,10
+Gregorian Quad A,28,51,10
+Drop to 430,1,1,10
+Grad Center A,17,17,10
+Barbour Hall,16,19,10
+111 Brown Street,4,4,10
+Minden,44,57,10
+Bronson House,7,7,10
+Young Orchard #10,10,13,10
+Machado,19,19,10
+Drop to 433,1,1,10
+Emery,15,17,10
+Grad Center B,18,18,10
+Drop to 266,1,1,10
+Drop to 235,1,1,10
+Everett House,3,3,10
+West Andrews,12,30,10
+Poland House,18,19,10
+New Pembroke #1,16,16,10
+Wayland House,13,18,10
+Drop to 399,1,1,10
+Archibald House,14,14,10
+Gregorian Quad B,34,53,10
+Drop to 517,1,1,10
+Drop to 679,1,1,10
+Miller,7,11,10
+Drop to 393,1,1,10
+Drop to 415,1,1,10
+Hegeman,35,41,10
+Drop to 299,1,1,10
+Drop to 453,1,1,10
+Grad Center D,18,18,10
+Diman House,35,35,10
+East Andrews,10,30,10
+Pass,47,47,10
+Barbour Hall Apartments,22,25,10
+Mead House,10,10,10
+Drop to 379,1,1,10
+Caswell Hall,39,39,11
+Olney House,26,26,11
+Harkness House,23,23,11
+Drop to 199,0,1,11
+Marcy House,20,20,11
+Drop to 191,2,2,11
+Goddard House,33,34,11
+New Pembroke #3,8,8,11
+Young Orchard #4,7,14,11
+Young Orchard #2,1,13,11
+Hope College,8,11,11
+Drop to 545,1,1,11
+Morriss Hall,4,4,11
+New Pembroke #2,18,19,11
+Champlin,5,5,11
+No Show,39,54,11
+Woolley,28,28,11
+Grad Center C,18,19,11
+New Pembroke #4,19,20,11
+Drop to 159,0,1,11
+Metcalf,28,48,11
+Drop to 113,0,1,11
+Drop to 368,1,1,11
+Drop to 320,1,1,11
+Drop to 249,1,1,11
+Slater Hall,17,24,11
+Drop to 588,1,1,11
+Sears House,26,26,11
+Jameson House,7,7,11
+Chapin House,11,11,11
+Gregorian Quad A,28,51,11
+Drop to 430,1,1,11
+Grad Center A,17,17,11
+Barbour Hall,16,19,11
+111 Brown Street,4,4,11
+Minden,44,57,11
+Bronson House,7,7,11
+Young Orchard #10,6,13,11
+Machado,19,19,11
+Drop to 433,1,1,11
+Emery,14,17,11
+Grad Center B,18,18,11
+Drop to 266,1,1,11
+Drop to 235,1,1,11
+Everett House,3,3,11
+West Andrews,10,30,11
+Poland House,18,19,11
+New Pembroke #1,16,16,11
+Wayland House,13,18,11
+Drop to 399,1,1,11
+Archibald House,14,14,11
+Gregorian Quad B,32,53,11
+Drop to 517,1,1,11
+Drop to 679,1,1,11
+Miller,7,11,11
+Drop to 393,1,1,11
+Drop to 415,1,1,11
+Hegeman,34,41,11
+Drop to 299,1,1,11
+Drop to 453,1,1,11
+Grad Center D,18,18,11
+Diman House,35,35,11
+East Andrews,8,30,11
+Pass,47,47,11
+Barbour Hall Apartments,22,25,11
+Mead House,10,10,11
+Drop to 379,1,1,11
+Caswell Hall,39,39,12
+Olney House,26,26,12
+Harkness House,23,23,12
+Drop to 199,0,1,12
+Marcy House,20,20,12
+Drop to 191,1,2,12
+Goddard House,32,34,12
+New Pembroke #3,8,8,12
+Young Orchard #4,6,14,12
+Young Orchard #2,1,13,12
+Hope College,8,11,12
+Drop to 545,1,1,12
+Morriss Hall,4,4,12
+New Pembroke #2,18,19,12
+Champlin,4,5,12
+No Show,38,54,12
+Woolley,28,28,12
+Grad Center C,18,19,12
+New Pembroke #4,19,20,12
+Drop to 159,0,1,12
+Metcalf,28,48,12
+Drop to 113,0,1,12
+Drop to 368,1,1,12
+Drop to 320,1,1,12
+Drop to 249,1,1,12
+Slater Hall,17,24,12
+Drop to 588,1,1,12
+Sears House,25,26,12
+Jameson House,7,7,12
+Chapin House,11,11,12
+Gregorian Quad A,25,51,12
+Drop to 430,1,1,12
+Grad Center A,17,17,12
+Barbour Hall,16,19,12
+111 Brown Street,4,4,12
+Minden,44,57,12
+Bronson House,7,7,12
+Young Orchard #10,6,13,12
+Machado,19,19,12
+Drop to 433,1,1,12
+Emery,14,17,12
+Grad Center B,18,18,12
+Drop to 266,1,1,12
+Drop to 235,1,1,12
+Everett House,3,3,12
+West Andrews,8,30,12
+Poland House,18,19,12
+New Pembroke #1,16,16,12
+Wayland House,10,18,12
+Drop to 399,1,1,12
+Archibald House,14,14,12
+Gregorian Quad B,27,53,12
+Drop to 517,1,1,12
+Drop to 679,1,1,12
+Miller,7,11,12
+Drop to 393,1,1,12
+Drop to 415,1,1,12
+Hegeman,34,41,12
+Drop to 299,1,1,12
+Drop to 453,1,1,12
+Grad Center D,18,18,12
+Diman House,35,35,12
+East Andrews,3,30,12
+Pass,47,47,12
+Barbour Hall Apartments,22,25,12
+Mead House,10,10,12
+Drop to 379,1,1,12
+Caswell Hall,39,39,13
+Olney House,26,26,13
+Harkness House,23,23,13
+Drop to 199,0,1,13
+Marcy House,20,20,13
+Drop to 191,0,2,13
+Goddard House,32,34,13
+New Pembroke #3,8,8,13
+Young Orchard #4,5,14,13
+Young Orchard #2,1,13,13
+Hope College,7,11,13
+Drop to 545,1,1,13
+Morriss Hall,4,4,13
+New Pembroke #2,18,19,13
+Champlin,4,5,13
+No Show,37,54,13
+Woolley,28,28,13
+Grad Center C,18,19,13
+New Pembroke #4,19,20,13
+Drop to 159,0,1,13
+Metcalf,26,48,13
+Drop to 113,0,1,13
+Drop to 368,1,1,13
+Drop to 320,1,1,13
+Drop to 249,1,1,13
+Slater Hall,17,24,13
+Drop to 588,1,1,13
+Sears House,25,26,13
+Jameson House,7,7,13
+Chapin House,11,11,13
+Gregorian Quad A,25,51,13
+Drop to 430,1,1,13
+Grad Center A,17,17,13
+Barbour Hall,16,19,13
+111 Brown Street,4,4,13
+Minden,44,57,13
+Bronson House,7,7,13
+Young Orchard #10,6,13,13
+Machado,19,19,13
+Drop to 433,1,1,13
+Emery,14,17,13
+Grad Center B,18,18,13
+Drop to 266,1,1,13
+Drop to 235,1,1,13
+Everett House,3,3,13
+West Andrews,2,30,13
+Poland House,17,19,13
+New Pembroke #1,16,16,13
+Wayland House,8,18,13
+Drop to 399,1,1,13
+Archibald House,14,14,13
+Gregorian Quad B,27,53,13
+Drop to 517,1,1,13
+Drop to 679,1,1,13
+Miller,7,11,13
+Drop to 393,1,1,13
+Drop to 415,1,1,13
+Hegeman,34,41,13
+Drop to 299,1,1,13
+Drop to 453,1,1,13
+Grad Center D,18,18,13
+Diman House,35,35,13
+East Andrews,3,30,13
+Pass,47,47,13
+Barbour Hall Apartments,22,25,13
+Mead House,10,10,13
+Drop to 379,1,1,13
+Caswell Hall,39,39,14
+Olney House,26,26,14
+Harkness House,23,23,14
+Drop to 199,0,1,14
+Marcy House,20,20,14
+Drop to 191,0,2,14
+Goddard House,32,34,14
+New Pembroke #3,8,8,14
+Young Orchard #4,4,14,14
+Young Orchard #2,1,13,14
+Hope College,4,11,14
+Drop to 545,1,1,14
+Morriss Hall,4,4,14
+New Pembroke #2,18,19,14
+Champlin,4,5,14
+No Show,37,54,14
+Woolley,27,28,14
+Grad Center C,18,19,14
+New Pembroke #4,19,20,14
+Drop to 159,0,1,14
+Metcalf,18,48,14
+Drop to 113,0,1,14
+Drop to 368,1,1,14
+Drop to 320,1,1,14
+Drop to 249,1,1,14
+Slater Hall,17,24,14
+Drop to 588,1,1,14
+Sears House,25,26,14
+Jameson House,7,7,14
+Chapin House,11,11,14
+Gregorian Quad A,25,51,14
+Drop to 430,1,1,14
+Grad Center A,17,17,14
+Barbour Hall,16,19,14
+111 Brown Street,4,4,14
+Minden,44,57,14
+Bronson House,7,7,14
+Young Orchard #10,6,13,14
+Machado,19,19,14
+Drop to 433,1,1,14
+Emery,14,17,14
+Grad Center B,18,18,14
+Drop to 266,1,1,14
+Drop to 235,1,1,14
+Everett House,3,3,14
+West Andrews,2,30,14
+Poland House,17,19,14
+New Pembroke #1,16,16,14
+Wayland House,6,18,14
+Drop to 399,1,1,14
+Archibald House,14,14,14
+Gregorian Quad B,26,53,14
+Drop to 517,1,1,14
+Drop to 679,1,1,14
+Miller,7,11,14
+Drop to 393,1,1,14
+Drop to 415,1,1,14
+Hegeman,34,41,14
+Drop to 299,1,1,14
+Drop to 453,1,1,14
+Grad Center D,18,18,14
+Diman House,35,35,14
+East Andrews,3,30,14
+Pass,47,47,14
+Barbour Hall Apartments,22,25,14
+Mead House,10,10,14
+Drop to 379,1,1,14
+Caswell Hall,39,39,15
+Olney House,26,26,15
+Harkness House,23,23,15
+Drop to 199,0,1,15
+Marcy House,20,20,15
+Drop to 191,0,2,15
+Goddard House,32,34,15
+New Pembroke #3,8,8,15
+Young Orchard #4,1,14,15
+Young Orchard #2,1,13,15
+Hope College,4,11,15
+Drop to 545,1,1,15
+Morriss Hall,4,4,15
+New Pembroke #2,18,19,15
+Champlin,3,5,15
+No Show,36,54,15
+Woolley,26,28,15
+Grad Center C,18,19,15
+New Pembroke #4,19,20,15
+Drop to 159,0,1,15
+Metcalf,12,48,15
+Drop to 113,0,1,15
+Drop to 368,1,1,15
+Drop to 320,1,1,15
+Drop to 249,0,1,15
+Slater Hall,17,24,15
+Drop to 588,1,1,15
+Sears House,25,26,15
+Jameson House,7,7,15
+Chapin House,11,11,15
+Gregorian Quad A,25,51,15
+Drop to 430,1,1,15
+Grad Center A,17,17,15
+Barbour Hall,16,19,15
+111 Brown Street,4,4,15
+Minden,44,57,15
+Bronson House,7,7,15
+Young Orchard #10,6,13,15
+Machado,19,19,15
+Drop to 433,1,1,15
+Emery,13,17,15
+Grad Center B,18,18,15
+Drop to 266,0,1,15
+Drop to 235,1,1,15
+Everett House,3,3,15
+West Andrews,2,30,15
+Poland House,17,19,15
+New Pembroke #1,16,16,15
+Wayland House,4,18,15
+Drop to 399,0,1,15
+Archibald House,14,14,15
+Gregorian Quad B,26,53,15
+Drop to 517,1,1,15
+Drop to 679,1,1,15
+Miller,7,11,15
+Drop to 393,1,1,15
+Drop to 415,1,1,15
+Hegeman,34,41,15
+Drop to 299,0,1,15
+Drop to 453,1,1,15
+Grad Center D,18,18,15
+Diman House,35,35,15
+East Andrews,3,30,15
+Pass,47,47,15
+Barbour Hall Apartments,22,25,15
+Mead House,10,10,15
+Drop to 379,1,1,15
+Caswell Hall,39,39,16
+Olney House,25,26,16
+Harkness House,23,23,16
+Drop to 199,0,1,16
+Marcy House,20,20,16
+Drop to 191,0,2,16
+Goddard House,32,34,16
+New Pembroke #3,8,8,16
+Young Orchard #4,1,14,16
+Young Orchard #2,1,13,16
+Hope College,4,11,16
+Drop to 545,1,1,16
+Morriss Hall,3,4,16
+New Pembroke #2,18,19,16
+Champlin,3,5,16
+No Show,34,54,16
+Woolley,26,28,16
+Grad Center C,18,19,16
+New Pembroke #4,19,20,16
+Drop to 159,0,1,16
+Metcalf,9,48,16
+Drop to 113,0,1,16
+Drop to 368,1,1,16
+Drop to 320,1,1,16
+Drop to 249,0,1,16
+Slater Hall,17,24,16
+Drop to 588,1,1,16
+Sears House,25,26,16
+Jameson House,7,7,16
+Chapin House,11,11,16
+Gregorian Quad A,24,51,16
+Drop to 430,1,1,16
+Grad Center A,17,17,16
+Barbour Hall,16,19,16
+111 Brown Street,4,4,16
+Minden,43,57,16
+Bronson House,7,7,16
+Young Orchard #10,5,13,16
+Machado,19,19,16
+Drop to 433,1,1,16
+Emery,13,17,16
+Grad Center B,18,18,16
+Drop to 266,0,1,16
+Drop to 235,0,1,16
+Everett House,3,3,16
+West Andrews,2,30,16
+Poland House,17,19,16
+New Pembroke #1,16,16,16
+Wayland House,4,18,16
+Drop to 399,0,1,16
+Archibald House,14,14,16
+Gregorian Quad B,23,53,16
+Drop to 517,1,1,16
+Drop to 679,1,1,16
+Miller,7,11,16
+Drop to 393,0,1,16
+Drop to 415,1,1,16
+Hegeman,33,41,16
+Drop to 299,0,1,16
+Drop to 453,1,1,16
+Grad Center D,18,18,16
+Diman House,35,35,16
+East Andrews,3,30,16
+Pass,47,47,16
+Barbour Hall Apartments,22,25,16
+Mead House,10,10,16
+Drop to 379,1,1,16
+Caswell Hall,39,39,17
+Olney House,24,26,17
+Harkness House,23,23,17
+Drop to 199,0,1,17
+Marcy House,20,20,17
+Drop to 191,0,2,17
+Goddard House,29,34,17
+New Pembroke #3,8,8,17
+Young Orchard #4,1,14,17
+Young Orchard #2,1,13,17
+Hope College,4,11,17
+Drop to 545,1,1,17
+Morriss Hall,3,4,17
+New Pembroke #2,18,19,17
+Champlin,3,5,17
+No Show,33,54,17
+Woolley,26,28,17
+Grad Center C,18,19,17
+New Pembroke #4,19,20,17
+Drop to 159,0,1,17
+Metcalf,2,48,17
+Drop to 113,0,1,17
+Drop to 368,0,1,17
+Drop to 320,1,1,17
+Drop to 249,0,1,17
+Slater Hall,17,24,17
+Drop to 588,1,1,17
+Sears House,24,26,17
+Jameson House,7,7,17
+Chapin House,11,11,17
+Gregorian Quad A,23,51,17
+Drop to 430,1,1,17
+Grad Center A,17,17,17
+Barbour Hall,16,19,17
+111 Brown Street,4,4,17
+Minden,42,57,17
+Bronson House,7,7,17
+Young Orchard #10,5,13,17
+Machado,19,19,17
+Drop to 433,1,1,17
+Emery,12,17,17
+Grad Center B,18,18,17
+Drop to 266,0,1,17
+Drop to 235,0,1,17
+Everett House,3,3,17
+West Andrews,2,30,17
+Poland House,17,19,17
+New Pembroke #1,16,16,17
+Wayland House,3,18,17
+Drop to 399,0,1,17
+Archibald House,14,14,17
+Gregorian Quad B,23,53,17
+Drop to 517,1,1,17
+Drop to 679,1,1,17
+Miller,7,11,17
+Drop to 393,0,1,17
+Drop to 415,1,1,17
+Hegeman,29,41,17
+Drop to 299,0,1,17
+Drop to 453,1,1,17
+Grad Center D,18,18,17
+Diman House,35,35,17
+East Andrews,3,30,17
+Pass,47,47,17
+Barbour Hall Apartments,22,25,17
+Mead House,10,10,17
+Drop to 379,1,1,17
+Caswell Hall,39,39,18
+Olney House,24,26,18
+Harkness House,23,23,18
+Drop to 199,0,1,18
+Marcy House,20,20,18
+Drop to 191,0,2,18
+Goddard House,28,34,18
+New Pembroke #3,7,8,18
+Young Orchard #4,0,14,18
+Young Orchard #2,1,13,18
+Hope College,1,11,18
+Drop to 545,1,1,18
+Morriss Hall,2,4,18
+New Pembroke #2,18,19,18
+Champlin,2,5,18
+No Show,32,54,18
+Woolley,26,28,18
+Grad Center C,18,19,18
+New Pembroke #4,19,20,18
+Drop to 159,0,1,18
+Metcalf,1,48,18
+Drop to 113,0,1,18
+Drop to 368,0,1,18
+Drop to 320,1,1,18
+Drop to 249,0,1,18
+Slater Hall,17,24,18
+Drop to 588,1,1,18
+Sears House,24,26,18
+Jameson House,7,7,18
+Chapin House,11,11,18
+Gregorian Quad A,23,51,18
+Drop to 430,1,1,18
+Grad Center A,17,17,18
+Barbour Hall,16,19,18
+111 Brown Street,4,4,18
+Minden,42,57,18
+Bronson House,7,7,18
+Young Orchard #10,4,13,18
+Machado,19,19,18
+Drop to 433,1,1,18
+Emery,12,17,18
+Grad Center B,18,18,18
+Drop to 266,0,1,18
+Drop to 235,0,1,18
+Everett House,3,3,18
+West Andrews,2,30,18
+Poland House,17,19,18
+New Pembroke #1,16,16,18
+Wayland House,2,18,18
+Drop to 399,0,1,18
+Archibald House,14,14,18
+Gregorian Quad B,21,53,18
+Drop to 517,1,1,18
+Drop to 679,1,1,18
+Miller,4,11,18
+Drop to 393,0,1,18
+Drop to 415,1,1,18
+Hegeman,26,41,18
+Drop to 299,0,1,18
+Drop to 453,1,1,18
+Grad Center D,18,18,18
+Diman House,35,35,18
+East Andrews,3,30,18
+Pass,47,47,18
+Barbour Hall Apartments,21,25,18
+Mead House,10,10,18
+Drop to 379,1,1,18
+Caswell Hall,39,39,19
+Olney House,24,26,19
+Harkness House,23,23,19
+Drop to 199,0,1,19
+Marcy House,18,20,19
+Drop to 191,0,2,19
+Goddard House,28,34,19
+New Pembroke #3,7,8,19
+Young Orchard #4,0,14,19
+Young Orchard #2,1,13,19
+Hope College,1,11,19
+Drop to 545,1,1,19
+Morriss Hall,2,4,19
+New Pembroke #2,18,19,19
+Champlin,2,5,19
+No Show,31,54,19
+Woolley,24,28,19
+Grad Center C,18,19,19
+New Pembroke #4,19,20,19
+Drop to 159,0,1,19
+Metcalf,0,48,19
+Drop to 113,0,1,19
+Drop to 368,0,1,19
+Drop to 320,1,1,19
+Drop to 249,0,1,19
+Slater Hall,17,24,19
+Drop to 588,1,1,19
+Sears House,24,26,19
+Jameson House,6,7,19
+Chapin House,11,11,19
+Gregorian Quad A,23,51,19
+Drop to 430,1,1,19
+Grad Center A,17,17,19
+Barbour Hall,16,19,19
+111 Brown Street,4,4,19
+Minden,41,57,19
+Bronson House,7,7,19
+Young Orchard #10,0,13,19
+Machado,18,19,19
+Drop to 433,1,1,19
+Emery,10,17,19
+Grad Center B,18,18,19
+Drop to 266,0,1,19
+Drop to 235,0,1,19
+Everett House,3,3,19
+West Andrews,2,30,19
+Poland House,17,19,19
+New Pembroke #1,16,16,19
+Wayland House,2,18,19
+Drop to 399,0,1,19
+Archibald House,14,14,19
+Gregorian Quad B,21,53,19
+Drop to 517,1,1,19
+Drop to 679,1,1,19
+Miller,4,11,19
+Drop to 393,0,1,19
+Drop to 415,1,1,19
+Hegeman,26,41,19
+Drop to 299,0,1,19
+Drop to 453,1,1,19
+Grad Center D,18,18,19
+Diman House,35,35,19
+East Andrews,3,30,19
+Pass,47,47,19
+Barbour Hall Apartments,21,25,19
+Mead House,10,10,19
+Drop to 379,0,1,19
+Caswell Hall,39,39,20
+Olney House,24,26,20
+Harkness House,23,23,20
+Drop to 199,0,1,20
+Marcy House,18,20,20
+Drop to 191,0,2,20
+Goddard House,27,34,20
+New Pembroke #3,6,8,20
+Young Orchard #4,0,14,20
+Young Orchard #2,1,13,20
+Hope College,0,11,20
+Drop to 545,1,1,20
+Morriss Hall,2,4,20
+New Pembroke #2,18,19,20
+Champlin,1,5,20
+No Show,29,54,20
+Woolley,24,28,20
+Grad Center C,17,19,20
+New Pembroke #4,19,20,20
+Drop to 159,0,1,20
+Metcalf,0,48,20
+Drop to 113,0,1,20
+Drop to 368,0,1,20
+Drop to 320,1,1,20
+Drop to 249,0,1,20
+Slater Hall,17,24,20
+Drop to 588,1,1,20
+Sears House,24,26,20
+Jameson House,6,7,20
+Chapin House,11,11,20
+Gregorian Quad A,18,51,20
+Drop to 430,1,1,20
+Grad Center A,17,17,20
+Barbour Hall,16,19,20
+111 Brown Street,4,4,20
+Minden,41,57,20
+Bronson House,7,7,20
+Young Orchard #10,0,13,20
+Machado,16,19,20
+Drop to 433,1,1,20
+Emery,10,17,20
+Grad Center B,18,18,20
+Drop to 266,0,1,20
+Drop to 235,0,1,20
+Everett House,3,3,20
+West Andrews,2,30,20
+Poland House,17,19,20
+New Pembroke #1,16,16,20
+Wayland House,2,18,20
+Drop to 399,0,1,20
+Archibald House,14,14,20
+Gregorian Quad B,20,53,20
+Drop to 517,1,1,20
+Drop to 679,1,1,20
+Miller,3,11,20
+Drop to 393,0,1,20
+Drop to 415,1,1,20
+Hegeman,20,41,20
+Drop to 299,0,1,20
+Drop to 453,1,1,20
+Grad Center D,18,18,20
+Diman House,35,35,20
+East Andrews,3,30,20
+Pass,47,47,20
+Barbour Hall Apartments,21,25,20
+Mead House,10,10,20
+Drop to 379,0,1,20
+Caswell Hall,39,39,20
+Olney House,24,26,20
+Harkness House,23,23,20
+Drop to 199,0,1,20
+Marcy House,18,20,20
+Drop to 191,0,2,20
+Goddard House,27,34,20
+New Pembroke #3,6,8,20
+Young Orchard #4,0,14,20
+Young Orchard #2,1,13,20
+Hope College,0,11,20
+Drop to 545,1,1,20
+Morriss Hall,2,4,20
+New Pembroke #2,18,19,20
+Champlin,1,5,20
+No Show,29,54,20
+Woolley,24,28,20
+Grad Center C,17,19,20
+New Pembroke #4,19,20,20
+Drop to 159,0,1,20
+Metcalf,0,48,20
+Drop to 113,0,1,20
+Drop to 368,0,1,20
+Drop to 320,1,1,20
+Drop to 249,0,1,20
+Slater Hall,17,24,20
+Drop to 588,1,1,20
+Sears House,24,26,20
+Jameson House,6,7,20
+Chapin House,11,11,20
+Gregorian Quad A,18,51,20
+Drop to 430,1,1,20
+Grad Center A,17,17,20
+Barbour Hall,16,19,20
+111 Brown Street,4,4,20
+Minden,41,57,20
+Bronson House,7,7,20
+Young Orchard #10,0,13,20
+Machado,16,19,20
+Drop to 433,1,1,20
+Emery,10,17,20
+Grad Center B,18,18,20
+Drop to 266,0,1,20
+Drop to 235,0,1,20
+Everett House,3,3,20
+West Andrews,2,30,20
+Poland House,17,19,20
+New Pembroke #1,16,16,20
+Wayland House,2,18,20
+Drop to 399,0,1,20
+Archibald House,14,14,20
+Gregorian Quad B,20,53,20
+Drop to 517,1,1,20
+Drop to 679,1,1,20
+Miller,3,11,20
+Drop to 393,0,1,20
+Drop to 415,1,1,20
+Hegeman,19,41,20
+Drop to 299,0,1,20
+Drop to 453,1,1,20
+Grad Center D,18,18,20
+Diman House,35,35,20
+East Andrews,3,30,20
+Pass,47,47,20
+Barbour Hall Apartments,21,25,20
+Mead House,10,10,20
+Drop to 379,0,1,20
+Caswell Hall,39,39,21
+Olney House,22,26,21
+Harkness House,23,23,21
+Drop to 199,0,1,21
+Marcy House,18,20,21
+Drop to 191,0,2,21
+Goddard House,27,34,21
+New Pembroke #3,6,8,21
+Young Orchard #4,0,14,21
+Young Orchard #2,1,13,21
+Hope College,0,11,21
+Drop to 545,1,1,21
+Morriss Hall,2,4,21
+New Pembroke #2,18,19,21
+Champlin,0,5,21
+No Show,29,54,21
+Woolley,24,28,21
+Grad Center C,16,19,21
+New Pembroke #4,19,20,21
+Drop to 159,0,1,21
+Metcalf,0,48,21
+Drop to 113,0,1,21
+Drop to 368,0,1,21
+Drop to 320,1,1,21
+Drop to 249,0,1,21
+Slater Hall,17,24,21
+Drop to 588,1,1,21
+Sears House,23,26,21
+Jameson House,6,7,21
+Chapin House,11,11,21
+Gregorian Quad A,13,51,21
+Drop to 430,1,1,21
+Grad Center A,17,17,21
+Barbour Hall,16,19,21
+111 Brown Street,4,4,21
+Minden,39,57,21
+Bronson House,7,7,21
+Young Orchard #10,0,13,21
+Machado,16,19,21
+Drop to 433,1,1,21
+Emery,9,17,21
+Grad Center B,18,18,21
+Drop to 266,0,1,21
+Drop to 235,0,1,21
+Everett House,3,3,21
+West Andrews,2,30,21
+Poland House,17,19,21
+New Pembroke #1,16,16,21
+Wayland House,2,18,21
+Drop to 399,0,1,21
+Archibald House,13,14,21
+Gregorian Quad B,19,53,21
+Drop to 517,1,1,21
+Drop to 679,1,1,21
+Miller,3,11,21
+Drop to 393,0,1,21
+Drop to 415,1,1,21
+Hegeman,16,41,21
+Drop to 299,0,1,21
+Drop to 453,1,1,21
+Grad Center D,18,18,21
+Diman House,35,35,21
+East Andrews,3,30,21
+Pass,47,47,21
+Barbour Hall Apartments,21,25,21
+Mead House,10,10,21
+Drop to 379,0,1,21
+Caswell Hall,39,39,22
+Olney House,22,26,22
+Harkness House,23,23,22
+Drop to 199,0,1,22
+Marcy House,18,20,22
+Drop to 191,0,2,22
+Goddard House,27,34,22
+New Pembroke #3,6,8,22
+Young Orchard #4,0,14,22
+Young Orchard #2,1,13,22
+Hope College,0,11,22
+Drop to 545,1,1,22
+Morriss Hall,2,4,22
+New Pembroke #2,18,19,22
+Champlin,0,5,22
+No Show,29,54,22
+Woolley,23,28,22
+Grad Center C,16,19,22
+New Pembroke #4,17,20,22
+Drop to 159,0,1,22
+Metcalf,0,48,22
+Drop to 113,0,1,22
+Drop to 368,0,1,22
+Drop to 320,0,1,22
+Drop to 249,0,1,22
+Slater Hall,17,24,22
+Drop to 588,1,1,22
+Sears House,23,26,22
+Jameson House,6,7,22
+Chapin House,11,11,22
+Gregorian Quad A,10,51,22
+Drop to 430,1,1,22
+Grad Center A,17,17,22
+Barbour Hall,16,19,22
+111 Brown Street,4,4,22
+Minden,36,57,22
+Bronson House,7,7,22
+Young Orchard #10,0,13,22
+Machado,16,19,22
+Drop to 433,1,1,22
+Emery,9,17,22
+Grad Center B,18,18,22
+Drop to 266,0,1,22
+Drop to 235,0,1,22
+Everett House,3,3,22
+West Andrews,2,30,22
+Poland House,16,19,22
+New Pembroke #1,16,16,22
+Wayland House,1,18,22
+Drop to 399,0,1,22
+Archibald House,13,14,22
+Gregorian Quad B,17,53,22
+Drop to 517,1,1,22
+Drop to 679,1,1,22
+Miller,3,11,22
+Drop to 393,0,1,22
+Drop to 415,1,1,22
+Hegeman,8,41,22
+Drop to 299,0,1,22
+Drop to 453,1,1,22
+Grad Center D,18,18,22
+Diman House,35,35,22
+East Andrews,3,30,22
+Pass,47,47,22
+Barbour Hall Apartments,19,25,22
+Mead House,10,10,22
+Drop to 379,0,1,22
+Caswell Hall,39,39,23
+Olney House,22,26,23
+Harkness House,23,23,23
+Drop to 199,0,1,23
+Marcy House,18,20,23
+Drop to 191,0,2,23
+Goddard House,24,34,23
+New Pembroke #3,3,8,23
+Young Orchard #4,0,14,23
+Young Orchard #2,1,13,23
+Hope College,0,11,23
+Drop to 545,1,1,23
+Morriss Hall,2,4,23
+New Pembroke #2,18,19,23
+Champlin,0,5,23
+No Show,27,54,23
+Woolley,23,28,23
+Grad Center C,16,19,23
+New Pembroke #4,16,20,23
+Drop to 159,0,1,23
+Metcalf,0,48,23
+Drop to 113,0,1,23
+Drop to 368,0,1,23
+Drop to 320,0,1,23
+Drop to 249,0,1,23
+Slater Hall,16,24,23
+Drop to 588,1,1,23
+Sears House,21,26,23
+Jameson House,6,7,23
+Chapin House,11,11,23
+Gregorian Quad A,7,51,23
+Drop to 430,1,1,23
+Grad Center A,16,17,23
+Barbour Hall,16,19,23
+111 Brown Street,4,4,23
+Minden,36,57,23
+Bronson House,7,7,23
+Young Orchard #10,0,13,23
+Machado,15,19,23
+Drop to 433,1,1,23
+Emery,9,17,23
+Grad Center B,18,18,23
+Drop to 266,0,1,23
+Drop to 235,0,1,23
+Everett House,3,3,23
+West Andrews,2,30,23
+Poland House,16,19,23
+New Pembroke #1,16,16,23
+Wayland House,1,18,23
+Drop to 399,0,1,23
+Archibald House,13,14,23
+Gregorian Quad B,14,53,23
+Drop to 517,1,1,23
+Drop to 679,1,1,23
+Miller,3,11,23
+Drop to 393,0,1,23
+Drop to 415,1,1,23
+Hegeman,2,41,23
+Drop to 299,0,1,23
+Drop to 453,1,1,23
+Grad Center D,18,18,23
+Diman House,35,35,23
+East Andrews,3,30,23
+Pass,47,47,23
+Barbour Hall Apartments,18,25,23
+Mead House,9,10,23
+Drop to 379,0,1,23
+Caswell Hall,39,39,23
+Olney House,22,26,23
+Harkness House,23,23,23
+Drop to 199,0,1,23
+Marcy House,18,20,23
+Drop to 191,0,2,23
+Goddard House,24,34,23
+New Pembroke #3,3,8,23
+Young Orchard #4,0,14,23
+Young Orchard #2,1,13,23
+Hope College,0,11,23
+Drop to 545,1,1,23
+Morriss Hall,2,4,23
+New Pembroke #2,18,19,23
+Champlin,0,5,23
+No Show,27,54,23
+Woolley,23,28,23
+Grad Center C,16,19,23
+New Pembroke #4,16,20,23
+Drop to 159,0,1,23
+Metcalf,0,48,23
+Drop to 113,0,1,23
+Drop to 368,0,1,23
+Drop to 320,0,1,23
+Drop to 249,0,1,23
+Slater Hall,15,24,23
+Drop to 588,1,1,23
+Sears House,21,26,23
+Jameson House,6,7,23
+Chapin House,11,11,23
+Gregorian Quad A,7,51,23
+Drop to 430,1,1,23
+Grad Center A,16,17,23
+Barbour Hall,16,19,23
+111 Brown Street,4,4,23
+Minden,36,57,23
+Bronson House,7,7,23
+Young Orchard #10,0,13,23
+Machado,15,19,23
+Drop to 433,1,1,23
+Emery,9,17,23
+Grad Center B,18,18,23
+Drop to 266,0,1,23
+Drop to 235,0,1,23
+Everett House,3,3,23
+West Andrews,2,30,23
+Poland House,16,19,23
+New Pembroke #1,16,16,23
+Wayland House,1,18,23
+Drop to 399,0,1,23
+Archibald House,13,14,23
+Gregorian Quad B,14,53,23
+Drop to 517,1,1,23
+Drop to 679,1,1,23
+Miller,3,11,23
+Drop to 393,0,1,23
+Drop to 415,1,1,23
+Hegeman,2,41,23
+Drop to 299,0,1,23
+Drop to 453,1,1,23
+Grad Center D,18,18,23
+Diman House,35,35,23
+East Andrews,3,30,23
+Pass,47,47,23
+Barbour Hall Apartments,18,25,23
+Mead House,9,10,23
+Drop to 379,0,1,23
+Caswell Hall,39,39,23
+Olney House,22,26,23
+Harkness House,23,23,23
+Drop to 199,0,1,23
+Marcy House,18,20,23
+Drop to 191,0,2,23
+Goddard House,24,34,23
+New Pembroke #3,3,8,23
+Young Orchard #4,0,14,23
+Young Orchard #2,1,13,23
+Hope College,0,11,23
+Drop to 545,1,1,23
+Morriss Hall,2,4,23
+New Pembroke #2,18,19,23
+Champlin,0,5,23
+No Show,27,54,23
+Woolley,23,28,23
+Grad Center C,16,19,23
+New Pembroke #4,16,20,23
+Drop to 159,0,1,23
+Metcalf,0,48,23
+Drop to 113,0,1,23
+Drop to 368,0,1,23
+Drop to 320,0,1,23
+Drop to 249,0,1,23
+Slater Hall,14,24,23
+Drop to 588,1,1,23
+Sears House,21,26,23
+Jameson House,6,7,23
+Chapin House,11,11,23
+Gregorian Quad A,7,51,23
+Drop to 430,1,1,23
+Grad Center A,16,17,23
+Barbour Hall,16,19,23
+111 Brown Street,4,4,23
+Minden,36,57,23
+Bronson House,7,7,23
+Young Orchard #10,0,13,23
+Machado,15,19,23
+Drop to 433,1,1,23
+Emery,9,17,23
+Grad Center B,18,18,23
+Drop to 266,0,1,23
+Drop to 235,0,1,23
+Everett House,3,3,23
+West Andrews,2,30,23
+Poland House,16,19,23
+New Pembroke #1,16,16,23
+Wayland House,1,18,23
+Drop to 399,0,1,23
+Archibald House,13,14,23
+Gregorian Quad B,14,53,23
+Drop to 517,1,1,23
+Drop to 679,1,1,23
+Miller,3,11,23
+Drop to 393,0,1,23
+Drop to 415,1,1,23
+Hegeman,2,41,23
+Drop to 299,0,1,23
+Drop to 453,1,1,23
+Grad Center D,18,18,23
+Diman House,35,35,23
+East Andrews,3,30,23
+Pass,47,47,23
+Barbour Hall Apartments,18,25,23
+Mead House,9,10,23
+Drop to 379,0,1,23
+Caswell Hall,39,39,24
+Olney House,21,26,24
+Harkness House,23,23,24
+Drop to 199,0,1,24
+Marcy House,17,20,24
+Drop to 191,0,2,24
+Goddard House,24,34,24
+New Pembroke #3,3,8,24
+Young Orchard #4,0,14,24
+Young Orchard #2,1,13,24
+Hope College,0,11,24
+Drop to 545,1,1,24
+Morriss Hall,2,4,24
+New Pembroke #2,18,19,24
+Champlin,0,5,24
+No Show,26,54,24
+Woolley,13,28,24
+Grad Center C,16,19,24
+New Pembroke #4,16,20,24
+Drop to 159,0,1,24
+Metcalf,0,48,24
+Drop to 113,0,1,24
+Drop to 368,0,1,24
+Drop to 320,0,1,24
+Drop to 249,0,1,24
+Slater Hall,14,24,24
+Drop to 588,1,1,24
+Sears House,21,26,24
+Jameson House,6,7,24
+Chapin House,11,11,24
+Gregorian Quad A,6,51,24
+Drop to 430,0,1,24
+Grad Center A,16,17,24
+Barbour Hall,16,19,24
+111 Brown Street,4,4,24
+Minden,34,57,24
+Bronson House,7,7,24
+Young Orchard #10,0,13,24
+Machado,15,19,24
+Drop to 433,1,1,24
+Emery,9,17,24
+Grad Center B,16,18,24
+Drop to 266,0,1,24
+Drop to 235,0,1,24
+Everett House,3,3,24
+West Andrews,2,30,24
+Poland House,14,19,24
+New Pembroke #1,16,16,24
+Wayland House,1,18,24
+Drop to 399,0,1,24
+Archibald House,13,14,24
+Gregorian Quad B,10,53,24
+Drop to 517,1,1,24
+Drop to 679,1,1,24
+Miller,3,11,24
+Drop to 393,0,1,24
+Drop to 415,0,1,24
+Hegeman,2,41,24
+Drop to 299,0,1,24
+Drop to 453,1,1,24
+Grad Center D,18,18,24
+Diman House,35,35,24
+East Andrews,3,30,24
+Pass,47,47,24
+Barbour Hall Apartments,17,25,24
+Mead House,9,10,24
+Drop to 379,0,1,24
+Caswell Hall,39,39,25
+Olney House,15,26,25
+Harkness House,23,23,25
+Drop to 199,0,1,25
+Marcy House,16,20,25
+Drop to 191,0,2,25
+Goddard House,20,34,25
+New Pembroke #3,3,8,25
+Young Orchard #4,0,14,25
+Young Orchard #2,1,13,25
+Hope College,0,11,25
+Drop to 545,1,1,25
+Morriss Hall,0,4,25
+New Pembroke #2,17,19,25
+Champlin,0,5,25
+No Show,26,54,25
+Woolley,9,28,25
+Grad Center C,16,19,25
+New Pembroke #4,14,20,25
+Drop to 159,0,1,25
+Metcalf,0,48,25
+Drop to 113,0,1,25
+Drop to 368,0,1,25
+Drop to 320,0,1,25
+Drop to 249,0,1,25
+Slater Hall,14,24,25
+Drop to 588,1,1,25
+Sears House,16,26,25
+Jameson House,6,7,25
+Chapin House,11,11,25
+Gregorian Quad A,5,51,25
+Drop to 430,0,1,25
+Grad Center A,16,17,25
+Barbour Hall,16,19,25
+111 Brown Street,4,4,25
+Minden,32,57,25
+Bronson House,7,7,25
+Young Orchard #10,0,13,25
+Machado,15,19,25
+Drop to 433,1,1,25
+Emery,8,17,25
+Grad Center B,16,18,25
+Drop to 266,0,1,25
+Drop to 235,0,1,25
+Everett House,3,3,25
+West Andrews,2,30,25
+Poland House,14,19,25
+New Pembroke #1,16,16,25
+Wayland House,1,18,25
+Drop to 399,0,1,25
+Archibald House,13,14,25
+Gregorian Quad B,7,53,25
+Drop to 517,1,1,25
+Drop to 679,1,1,25
+Miller,3,11,25
+Drop to 393,0,1,25
+Drop to 415,0,1,25
+Hegeman,2,41,25
+Drop to 299,0,1,25
+Drop to 453,1,1,25
+Grad Center D,18,18,25
+Diman House,35,35,25
+East Andrews,3,30,25
+Pass,47,47,25
+Barbour Hall Apartments,17,25,25
+Mead House,9,10,25
+Drop to 379,0,1,25
+Caswell Hall,39,39,25
+Olney House,15,26,25
+Harkness House,23,23,25
+Drop to 199,0,1,25
+Marcy House,16,20,25
+Drop to 191,0,2,25
+Goddard House,20,34,25
+New Pembroke #3,3,8,25
+Young Orchard #4,0,14,25
+Young Orchard #2,1,13,25
+Hope College,0,11,25
+Drop to 545,1,1,25
+Morriss Hall,0,4,25
+New Pembroke #2,17,19,25
+Champlin,0,5,25
+No Show,26,54,25
+Woolley,9,28,25
+Grad Center C,16,19,25
+New Pembroke #4,14,20,25
+Drop to 159,0,1,25
+Metcalf,0,48,25
+Drop to 113,0,1,25
+Drop to 368,0,1,25
+Drop to 320,0,1,25
+Drop to 249,0,1,25
+Slater Hall,14,24,25
+Drop to 588,1,1,25
+Sears House,16,26,25
+Jameson House,6,7,25
+Chapin House,11,11,25
+Gregorian Quad A,5,51,25
+Drop to 430,0,1,25
+Grad Center A,16,17,25
+Barbour Hall,16,19,25
+111 Brown Street,4,4,25
+Minden,32,57,25
+Bronson House,7,7,25
+Young Orchard #10,0,13,25
+Machado,15,19,25
+Drop to 433,1,1,25
+Emery,7,17,25
+Grad Center B,16,18,25
+Drop to 266,0,1,25
+Drop to 235,0,1,25
+Everett House,3,3,25
+West Andrews,2,30,25
+Poland House,14,19,25
+New Pembroke #1,16,16,25
+Wayland House,1,18,25
+Drop to 399,0,1,25
+Archibald House,13,14,25
+Gregorian Quad B,7,53,25
+Drop to 517,1,1,25
+Drop to 679,1,1,25
+Miller,3,11,25
+Drop to 393,0,1,25
+Drop to 415,0,1,25
+Hegeman,2,41,25
+Drop to 299,0,1,25
+Drop to 453,1,1,25
+Grad Center D,18,18,25
+Diman House,35,35,25
+East Andrews,3,30,25
+Pass,47,47,25
+Barbour Hall Apartments,17,25,25
+Mead House,9,10,25
+Drop to 379,0,1,25
+Caswell Hall,39,39,25
+Olney House,15,26,25
+Harkness House,23,23,25
+Drop to 199,0,1,25
+Marcy House,16,20,25
+Drop to 191,0,2,25
+Goddard House,20,34,25
+New Pembroke #3,3,8,25
+Young Orchard #4,0,14,25
+Young Orchard #2,1,13,25
+Hope College,0,11,25
+Drop to 545,1,1,25
+Morriss Hall,0,4,25
+New Pembroke #2,17,19,25
+Champlin,0,5,25
+No Show,26,54,25
+Woolley,9,28,25
+Grad Center C,16,19,25
+New Pembroke #4,14,20,25
+Drop to 159,0,1,25
+Metcalf,0,48,25
+Drop to 113,0,1,25
+Drop to 368,0,1,25
+Drop to 320,0,1,25
+Drop to 249,0,1,25
+Slater Hall,14,24,25
+Drop to 588,1,1,25
+Sears House,16,26,25
+Jameson House,6,7,25
+Chapin House,11,11,25
+Gregorian Quad A,5,51,25
+Drop to 430,0,1,25
+Grad Center A,16,17,25
+Barbour Hall,16,19,25
+111 Brown Street,4,4,25
+Minden,32,57,25
+Bronson House,7,7,25
+Young Orchard #10,0,13,25
+Machado,15,19,25
+Drop to 433,1,1,25
+Emery,6,17,25
+Grad Center B,16,18,25
+Drop to 266,0,1,25
+Drop to 235,0,1,25
+Everett House,3,3,25
+West Andrews,2,30,25
+Poland House,14,19,25
+New Pembroke #1,16,16,25
+Wayland House,1,18,25
+Drop to 399,0,1,25
+Archibald House,13,14,25
+Gregorian Quad B,7,53,25
+Drop to 517,1,1,25
+Drop to 679,1,1,25
+Miller,3,11,25
+Drop to 393,0,1,25
+Drop to 415,0,1,25
+Hegeman,2,41,25
+Drop to 299,0,1,25
+Drop to 453,1,1,25
+Grad Center D,18,18,25
+Diman House,35,35,25
+East Andrews,3,30,25
+Pass,47,47,25
+Barbour Hall Apartments,17,25,25
+Mead House,9,10,25
+Drop to 379,0,1,25
+Caswell Hall,39,39,25
+Olney House,15,26,25
+Harkness House,23,23,25
+Drop to 199,0,1,25
+Marcy House,16,20,25
+Drop to 191,0,2,25
+Goddard House,20,34,25
+New Pembroke #3,3,8,25
+Young Orchard #4,0,14,25
+Young Orchard #2,1,13,25
+Hope College,0,11,25
+Drop to 545,1,1,25
+Morriss Hall,0,4,25
+New Pembroke #2,17,19,25
+Champlin,0,5,25
+No Show,26,54,25
+Woolley,9,28,25
+Grad Center C,16,19,25
+New Pembroke #4,14,20,25
+Drop to 159,0,1,25
+Metcalf,0,48,25
+Drop to 113,0,1,25
+Drop to 368,0,1,25
+Drop to 320,0,1,25
+Drop to 249,0,1,25
+Slater Hall,14,24,25
+Drop to 588,1,1,25
+Sears House,16,26,25
+Jameson House,6,7,25
+Chapin House,11,11,25
+Gregorian Quad A,5,51,25
+Drop to 430,0,1,25
+Grad Center A,16,17,25
+Barbour Hall,16,19,25
+111 Brown Street,4,4,25
+Minden,32,57,25
+Bronson House,7,7,25
+Young Orchard #10,0,13,25
+Machado,15,19,25
+Drop to 433,1,1,25
+Emery,5,17,25
+Grad Center B,16,18,25
+Drop to 266,0,1,25
+Drop to 235,0,1,25
+Everett House,3,3,25
+West Andrews,2,30,25
+Poland House,14,19,25
+New Pembroke #1,16,16,25
+Wayland House,1,18,25
+Drop to 399,0,1,25
+Archibald House,13,14,25
+Gregorian Quad B,7,53,25
+Drop to 517,1,1,25
+Drop to 679,1,1,25
+Miller,3,11,25
+Drop to 393,0,1,25
+Drop to 415,0,1,25
+Hegeman,2,41,25
+Drop to 299,0,1,25
+Drop to 453,1,1,25
+Grad Center D,18,18,25
+Diman House,35,35,25
+East Andrews,3,30,25
+Pass,47,47,25
+Barbour Hall Apartments,17,25,25
+Mead House,9,10,25
+Drop to 379,0,1,25
+Caswell Hall,39,39,26
+Olney House,15,26,26
+Harkness House,23,23,26
+Drop to 199,0,1,26
+Marcy House,15,20,26
+Drop to 191,0,2,26
+Goddard House,17,34,26
+New Pembroke #3,3,8,26
+Young Orchard #4,0,14,26
+Young Orchard #2,0,13,26
+Hope College,0,11,26
+Drop to 545,1,1,26
+Morriss Hall,0,4,26
+New Pembroke #2,14,19,26
+Champlin,0,5,26
+No Show,26,54,26
+Woolley,9,28,26
+Grad Center C,14,19,26
+New Pembroke #4,14,20,26
+Drop to 159,0,1,26
+Metcalf,0,48,26
+Drop to 113,0,1,26
+Drop to 368,0,1,26
+Drop to 320,0,1,26
+Drop to 249,0,1,26
+Slater Hall,14,24,26
+Drop to 588,1,1,26
+Sears House,16,26,26
+Jameson House,5,7,26
+Chapin House,11,11,26
+Gregorian Quad A,4,51,26
+Drop to 430,0,1,26
+Grad Center A,16,17,26
+Barbour Hall,16,19,26
+111 Brown Street,4,4,26
+Minden,30,57,26
+Bronson House,7,7,26
+Young Orchard #10,0,13,26
+Machado,15,19,26
+Drop to 433,1,1,26
+Emery,5,17,26
+Grad Center B,16,18,26
+Drop to 266,0,1,26
+Drop to 235,0,1,26
+Everett House,3,3,26
+West Andrews,2,30,26
+Poland House,14,19,26
+New Pembroke #1,16,16,26
+Wayland House,1,18,26
+Drop to 399,0,1,26
+Archibald House,13,14,26
+Gregorian Quad B,5,53,26
+Drop to 517,1,1,26
+Drop to 679,1,1,26
+Miller,3,11,26
+Drop to 393,0,1,26
+Drop to 415,0,1,26
+Hegeman,2,41,26
+Drop to 299,0,1,26
+Drop to 453,0,1,26
+Grad Center D,18,18,26
+Diman House,35,35,26
+East Andrews,3,30,26
+Pass,47,47,26
+Barbour Hall Apartments,16,25,26
+Mead House,8,10,26
+Drop to 379,0,1,26
+Caswell Hall,39,39,27
+Olney House,14,26,27
+Harkness House,23,23,27
+Drop to 199,0,1,27
+Marcy House,12,20,27
+Drop to 191,0,2,27
+Goddard House,15,34,27
+New Pembroke #3,3,8,27
+Young Orchard #4,0,14,27
+Young Orchard #2,0,13,27
+Hope College,0,11,27
+Drop to 545,1,1,27
+Morriss Hall,0,4,27
+New Pembroke #2,14,19,27
+Champlin,0,5,27
+No Show,24,54,27
+Woolley,7,28,27
+Grad Center C,11,19,27
+New Pembroke #4,14,20,27
+Drop to 159,0,1,27
+Metcalf,0,48,27
+Drop to 113,0,1,27
+Drop to 368,0,1,27
+Drop to 320,0,1,27
+Drop to 249,0,1,27
+Slater Hall,14,24,27
+Drop to 588,1,1,27
+Sears House,16,26,27
+Jameson House,5,7,27
+Chapin House,10,11,27
+Gregorian Quad A,4,51,27
+Drop to 430,0,1,27
+Grad Center A,15,17,27
+Barbour Hall,16,19,27
+111 Brown Street,4,4,27
+Minden,29,57,27
+Bronson House,7,7,27
+Young Orchard #10,0,13,27
+Machado,15,19,27
+Drop to 433,1,1,27
+Emery,4,17,27
+Grad Center B,16,18,27
+Drop to 266,0,1,27
+Drop to 235,0,1,27
+Everett House,3,3,27
+West Andrews,2,30,27
+Poland House,13,19,27
+New Pembroke #1,16,16,27
+Wayland House,1,18,27
+Drop to 399,0,1,27
+Archibald House,12,14,27
+Gregorian Quad B,3,53,27
+Drop to 517,1,1,27
+Drop to 679,1,1,27
+Miller,3,11,27
+Drop to 393,0,1,27
+Drop to 415,0,1,27
+Hegeman,1,41,27
+Drop to 299,0,1,27
+Drop to 453,0,1,27
+Grad Center D,18,18,27
+Diman House,35,35,27
+East Andrews,3,30,27
+Pass,47,47,27
+Barbour Hall Apartments,13,25,27
+Mead House,7,10,27
+Drop to 379,0,1,27
+Caswell Hall,39,39,28
+Olney House,8,26,28
+Harkness House,23,23,28
+Drop to 199,0,1,28
+Marcy House,12,20,28
+Drop to 191,0,2,28
+Goddard House,13,34,28
+New Pembroke #3,3,8,28
+Young Orchard #4,0,14,28
+Young Orchard #2,0,13,28
+Hope College,0,11,28
+Drop to 545,1,1,28
+Morriss Hall,0,4,28
+New Pembroke #2,12,19,28
+Champlin,0,5,28
+No Show,23,54,28
+Woolley,3,28,28
+Grad Center C,10,19,28
+New Pembroke #4,12,20,28
+Drop to 159,0,1,28
+Metcalf,0,48,28
+Drop to 113,0,1,28
+Drop to 368,0,1,28
+Drop to 320,0,1,28
+Drop to 249,0,1,28
+Slater Hall,10,24,28
+Drop to 588,1,1,28
+Sears House,16,26,28
+Jameson House,5,7,28
+Chapin House,10,11,28
+Gregorian Quad A,4,51,28
+Drop to 430,0,1,28
+Grad Center A,15,17,28
+Barbour Hall,16,19,28
+111 Brown Street,4,4,28
+Minden,26,57,28
+Bronson House,6,7,28
+Young Orchard #10,0,13,28
+Machado,15,19,28
+Drop to 433,1,1,28
+Emery,4,17,28
+Grad Center B,16,18,28
+Drop to 266,0,1,28
+Drop to 235,0,1,28
+Everett House,3,3,28
+West Andrews,2,30,28
+Poland House,12,19,28
+New Pembroke #1,16,16,28
+Wayland House,0,18,28
+Drop to 399,0,1,28
+Archibald House,8,14,28
+Gregorian Quad B,3,53,28
+Drop to 517,1,1,28
+Drop to 679,1,1,28
+Miller,3,11,28
+Drop to 393,0,1,28
+Drop to 415,0,1,28
+Hegeman,1,41,28
+Drop to 299,0,1,28
+Drop to 453,0,1,28
+Grad Center D,18,18,28
+Diman House,35,35,28
+East Andrews,2,30,28
+Pass,47,47,28
+Barbour Hall Apartments,13,25,28
+Mead House,7,10,28
+Drop to 379,0,1,28
+Caswell Hall,39,39,28
+Olney House,8,26,28
+Harkness House,23,23,28
+Drop to 199,0,1,28
+Marcy House,12,20,28
+Drop to 191,0,2,28
+Goddard House,13,34,28
+New Pembroke #3,3,8,28
+Young Orchard #4,0,14,28
+Young Orchard #2,0,13,28
+Hope College,0,11,28
+Drop to 545,1,1,28
+Morriss Hall,0,4,28
+New Pembroke #2,12,19,28
+Champlin,0,5,28
+No Show,23,54,28
+Woolley,3,28,28
+Grad Center C,10,19,28
+New Pembroke #4,12,20,28
+Drop to 159,0,1,28
+Metcalf,0,48,28
+Drop to 113,0,1,28
+Drop to 368,0,1,28
+Drop to 320,0,1,28
+Drop to 249,0,1,28
+Slater Hall,10,24,28
+Drop to 588,1,1,28
+Sears House,15,26,28
+Jameson House,5,7,28
+Chapin House,10,11,28
+Gregorian Quad A,4,51,28
+Drop to 430,0,1,28
+Grad Center A,15,17,28
+Barbour Hall,16,19,28
+111 Brown Street,4,4,28
+Minden,26,57,28
+Bronson House,6,7,28
+Young Orchard #10,0,13,28
+Machado,15,19,28
+Drop to 433,1,1,28
+Emery,4,17,28
+Grad Center B,16,18,28
+Drop to 266,0,1,28
+Drop to 235,0,1,28
+Everett House,3,3,28
+West Andrews,2,30,28
+Poland House,12,19,28
+New Pembroke #1,16,16,28
+Wayland House,0,18,28
+Drop to 399,0,1,28
+Archibald House,8,14,28
+Gregorian Quad B,3,53,28
+Drop to 517,1,1,28
+Drop to 679,1,1,28
+Miller,3,11,28
+Drop to 393,0,1,28
+Drop to 415,0,1,28
+Hegeman,1,41,28
+Drop to 299,0,1,28
+Drop to 453,0,1,28
+Grad Center D,18,18,28
+Diman House,35,35,28
+East Andrews,2,30,28
+Pass,47,47,28
+Barbour Hall Apartments,13,25,28
+Mead House,7,10,28
+Drop to 379,0,1,28
+Caswell Hall,39,39,29
+Olney House,7,26,29
+Harkness House,23,23,29
+Drop to 199,0,1,29
+Marcy House,12,20,29
+Drop to 191,0,2,29
+Goddard House,13,34,29
+New Pembroke #3,3,8,29
+Young Orchard #4,0,14,29
+Young Orchard #2,0,13,29
+Hope College,0,11,29
+Drop to 545,1,1,29
+Morriss Hall,0,4,29
+New Pembroke #2,12,19,29
+Champlin,0,5,29
+No Show,21,54,29
+Woolley,0,28,29
+Grad Center C,6,19,29
+New Pembroke #4,12,20,29
+Drop to 159,0,1,29
+Metcalf,0,48,29
+Drop to 113,0,1,29
+Drop to 368,0,1,29
+Drop to 320,0,1,29
+Drop to 249,0,1,29
+Slater Hall,10,24,29
+Drop to 588,1,1,29
+Sears House,15,26,29
+Jameson House,5,7,29
+Chapin House,8,11,29
+Gregorian Quad A,4,51,29
+Drop to 430,0,1,29
+Grad Center A,15,17,29
+Barbour Hall,16,19,29
+111 Brown Street,4,4,29
+Minden,22,57,29
+Bronson House,6,7,29
+Young Orchard #10,0,13,29
+Machado,13,19,29
+Drop to 433,0,1,29
+Emery,3,17,29
+Grad Center B,13,18,29
+Drop to 266,0,1,29
+Drop to 235,0,1,29
+Everett House,3,3,29
+West Andrews,2,30,29
+Poland House,12,19,29
+New Pembroke #1,16,16,29
+Wayland House,0,18,29
+Drop to 399,0,1,29
+Archibald House,7,14,29
+Gregorian Quad B,3,53,29
+Drop to 517,1,1,29
+Drop to 679,1,1,29
+Miller,3,11,29
+Drop to 393,0,1,29
+Drop to 415,0,1,29
+Hegeman,1,41,29
+Drop to 299,0,1,29
+Drop to 453,0,1,29
+Grad Center D,18,18,29
+Diman House,35,35,29
+East Andrews,2,30,29
+Pass,47,47,29
+Barbour Hall Apartments,10,25,29
+Mead House,7,10,29
+Drop to 379,0,1,29
+Caswell Hall,39,39,30
+Olney House,7,26,30
+Harkness House,23,23,30
+Drop to 199,0,1,30
+Marcy House,12,20,30
+Drop to 191,0,2,30
+Goddard House,11,34,30
+New Pembroke #3,3,8,30
+Young Orchard #4,0,14,30
+Young Orchard #2,0,13,30
+Hope College,0,11,30
+Drop to 545,1,1,30
+Morriss Hall,0,4,30
+New Pembroke #2,12,19,30
+Champlin,0,5,30
+No Show,18,54,30
+Woolley,0,28,30
+Grad Center C,4,19,30
+New Pembroke #4,11,20,30
+Drop to 159,0,1,30
+Metcalf,0,48,30
+Drop to 113,0,1,30
+Drop to 368,0,1,30
+Drop to 320,0,1,30
+Drop to 249,0,1,30
+Slater Hall,10,24,30
+Drop to 588,1,1,30
+Sears House,15,26,30
+Jameson House,5,7,30
+Chapin House,8,11,30
+Gregorian Quad A,4,51,30
+Drop to 430,0,1,30
+Grad Center A,15,17,30
+Barbour Hall,16,19,30
+111 Brown Street,4,4,30
+Minden,18,57,30
+Bronson House,6,7,30
+Young Orchard #10,0,13,30
+Machado,13,19,30
+Drop to 433,0,1,30
+Emery,0,17,30
+Grad Center B,13,18,30
+Drop to 266,0,1,30
+Drop to 235,0,1,30
+Everett House,3,3,30
+West Andrews,2,30,30
+Poland House,9,19,30
+New Pembroke #1,16,16,30
+Wayland House,0,18,30
+Drop to 399,0,1,30
+Archibald House,6,14,30
+Gregorian Quad B,3,53,30
+Drop to 517,1,1,30
+Drop to 679,1,1,30
+Miller,3,11,30
+Drop to 393,0,1,30
+Drop to 415,0,1,30
+Hegeman,1,41,30
+Drop to 299,0,1,30
+Drop to 453,0,1,30
+Grad Center D,18,18,30
+Diman House,35,35,30
+East Andrews,2,30,30
+Pass,47,47,30
+Barbour Hall Apartments,8,25,30
+Mead House,7,10,30
+Drop to 379,0,1,30
+Caswell Hall,39,39,31
+Olney House,6,26,31
+Harkness House,23,23,31
+Drop to 199,0,1,31
+Marcy House,12,20,31
+Drop to 191,0,2,31
+Goddard House,11,34,31
+New Pembroke #3,3,8,31
+Young Orchard #4,0,14,31
+Young Orchard #2,0,13,31
+Hope College,0,11,31
+Drop to 545,1,1,31
+Morriss Hall,0,4,31
+New Pembroke #2,12,19,31
+Champlin,0,5,31
+No Show,16,54,31
+Woolley,0,28,31
+Grad Center C,4,19,31
+New Pembroke #4,7,20,31
+Drop to 159,0,1,31
+Metcalf,0,48,31
+Drop to 113,0,1,31
+Drop to 368,0,1,31
+Drop to 320,0,1,31
+Drop to 249,0,1,31
+Slater Hall,9,24,31
+Drop to 588,1,1,31
+Sears House,15,26,31
+Jameson House,5,7,31
+Chapin House,8,11,31
+Gregorian Quad A,4,51,31
+Drop to 430,0,1,31
+Grad Center A,15,17,31
+Barbour Hall,15,19,31
+111 Brown Street,4,4,31
+Minden,13,57,31
+Bronson House,6,7,31
+Young Orchard #10,0,13,31
+Machado,13,19,31
+Drop to 433,0,1,31
+Emery,0,17,31
+Grad Center B,12,18,31
+Drop to 266,0,1,31
+Drop to 235,0,1,31
+Everett House,2,3,31
+West Andrews,2,30,31
+Poland House,7,19,31
+New Pembroke #1,16,16,31
+Wayland House,0,18,31
+Drop to 399,0,1,31
+Archibald House,6,14,31
+Gregorian Quad B,3,53,31
+Drop to 517,1,1,31
+Drop to 679,1,1,31
+Miller,3,11,31
+Drop to 393,0,1,31
+Drop to 415,0,1,31
+Hegeman,1,41,31
+Drop to 299,0,1,31
+Drop to 453,0,1,31
+Grad Center D,18,18,31
+Diman House,35,35,31
+East Andrews,2,30,31
+Pass,46,47,31
+Barbour Hall Apartments,8,25,31
+Mead House,6,10,31
+Drop to 379,0,1,31
+Caswell Hall,39,39,32
+Olney House,6,26,32
+Harkness House,23,23,32
+Drop to 199,0,1,32
+Marcy House,12,20,32
+Drop to 191,0,2,32
+Goddard House,11,34,32
+New Pembroke #3,0,8,32
+Young Orchard #4,0,14,32
+Young Orchard #2,0,13,32
+Hope College,0,11,32
+Drop to 545,1,1,32
+Morriss Hall,0,4,32
+New Pembroke #2,11,19,32
+Champlin,0,5,32
+No Show,13,54,32
+Woolley,0,28,32
+Grad Center C,3,19,32
+New Pembroke #4,4,20,32
+Drop to 159,0,1,32
+Metcalf,0,48,32
+Drop to 113,0,1,32
+Drop to 368,0,1,32
+Drop to 320,0,1,32
+Drop to 249,0,1,32
+Slater Hall,9,24,32
+Drop to 588,1,1,32
+Sears House,15,26,32
+Jameson House,5,7,32
+Chapin House,8,11,32
+Gregorian Quad A,4,51,32
+Drop to 430,0,1,32
+Grad Center A,13,17,32
+Barbour Hall,15,19,32
+111 Brown Street,4,4,32
+Minden,13,57,32
+Bronson House,6,7,32
+Young Orchard #10,0,13,32
+Machado,12,19,32
+Drop to 433,0,1,32
+Emery,0,17,32
+Grad Center B,12,18,32
+Drop to 266,0,1,32
+Drop to 235,0,1,32
+Everett House,2,3,32
+West Andrews,2,30,32
+Poland House,5,19,32
+New Pembroke #1,16,16,32
+Wayland House,0,18,32
+Drop to 399,0,1,32
+Archibald House,6,14,32
+Gregorian Quad B,3,53,32
+Drop to 517,1,1,32
+Drop to 679,1,1,32
+Miller,3,11,32
+Drop to 393,0,1,32
+Drop to 415,0,1,32
+Hegeman,1,41,32
+Drop to 299,0,1,32
+Drop to 453,0,1,32
+Grad Center D,18,18,32
+Diman House,35,35,32
+East Andrews,2,30,32
+Pass,46,47,32
+Barbour Hall Apartments,8,25,32
+Mead House,5,10,32
+Drop to 379,0,1,32
+Caswell Hall,39,39,32
+Olney House,6,26,32
+Harkness House,23,23,32
+Drop to 199,0,1,32
+Marcy House,12,20,32
+Drop to 191,0,2,32
+Goddard House,11,34,32
+New Pembroke #3,0,8,32
+Young Orchard #4,0,14,32
+Young Orchard #2,0,13,32
+Hope College,0,11,32
+Drop to 545,1,1,32
+Morriss Hall,0,4,32
+New Pembroke #2,11,19,32
+Champlin,0,5,32
+No Show,13,54,32
+Woolley,0,28,32
+Grad Center C,3,19,32
+New Pembroke #4,4,20,32
+Drop to 159,0,1,32
+Metcalf,0,48,32
+Drop to 113,0,1,32
+Drop to 368,0,1,32
+Drop to 320,0,1,32
+Drop to 249,0,1,32
+Slater Hall,9,24,32
+Drop to 588,1,1,32
+Sears House,15,26,32
+Jameson House,5,7,32
+Chapin House,8,11,32
+Gregorian Quad A,4,51,32
+Drop to 430,0,1,32
+Grad Center A,13,17,32
+Barbour Hall,15,19,32
+111 Brown Street,4,4,32
+Minden,13,57,32
+Bronson House,6,7,32
+Young Orchard #10,0,13,32
+Machado,12,19,32
+Drop to 433,0,1,32
+Emery,0,17,32
+Grad Center B,12,18,32
+Drop to 266,0,1,32
+Drop to 235,0,1,32
+Everett House,2,3,32
+West Andrews,2,30,32
+Poland House,5,19,32
+New Pembroke #1,16,16,32
+Wayland House,0,18,32
+Drop to 399,0,1,32
+Archibald House,6,14,32
+Gregorian Quad B,3,53,32
+Drop to 517,1,1,32
+Drop to 679,1,1,32
+Miller,3,11,32
+Drop to 393,0,1,32
+Drop to 415,0,1,32
+Hegeman,1,41,32
+Drop to 299,0,1,32
+Drop to 453,0,1,32
+Grad Center D,18,18,32
+Diman House,35,35,32
+East Andrews,2,30,32
+Pass,46,47,32
+Barbour Hall Apartments,8,25,32
+Mead House,4,10,32
+Drop to 379,0,1,32
+Caswell Hall,39,39,33
+Olney House,6,26,33
+Harkness House,22,23,33
+Drop to 199,0,1,33
+Marcy House,12,20,33
+Drop to 191,0,2,33
+Goddard House,10,34,33
+New Pembroke #3,0,8,33
+Young Orchard #4,0,14,33
+Young Orchard #2,0,13,33
+Hope College,0,11,33
+Drop to 545,0,1,33
+Morriss Hall,0,4,33
+New Pembroke #2,7,19,33
+Champlin,0,5,33
+No Show,13,54,33
+Woolley,0,28,33
+Grad Center C,3,19,33
+New Pembroke #4,2,20,33
+Drop to 159,0,1,33
+Metcalf,0,48,33
+Drop to 113,0,1,33
+Drop to 368,0,1,33
+Drop to 320,0,1,33
+Drop to 249,0,1,33
+Slater Hall,9,24,33
+Drop to 588,1,1,33
+Sears House,15,26,33
+Jameson House,5,7,33
+Chapin House,8,11,33
+Gregorian Quad A,4,51,33
+Drop to 430,0,1,33
+Grad Center A,13,17,33
+Barbour Hall,15,19,33
+111 Brown Street,4,4,33
+Minden,12,57,33
+Bronson House,6,7,33
+Young Orchard #10,0,13,33
+Machado,11,19,33
+Drop to 433,0,1,33
+Emery,0,17,33
+Grad Center B,12,18,33
+Drop to 266,0,1,33
+Drop to 235,0,1,33
+Everett House,2,3,33
+West Andrews,2,30,33
+Poland House,1,19,33
+New Pembroke #1,15,16,33
+Wayland House,0,18,33
+Drop to 399,0,1,33
+Archibald House,4,14,33
+Gregorian Quad B,3,53,33
+Drop to 517,1,1,33
+Drop to 679,1,1,33
+Miller,3,11,33
+Drop to 393,0,1,33
+Drop to 415,0,1,33
+Hegeman,1,41,33
+Drop to 299,0,1,33
+Drop to 453,0,1,33
+Grad Center D,18,18,33
+Diman House,33,35,33
+East Andrews,2,30,33
+Pass,46,47,33
+Barbour Hall Apartments,8,25,33
+Mead House,3,10,33
+Drop to 379,0,1,33
+Caswell Hall,38,39,34
+Olney House,6,26,34
+Harkness House,19,23,34
+Drop to 199,0,1,34
+Marcy House,12,20,34
+Drop to 191,0,2,34
+Goddard House,10,34,34
+New Pembroke #3,0,8,34
+Young Orchard #4,0,14,34
+Young Orchard #2,0,13,34
+Hope College,0,11,34
+Drop to 545,0,1,34
+Morriss Hall,0,4,34
+New Pembroke #2,7,19,34
+Champlin,0,5,34
+No Show,12,54,34
+Woolley,0,28,34
+Grad Center C,3,19,34
+New Pembroke #4,2,20,34
+Drop to 159,0,1,34
+Metcalf,0,48,34
+Drop to 113,0,1,34
+Drop to 368,0,1,34
+Drop to 320,0,1,34
+Drop to 249,0,1,34
+Slater Hall,8,24,34
+Drop to 588,1,1,34
+Sears House,15,26,34
+Jameson House,4,7,34
+Chapin House,8,11,34
+Gregorian Quad A,4,51,34
+Drop to 430,0,1,34
+Grad Center A,13,17,34
+Barbour Hall,10,19,34
+111 Brown Street,4,4,34
+Minden,12,57,34
+Bronson House,6,7,34
+Young Orchard #10,0,13,34
+Machado,11,19,34
+Drop to 433,0,1,34
+Emery,0,17,34
+Grad Center B,12,18,34
+Drop to 266,0,1,34
+Drop to 235,0,1,34
+Everett House,2,3,34
+West Andrews,2,30,34
+Poland House,1,19,34
+New Pembroke #1,13,16,34
+Wayland House,0,18,34
+Drop to 399,0,1,34
+Archibald House,4,14,34
+Gregorian Quad B,3,53,34
+Drop to 517,0,1,34
+Drop to 679,1,1,34
+Miller,3,11,34
+Drop to 393,0,1,34
+Drop to 415,0,1,34
+Hegeman,1,41,34
+Drop to 299,0,1,34
+Drop to 453,0,1,34
+Grad Center D,18,18,34
+Diman House,29,35,34
+East Andrews,2,30,34
+Pass,46,47,34
+Barbour Hall Apartments,8,25,34
+Mead House,2,10,34
+Drop to 379,0,1,34
+Caswell Hall,33,39,35
+Olney House,6,26,35
+Harkness House,18,23,35
+Drop to 199,0,1,35
+Marcy House,12,20,35
+Drop to 191,0,2,35
+Goddard House,10,34,35
+New Pembroke #3,0,8,35
+Young Orchard #4,0,14,35
+Young Orchard #2,0,13,35
+Hope College,0,11,35
+Drop to 545,0,1,35
+Morriss Hall,0,4,35
+New Pembroke #2,7,19,35
+Champlin,0,5,35
+No Show,11,54,35
+Woolley,0,28,35
+Grad Center C,3,19,35
+New Pembroke #4,2,20,35
+Drop to 159,0,1,35
+Metcalf,0,48,35
+Drop to 113,0,1,35
+Drop to 368,0,1,35
+Drop to 320,0,1,35
+Drop to 249,0,1,35
+Slater Hall,4,24,35
+Drop to 588,1,1,35
+Sears House,14,26,35
+Jameson House,4,7,35
+Chapin House,8,11,35
+Gregorian Quad A,3,51,35
+Drop to 430,0,1,35
+Grad Center A,13,17,35
+Barbour Hall,10,19,35
+111 Brown Street,4,4,35
+Minden,12,57,35
+Bronson House,5,7,35
+Young Orchard #10,0,13,35
+Machado,11,19,35
+Drop to 433,0,1,35
+Emery,0,17,35
+Grad Center B,11,18,35
+Drop to 266,0,1,35
+Drop to 235,0,1,35
+Everett House,2,3,35
+West Andrews,2,30,35
+Poland House,1,19,35
+New Pembroke #1,12,16,35
+Wayland House,0,18,35
+Drop to 399,0,1,35
+Archibald House,4,14,35
+Gregorian Quad B,3,53,35
+Drop to 517,0,1,35
+Drop to 679,1,1,35
+Miller,3,11,35
+Drop to 393,0,1,35
+Drop to 415,0,1,35
+Hegeman,1,41,35
+Drop to 299,0,1,35
+Drop to 453,0,1,35
+Grad Center D,18,18,35
+Diman House,27,35,35
+East Andrews,2,30,35
+Pass,46,47,35
+Barbour Hall Apartments,6,25,35
+Mead House,2,10,35
+Drop to 379,0,1,35
+Caswell Hall,26,39,36
+Olney House,6,26,36
+Harkness House,16,23,36
+Drop to 199,0,1,36
+Marcy House,9,20,36
+Drop to 191,0,2,36
+Goddard House,10,34,36
+New Pembroke #3,0,8,36
+Young Orchard #4,0,14,36
+Young Orchard #2,0,13,36
+Hope College,0,11,36
+Drop to 545,0,1,36
+Morriss Hall,0,4,36
+New Pembroke #2,6,19,36
+Champlin,0,5,36
+No Show,11,54,36
+Woolley,0,28,36
+Grad Center C,3,19,36
+New Pembroke #4,2,20,36
+Drop to 159,0,1,36
+Metcalf,0,48,36
+Drop to 113,0,1,36
+Drop to 368,0,1,36
+Drop to 320,0,1,36
+Drop to 249,0,1,36
+Slater Hall,0,24,36
+Drop to 588,1,1,36
+Sears House,14,26,36
+Jameson House,3,7,36
+Chapin House,8,11,36
+Gregorian Quad A,3,51,36
+Drop to 430,0,1,36
+Grad Center A,12,17,36
+Barbour Hall,10,19,36
+111 Brown Street,4,4,36
+Minden,12,57,36
+Bronson House,3,7,36
+Young Orchard #10,0,13,36
+Machado,10,19,36
+Drop to 433,0,1,36
+Emery,0,17,36
+Grad Center B,11,18,36
+Drop to 266,0,1,36
+Drop to 235,0,1,36
+Everett House,2,3,36
+West Andrews,2,30,36
+Poland House,1,19,36
+New Pembroke #1,11,16,36
+Wayland House,0,18,36
+Drop to 399,0,1,36
+Archibald House,1,14,36
+Gregorian Quad B,3,53,36
+Drop to 517,0,1,36
+Drop to 679,1,1,36
+Miller,3,11,36
+Drop to 393,0,1,36
+Drop to 415,0,1,36
+Hegeman,1,41,36
+Drop to 299,0,1,36
+Drop to 453,0,1,36
+Grad Center D,17,18,36
+Diman House,24,35,36
+East Andrews,2,30,36
+Pass,46,47,36
+Barbour Hall Apartments,5,25,36
+Mead House,2,10,36
+Drop to 379,0,1,36
+Caswell Hall,24,39,37
+Olney House,6,26,37
+Harkness House,15,23,37
+Drop to 199,0,1,37
+Marcy House,9,20,37
+Drop to 191,0,2,37
+Goddard House,10,34,37
+New Pembroke #3,0,8,37
+Young Orchard #4,0,14,37
+Young Orchard #2,0,13,37
+Hope College,0,11,37
+Drop to 545,0,1,37
+Morriss Hall,0,4,37
+New Pembroke #2,6,19,37
+Champlin,0,5,37
+No Show,11,54,37
+Woolley,0,28,37
+Grad Center C,3,19,37
+New Pembroke #4,2,20,37
+Drop to 159,0,1,37
+Metcalf,0,48,37
+Drop to 113,0,1,37
+Drop to 368,0,1,37
+Drop to 320,0,1,37
+Drop to 249,0,1,37
+Slater Hall,0,24,37
+Drop to 588,1,1,37
+Sears House,14,26,37
+Jameson House,3,7,37
+Chapin House,8,11,37
+Gregorian Quad A,3,51,37
+Drop to 430,0,1,37
+Grad Center A,11,17,37
+Barbour Hall,9,19,37
+111 Brown Street,4,4,37
+Minden,11,57,37
+Bronson House,1,7,37
+Young Orchard #10,0,13,37
+Machado,9,19,37
+Drop to 433,0,1,37
+Emery,0,17,37
+Grad Center B,8,18,37
+Drop to 266,0,1,37
+Drop to 235,0,1,37
+Everett House,1,3,37
+West Andrews,2,30,37
+Poland House,1,19,37
+New Pembroke #1,8,16,37
+Wayland House,0,18,37
+Drop to 399,0,1,37
+Archibald House,1,14,37
+Gregorian Quad B,3,53,37
+Drop to 517,0,1,37
+Drop to 679,1,1,37
+Miller,3,11,37
+Drop to 393,0,1,37
+Drop to 415,0,1,37
+Hegeman,1,41,37
+Drop to 299,0,1,37
+Drop to 453,0,1,37
+Grad Center D,14,18,37
+Diman House,24,35,37
+East Andrews,2,30,37
+Pass,46,47,37
+Barbour Hall Apartments,3,25,37
+Mead House,2,10,37
+Drop to 379,0,1,37
+Caswell Hall,22,39,38
+Olney House,6,26,38
+Harkness House,15,23,38
+Drop to 199,0,1,38
+Marcy House,9,20,38
+Drop to 191,0,2,38
+Goddard House,10,34,38
+New Pembroke #3,0,8,38
+Young Orchard #4,0,14,38
+Young Orchard #2,0,13,38
+Hope College,0,11,38
+Drop to 545,0,1,38
+Morriss Hall,0,4,38
+New Pembroke #2,6,19,38
+Champlin,0,5,38
+No Show,11,54,38
+Woolley,0,28,38
+Grad Center C,3,19,38
+New Pembroke #4,2,20,38
+Drop to 159,0,1,38
+Metcalf,0,48,38
+Drop to 113,0,1,38
+Drop to 368,0,1,38
+Drop to 320,0,1,38
+Drop to 249,0,1,38
+Slater Hall,0,24,38
+Drop to 588,1,1,38
+Sears House,14,26,38
+Jameson House,3,7,38
+Chapin House,8,11,38
+Gregorian Quad A,3,51,38
+Drop to 430,0,1,38
+Grad Center A,7,17,38
+Barbour Hall,9,19,38
+111 Brown Street,4,4,38
+Minden,10,57,38
+Bronson House,1,7,38
+Young Orchard #10,0,13,38
+Machado,9,19,38
+Drop to 433,0,1,38
+Emery,0,17,38
+Grad Center B,7,18,38
+Drop to 266,0,1,38
+Drop to 235,0,1,38
+Everett House,1,3,38
+West Andrews,2,30,38
+Poland House,1,19,38
+New Pembroke #1,6,16,38
+Wayland House,0,18,38
+Drop to 399,0,1,38
+Archibald House,1,14,38
+Gregorian Quad B,3,53,38
+Drop to 517,0,1,38
+Drop to 679,1,1,38
+Miller,3,11,38
+Drop to 393,0,1,38
+Drop to 415,0,1,38
+Hegeman,1,41,38
+Drop to 299,0,1,38
+Drop to 453,0,1,38
+Grad Center D,9,18,38
+Diman House,20,35,38
+East Andrews,2,30,38
+Pass,46,47,38
+Barbour Hall Apartments,2,25,38
+Mead House,1,10,38
+Drop to 379,0,1,38
+Caswell Hall,8,39,39
+Olney House,6,26,39
+Harkness House,15,23,39
+Drop to 199,0,1,39
+Marcy House,9,20,39
+Drop to 191,0,2,39
+Goddard House,10,34,39
+New Pembroke #3,0,8,39
+Young Orchard #4,0,14,39
+Young Orchard #2,0,13,39
+Hope College,0,11,39
+Drop to 545,0,1,39
+Morriss Hall,0,4,39
+New Pembroke #2,5,19,39
+Champlin,0,5,39
+No Show,11,54,39
+Woolley,0,28,39
+Grad Center C,3,19,39
+New Pembroke #4,1,20,39
+Drop to 159,0,1,39
+Metcalf,0,48,39
+Drop to 113,0,1,39
+Drop to 368,0,1,39
+Drop to 320,0,1,39
+Drop to 249,0,1,39
+Slater Hall,0,24,39
+Drop to 588,0,1,39
+Sears House,14,26,39
+Jameson House,3,7,39
+Chapin House,8,11,39
+Gregorian Quad A,3,51,39
+Drop to 430,0,1,39
+Grad Center A,7,17,39
+Barbour Hall,8,19,39
+111 Brown Street,4,4,39
+Minden,9,57,39
+Bronson House,1,7,39
+Young Orchard #10,0,13,39
+Machado,9,19,39
+Drop to 433,0,1,39
+Emery,0,17,39
+Grad Center B,7,18,39
+Drop to 266,0,1,39
+Drop to 235,0,1,39
+Everett House,1,3,39
+West Andrews,2,30,39
+Poland House,1,19,39
+New Pembroke #1,4,16,39
+Wayland House,0,18,39
+Drop to 399,0,1,39
+Archibald House,1,14,39
+Gregorian Quad B,3,53,39
+Drop to 517,0,1,39
+Drop to 679,1,1,39
+Miller,3,11,39
+Drop to 393,0,1,39
+Drop to 415,0,1,39
+Hegeman,1,41,39
+Drop to 299,0,1,39
+Drop to 453,0,1,39
+Grad Center D,6,18,39
+Diman House,18,35,39
+East Andrews,2,30,39
+Pass,46,47,39
+Barbour Hall Apartments,0,25,39
+Mead House,1,10,39
+Drop to 379,0,1,39
+Caswell Hall,2,39,40
+Olney House,6,26,40
+Harkness House,15,23,40
+Drop to 199,0,1,40
+Marcy House,9,20,40
+Drop to 191,0,2,40
+Goddard House,10,34,40
+New Pembroke #3,0,8,40
+Young Orchard #4,0,14,40
+Young Orchard #2,0,13,40
+Hope College,0,11,40
+Drop to 545,0,1,40
+Morriss Hall,0,4,40
+New Pembroke #2,5,19,40
+Champlin,0,5,40
+No Show,11,54,40
+Woolley,0,28,40
+Grad Center C,0,19,40
+New Pembroke #4,0,20,40
+Drop to 159,0,1,40
+Metcalf,0,48,40
+Drop to 113,0,1,40
+Drop to 368,0,1,40
+Drop to 320,0,1,40
+Drop to 249,0,1,40
+Slater Hall,0,24,40
+Drop to 588,0,1,40
+Sears House,14,26,40
+Jameson House,3,7,40
+Chapin House,8,11,40
+Gregorian Quad A,3,51,40
+Drop to 430,0,1,40
+Grad Center A,5,17,40
+Barbour Hall,7,19,40
+111 Brown Street,4,4,40
+Minden,6,57,40
+Bronson House,1,7,40
+Young Orchard #10,0,13,40
+Machado,8,19,40
+Drop to 433,0,1,40
+Emery,0,17,40
+Grad Center B,5,18,40
+Drop to 266,0,1,40
+Drop to 235,0,1,40
+Everett House,1,3,40
+West Andrews,2,30,40
+Poland House,1,19,40
+New Pembroke #1,4,16,40
+Wayland House,0,18,40
+Drop to 399,0,1,40
+Archibald House,1,14,40
+Gregorian Quad B,3,53,40
+Drop to 517,0,1,40
+Drop to 679,1,1,40
+Miller,3,11,40
+Drop to 393,0,1,40
+Drop to 415,0,1,40
+Hegeman,1,41,40
+Drop to 299,0,1,40
+Drop to 453,0,1,40
+Grad Center D,5,18,40
+Diman House,17,35,40
+East Andrews,2,30,40
+Pass,46,47,40
+Barbour Hall Apartments,0,25,40
+Mead House,1,10,40
+Drop to 379,0,1,40
+Caswell Hall,0,39,41
+Olney House,6,26,41
+Harkness House,11,23,41
+Drop to 199,0,1,41
+Marcy House,9,20,41
+Drop to 191,0,2,41
+Goddard House,10,34,41
+New Pembroke #3,0,8,41
+Young Orchard #4,0,14,41
+Young Orchard #2,0,13,41
+Hope College,0,11,41
+Drop to 545,0,1,41
+Morriss Hall,0,4,41
+New Pembroke #2,5,19,41
+Champlin,0,5,41
+No Show,11,54,41
+Woolley,0,28,41
+Grad Center C,0,19,41
+New Pembroke #4,0,20,41
+Drop to 159,0,1,41
+Metcalf,0,48,41
+Drop to 113,0,1,41
+Drop to 368,0,1,41
+Drop to 320,0,1,41
+Drop to 249,0,1,41
+Slater Hall,0,24,41
+Drop to 588,0,1,41
+Sears House,14,26,41
+Jameson House,3,7,41
+Chapin House,8,11,41
+Gregorian Quad A,3,51,41
+Drop to 430,0,1,41
+Grad Center A,1,17,41
+Barbour Hall,4,19,41
+111 Brown Street,4,4,41
+Minden,5,57,41
+Bronson House,1,7,41
+Young Orchard #10,0,13,41
+Machado,5,19,41
+Drop to 433,0,1,41
+Emery,0,17,41
+Grad Center B,1,18,41
+Drop to 266,0,1,41
+Drop to 235,0,1,41
+Everett House,1,3,41
+West Andrews,2,30,41
+Poland House,1,19,41
+New Pembroke #1,4,16,41
+Wayland House,0,18,41
+Drop to 399,0,1,41
+Archibald House,1,14,41
+Gregorian Quad B,3,53,41
+Drop to 517,0,1,41
+Drop to 679,1,1,41
+Miller,2,11,41
+Drop to 393,0,1,41
+Drop to 415,0,1,41
+Hegeman,1,41,41
+Drop to 299,0,1,41
+Drop to 453,0,1,41
+Grad Center D,2,18,41
+Diman House,9,35,41
+East Andrews,2,30,41
+Pass,46,47,41
+Barbour Hall Apartments,0,25,41
+Mead House,1,10,41
+Drop to 379,0,1,41
+Caswell Hall,0,39,41
+Olney House,6,26,41
+Harkness House,11,23,41
+Drop to 199,0,1,41
+Marcy House,9,20,41
+Drop to 191,0,2,41
+Goddard House,10,34,41
+New Pembroke #3,0,8,41
+Young Orchard #4,0,14,41
+Young Orchard #2,0,13,41
+Hope College,0,11,41
+Drop to 545,0,1,41
+Morriss Hall,0,4,41
+New Pembroke #2,5,19,41
+Champlin,0,5,41
+No Show,11,54,41
+Woolley,0,28,41
+Grad Center C,0,19,41
+New Pembroke #4,0,20,41
+Drop to 159,0,1,41
+Metcalf,0,48,41
+Drop to 113,0,1,41
+Drop to 368,0,1,41
+Drop to 320,0,1,41
+Drop to 249,0,1,41
+Slater Hall,0,24,41
+Drop to 588,0,1,41
+Sears House,14,26,41
+Jameson House,3,7,41
+Chapin House,8,11,41
+Gregorian Quad A,3,51,41
+Drop to 430,0,1,41
+Grad Center A,1,17,41
+Barbour Hall,4,19,41
+111 Brown Street,4,4,41
+Minden,5,57,41
+Bronson House,1,7,41
+Young Orchard #10,0,13,41
+Machado,5,19,41
+Drop to 433,0,1,41
+Emery,0,17,41
+Grad Center B,1,18,41
+Drop to 266,0,1,41
+Drop to 235,0,1,41
+Everett House,1,3,41
+West Andrews,2,30,41
+Poland House,1,19,41
+New Pembroke #1,4,16,41
+Wayland House,0,18,41
+Drop to 399,0,1,41
+Archibald House,1,14,41
+Gregorian Quad B,3,53,41
+Drop to 517,0,1,41
+Drop to 679,1,1,41
+Miller,1,11,41
+Drop to 393,0,1,41
+Drop to 415,0,1,41
+Hegeman,1,41,41
+Drop to 299,0,1,41
+Drop to 453,0,1,41
+Grad Center D,2,18,41
+Diman House,9,35,41
+East Andrews,2,30,41
+Pass,46,47,41
+Barbour Hall Apartments,0,25,41
+Mead House,1,10,41
+Drop to 379,0,1,41
+Caswell Hall,0,39,42
+Olney House,6,26,42
+Harkness House,5,23,42
+Drop to 199,0,1,42
+Marcy House,8,20,42
+Drop to 191,0,2,42
+Goddard House,10,34,42
+New Pembroke #3,0,8,42
+Young Orchard #4,0,14,42
+Young Orchard #2,0,13,42
+Hope College,0,11,42
+Drop to 545,0,1,42
+Morriss Hall,0,4,42
+New Pembroke #2,5,19,42
+Champlin,0,5,42
+No Show,11,54,42
+Woolley,0,28,42
+Grad Center C,0,19,42
+New Pembroke #4,0,20,42
+Drop to 159,0,1,42
+Metcalf,0,48,42
+Drop to 113,0,1,42
+Drop to 368,0,1,42
+Drop to 320,0,1,42
+Drop to 249,0,1,42
+Slater Hall,0,24,42
+Drop to 588,0,1,42
+Sears House,14,26,42
+Jameson House,3,7,42
+Chapin House,8,11,42
+Gregorian Quad A,0,51,42
+Drop to 430,0,1,42
+Grad Center A,0,17,42
+Barbour Hall,2,19,42
+111 Brown Street,1,4,42
+Minden,4,57,42
+Bronson House,1,7,42
+Young Orchard #10,0,13,42
+Machado,4,19,42
+Drop to 433,0,1,42
+Emery,0,17,42
+Grad Center B,0,18,42
+Drop to 266,0,1,42
+Drop to 235,0,1,42
+Everett House,1,3,42
+West Andrews,2,30,42
+Poland House,1,19,42
+New Pembroke #1,4,16,42
+Wayland House,0,18,42
+Drop to 399,0,1,42
+Archibald House,1,14,42
+Gregorian Quad B,1,53,42
+Drop to 517,0,1,42
+Drop to 679,1,1,42
+Miller,1,11,42
+Drop to 393,0,1,42
+Drop to 415,0,1,42
+Hegeman,1,41,42
+Drop to 299,0,1,42
+Drop to 453,0,1,42
+Grad Center D,2,18,42
+Diman House,2,35,42
+East Andrews,2,30,42
+Pass,44,47,42
+Barbour Hall Apartments,0,25,42
+Mead House,1,10,42
+Drop to 379,0,1,42
+Caswell Hall,0,39,43
+Olney House,6,26,43
+Harkness House,1,23,43
+Drop to 199,0,1,43
+Marcy House,3,20,43
+Drop to 191,0,2,43
+Goddard House,0,34,43
+New Pembroke #3,0,8,43
+Young Orchard #4,0,14,43
+Young Orchard #2,0,13,43
+Hope College,0,11,43
+Drop to 545,0,1,43
+Morriss Hall,0,4,43
+New Pembroke #2,5,19,43
+Champlin,0,5,43
+No Show,10,54,43
+Woolley,0,28,43
+Grad Center C,0,19,43
+New Pembroke #4,0,20,43
+Drop to 159,0,1,43
+Metcalf,0,48,43
+Drop to 113,0,1,43
+Drop to 368,0,1,43
+Drop to 320,0,1,43
+Drop to 249,0,1,43
+Slater Hall,0,24,43
+Drop to 588,0,1,43
+Sears House,7,26,43
+Jameson House,3,7,43
+Chapin House,8,11,43
+Gregorian Quad A,0,51,43
+Drop to 430,0,1,43
+Grad Center A,0,17,43
+Barbour Hall,2,19,43
+111 Brown Street,1,4,43
+Minden,2,57,43
+Bronson House,0,7,43
+Young Orchard #10,0,13,43
+Machado,4,19,43
+Drop to 433,0,1,43
+Emery,0,17,43
+Grad Center B,0,18,43
+Drop to 266,0,1,43
+Drop to 235,0,1,43
+Everett House,1,3,43
+West Andrews,2,30,43
+Poland House,1,19,43
+New Pembroke #1,4,16,43
+Wayland House,0,18,43
+Drop to 399,0,1,43
+Archibald House,1,14,43
+Gregorian Quad B,1,53,43
+Drop to 517,0,1,43
+Drop to 679,1,1,43
+Miller,1,11,43
+Drop to 393,0,1,43
+Drop to 415,0,1,43
+Hegeman,1,41,43
+Drop to 299,0,1,43
+Drop to 453,0,1,43
+Grad Center D,0,18,43
+Diman House,1,35,43
+East Andrews,2,30,43
+Pass,42,47,43
+Barbour Hall Apartments,0,25,43
+Mead House,1,10,43
+Drop to 379,0,1,43
+Caswell Hall,0,39,43
+Olney House,6,26,43
+Harkness House,0,23,43
+Drop to 199,0,1,43
+Marcy House,3,20,43
+Drop to 191,0,2,43
+Goddard House,0,34,43
+New Pembroke #3,0,8,43
+Young Orchard #4,0,14,43
+Young Orchard #2,0,13,43
+Hope College,0,11,43
+Drop to 545,0,1,43
+Morriss Hall,0,4,43
+New Pembroke #2,5,19,43
+Champlin,0,5,43
+No Show,10,54,43
+Woolley,0,28,43
+Grad Center C,0,19,43
+New Pembroke #4,0,20,43
+Drop to 159,0,1,43
+Metcalf,0,48,43
+Drop to 113,0,1,43
+Drop to 368,0,1,43
+Drop to 320,0,1,43
+Drop to 249,0,1,43
+Slater Hall,0,24,43
+Drop to 588,0,1,43
+Sears House,7,26,43
+Jameson House,3,7,43
+Chapin House,8,11,43
+Gregorian Quad A,0,51,43
+Drop to 430,0,1,43
+Grad Center A,0,17,43
+Barbour Hall,2,19,43
+111 Brown Street,1,4,43
+Minden,2,57,43
+Bronson House,0,7,43
+Young Orchard #10,0,13,43
+Machado,4,19,43
+Drop to 433,0,1,43
+Emery,0,17,43
+Grad Center B,0,18,43
+Drop to 266,0,1,43
+Drop to 235,0,1,43
+Everett House,1,3,43
+West Andrews,2,30,43
+Poland House,1,19,43
+New Pembroke #1,4,16,43
+Wayland House,0,18,43
+Drop to 399,0,1,43
+Archibald House,1,14,43
+Gregorian Quad B,1,53,43
+Drop to 517,0,1,43
+Drop to 679,1,1,43
+Miller,1,11,43
+Drop to 393,0,1,43
+Drop to 415,0,1,43
+Hegeman,1,41,43
+Drop to 299,0,1,43
+Drop to 453,0,1,43
+Grad Center D,0,18,43
+Diman House,1,35,43
+East Andrews,2,30,43
+Pass,42,47,43
+Barbour Hall Apartments,0,25,43
+Mead House,1,10,43
+Drop to 379,0,1,43
+Caswell Hall,0,39,43
+Olney House,6,26,43
+Harkness House,0,23,43
+Drop to 199,0,1,43
+Marcy House,3,20,43
+Drop to 191,0,2,43
+Goddard House,0,34,43
+New Pembroke #3,0,8,43
+Young Orchard #4,0,14,43
+Young Orchard #2,0,13,43
+Hope College,0,11,43
+Drop to 545,0,1,43
+Morriss Hall,0,4,43
+New Pembroke #2,5,19,43
+Champlin,0,5,43
+No Show,10,54,43
+Woolley,0,28,43
+Grad Center C,0,19,43
+New Pembroke #4,0,20,43
+Drop to 159,0,1,43
+Metcalf,0,48,43
+Drop to 113,0,1,43
+Drop to 368,0,1,43
+Drop to 320,0,1,43
+Drop to 249,0,1,43
+Slater Hall,0,24,43
+Drop to 588,0,1,43
+Sears House,7,26,43
+Jameson House,3,7,43
+Chapin House,8,11,43
+Gregorian Quad A,0,51,43
+Drop to 430,0,1,43
+Grad Center A,0,17,43
+Barbour Hall,2,19,43
+111 Brown Street,1,4,43
+Minden,2,57,43
+Bronson House,0,7,43
+Young Orchard #10,0,13,43
+Machado,4,19,43
+Drop to 433,0,1,43
+Emery,0,17,43
+Grad Center B,0,18,43
+Drop to 266,0,1,43
+Drop to 235,0,1,43
+Everett House,1,3,43
+West Andrews,2,30,43
+Poland House,1,19,43
+New Pembroke #1,4,16,43
+Wayland House,0,18,43
+Drop to 399,0,1,43
+Archibald House,1,14,43
+Gregorian Quad B,1,53,43
+Drop to 517,0,1,43
+Drop to 679,1,1,43
+Miller,1,11,43
+Drop to 393,0,1,43
+Drop to 415,0,1,43
+Hegeman,0,41,43
+Drop to 299,0,1,43
+Drop to 453,0,1,43
+Grad Center D,0,18,43
+Diman House,1,35,43
+East Andrews,2,30,43
+Pass,42,47,43
+Barbour Hall Apartments,0,25,43
+Mead House,1,10,43
+Drop to 379,0,1,43
+Caswell Hall,0,39,44
+Olney House,3,26,44
+Harkness House,0,23,44
+Drop to 199,0,1,44
+Marcy House,0,20,44
+Drop to 191,0,2,44
+Goddard House,0,34,44
+New Pembroke #3,0,8,44
+Young Orchard #4,0,14,44
+Young Orchard #2,0,13,44
+Hope College,0,11,44
+Drop to 545,0,1,44
+Morriss Hall,0,4,44
+New Pembroke #2,5,19,44
+Champlin,0,5,44
+No Show,9,54,44
+Woolley,0,28,44
+Grad Center C,0,19,44
+New Pembroke #4,0,20,44
+Drop to 159,0,1,44
+Metcalf,0,48,44
+Drop to 113,0,1,44
+Drop to 368,0,1,44
+Drop to 320,0,1,44
+Drop to 249,0,1,44
+Slater Hall,0,24,44
+Drop to 588,0,1,44
+Sears House,0,26,44
+Jameson House,2,7,44
+Chapin House,4,11,44
+Gregorian Quad A,0,51,44
+Drop to 430,0,1,44
+Grad Center A,0,17,44
+Barbour Hall,0,19,44
+111 Brown Street,1,4,44
+Minden,0,57,44
+Bronson House,0,7,44
+Young Orchard #10,0,13,44
+Machado,3,19,44
+Drop to 433,0,1,44
+Emery,0,17,44
+Grad Center B,0,18,44
+Drop to 266,0,1,44
+Drop to 235,0,1,44
+Everett House,1,3,44
+West Andrews,2,30,44
+Poland House,1,19,44
+New Pembroke #1,0,16,44
+Wayland House,0,18,44
+Drop to 399,0,1,44
+Archibald House,1,14,44
+Gregorian Quad B,0,53,44
+Drop to 517,0,1,44
+Drop to 679,0,1,44
+Miller,1,11,44
+Drop to 393,0,1,44
+Drop to 415,0,1,44
+Hegeman,0,41,44
+Drop to 299,0,1,44
+Drop to 453,0,1,44
+Grad Center D,0,18,44
+Diman House,0,35,44
+East Andrews,2,30,44
+Pass,41,47,44
+Barbour Hall Apartments,0,25,44
+Mead House,1,10,44
+Drop to 379,0,1,44
+Caswell Hall,0,39,44
+Olney House,2,26,44
+Harkness House,0,23,44
+Drop to 199,0,1,44
+Marcy House,0,20,44
+Drop to 191,0,2,44
+Goddard House,0,34,44
+New Pembroke #3,0,8,44
+Young Orchard #4,0,14,44
+Young Orchard #2,0,13,44
+Hope College,0,11,44
+Drop to 545,0,1,44
+Morriss Hall,0,4,44
+New Pembroke #2,5,19,44
+Champlin,0,5,44
+No Show,9,54,44
+Woolley,0,28,44
+Grad Center C,0,19,44
+New Pembroke #4,0,20,44
+Drop to 159,0,1,44
+Metcalf,0,48,44
+Drop to 113,0,1,44
+Drop to 368,0,1,44
+Drop to 320,0,1,44
+Drop to 249,0,1,44
+Slater Hall,0,24,44
+Drop to 588,0,1,44
+Sears House,0,26,44
+Jameson House,2,7,44
+Chapin House,4,11,44
+Gregorian Quad A,0,51,44
+Drop to 430,0,1,44
+Grad Center A,0,17,44
+Barbour Hall,0,19,44
+111 Brown Street,1,4,44
+Minden,0,57,44
+Bronson House,0,7,44
+Young Orchard #10,0,13,44
+Machado,3,19,44
+Drop to 433,0,1,44
+Emery,0,17,44
+Grad Center B,0,18,44
+Drop to 266,0,1,44
+Drop to 235,0,1,44
+Everett House,1,3,44
+West Andrews,2,30,44
+Poland House,1,19,44
+New Pembroke #1,0,16,44
+Wayland House,0,18,44
+Drop to 399,0,1,44
+Archibald House,1,14,44
+Gregorian Quad B,0,53,44
+Drop to 517,0,1,44
+Drop to 679,0,1,44
+Miller,1,11,44
+Drop to 393,0,1,44
+Drop to 415,0,1,44
+Hegeman,0,41,44
+Drop to 299,0,1,44
+Drop to 453,0,1,44
+Grad Center D,0,18,44
+Diman House,0,35,44
+East Andrews,2,30,44
+Pass,41,47,44
+Barbour Hall Apartments,0,25,44
+Mead House,1,10,44
+Drop to 379,0,1,44
+Caswell Hall,0,39,45
+Olney House,0,26,45
+Harkness House,0,23,45
+Drop to 199,0,1,45
+Marcy House,0,20,45
+Drop to 191,0,2,45
+Goddard House,0,34,45
+New Pembroke #3,0,8,45
+Young Orchard #4,0,14,45
+Young Orchard #2,0,13,45
+Hope College,0,11,45
+Drop to 545,0,1,45
+Morriss Hall,0,4,45
+New Pembroke #2,0,19,45
+Champlin,0,5,45
+No Show,9,54,45
+Woolley,0,28,45
+Grad Center C,0,19,45
+New Pembroke #4,0,20,45
+Drop to 159,0,1,45
+Metcalf,0,48,45
+Drop to 113,0,1,45
+Drop to 368,0,1,45
+Drop to 320,0,1,45
+Drop to 249,0,1,45
+Slater Hall,0,24,45
+Drop to 588,0,1,45
+Sears House,0,26,45
+Jameson House,0,7,45
+Chapin House,0,11,45
+Gregorian Quad A,0,51,45
+Drop to 430,0,1,45
+Grad Center A,0,17,45
+Barbour Hall,0,19,45
+111 Brown Street,0,4,45
+Minden,0,57,45
+Bronson House,0,7,45
+Young Orchard #10,0,13,45
+Machado,0,19,45
+Drop to 433,0,1,45
+Emery,0,17,45
+Grad Center B,0,18,45
+Drop to 266,0,1,45
+Drop to 235,0,1,45
+Everett House,1,3,45
+West Andrews,0,30,45
+Poland House,1,19,45
+New Pembroke #1,0,16,45
+Wayland House,0,18,45
+Drop to 399,0,1,45
+Archibald House,1,14,45
+Gregorian Quad B,0,53,45
+Drop to 517,0,1,45
+Drop to 679,0,1,45
+Miller,0,11,45
+Drop to 393,0,1,45
+Drop to 415,0,1,45
+Hegeman,0,41,45
+Drop to 299,0,1,45
+Drop to 453,0,1,45
+Grad Center D,0,18,45
+Diman House,0,35,45
+East Andrews,0,30,45
+Pass,35,47,45
+Barbour Hall Apartments,0,25,45
+Mead House,0,10,45
+Drop to 379,0,1,45
+Caswell Hall,0,39,46
+Olney House,0,26,46
+Harkness House,0,23,46
+Drop to 199,0,1,46
+Marcy House,0,20,46
+Drop to 191,0,2,46
+Goddard House,0,34,46
+New Pembroke #3,0,8,46
+Young Orchard #4,0,14,46
+Young Orchard #2,0,13,46
+Hope College,0,11,46
+Drop to 545,0,1,46
+Morriss Hall,0,4,46
+New Pembroke #2,0,19,46
+Champlin,0,5,46
+No Show,7,54,46
+Woolley,0,28,46
+Grad Center C,0,19,46
+New Pembroke #4,0,20,46
+Drop to 159,0,1,46
+Metcalf,0,48,46
+Drop to 113,0,1,46
+Drop to 368,0,1,46
+Drop to 320,0,1,46
+Drop to 249,0,1,46
+Slater Hall,0,24,46
+Drop to 588,0,1,46
+Sears House,0,26,46
+Jameson House,0,7,46
+Chapin House,0,11,46
+Gregorian Quad A,0,51,46
+Drop to 430,0,1,46
+Grad Center A,0,17,46
+Barbour Hall,0,19,46
+111 Brown Street,0,4,46
+Minden,0,57,46
+Bronson House,0,7,46
+Young Orchard #10,0,13,46
+Machado,0,19,46
+Drop to 433,0,1,46
+Emery,0,17,46
+Grad Center B,0,18,46
+Drop to 266,0,1,46
+Drop to 235,0,1,46
+Everett House,1,3,46
+West Andrews,0,30,46
+Poland House,1,19,46
+New Pembroke #1,0,16,46
+Wayland House,0,18,46
+Drop to 399,0,1,46
+Archibald House,0,14,46
+Gregorian Quad B,0,53,46
+Drop to 517,0,1,46
+Drop to 679,0,1,46
+Miller,0,11,46
+Drop to 393,0,1,46
+Drop to 415,0,1,46
+Hegeman,0,41,46
+Drop to 299,0,1,46
+Drop to 453,0,1,46
+Grad Center D,0,18,46
+Diman House,0,35,46
+East Andrews,0,30,46
+Pass,23,47,46
+Barbour Hall Apartments,0,25,46
+Mead House,0,10,46
+Drop to 379,0,1,46
+Caswell Hall,0,39,47
+Olney House,0,26,47
+Harkness House,0,23,47
+Drop to 199,0,1,47
+Marcy House,0,20,47
+Drop to 191,0,2,47
+Goddard House,0,34,47
+New Pembroke #3,0,8,47
+Young Orchard #4,0,14,47
+Young Orchard #2,0,13,47
+Hope College,0,11,47
+Drop to 545,0,1,47
+Morriss Hall,0,4,47
+New Pembroke #2,0,19,47
+Champlin,0,5,47
+No Show,6,54,47
+Woolley,0,28,47
+Grad Center C,0,19,47
+New Pembroke #4,0,20,47
+Drop to 159,0,1,47
+Metcalf,0,48,47
+Drop to 113,0,1,47
+Drop to 368,0,1,47
+Drop to 320,0,1,47
+Drop to 249,0,1,47
+Slater Hall,0,24,47
+Drop to 588,0,1,47
+Sears House,0,26,47
+Jameson House,0,7,47
+Chapin House,0,11,47
+Gregorian Quad A,0,51,47
+Drop to 430,0,1,47
+Grad Center A,0,17,47
+Barbour Hall,0,19,47
+111 Brown Street,0,4,47
+Minden,0,57,47
+Bronson House,0,7,47
+Young Orchard #10,0,13,47
+Machado,0,19,47
+Drop to 433,0,1,47
+Emery,0,17,47
+Grad Center B,0,18,47
+Drop to 266,0,1,47
+Drop to 235,0,1,47
+Everett House,1,3,47
+West Andrews,0,30,47
+Poland House,1,19,47
+New Pembroke #1,0,16,47
+Wayland House,0,18,47
+Drop to 399,0,1,47
+Archibald House,0,14,47
+Gregorian Quad B,0,53,47
+Drop to 517,0,1,47
+Drop to 679,0,1,47
+Miller,0,11,47
+Drop to 393,0,1,47
+Drop to 415,0,1,47
+Hegeman,0,41,47
+Drop to 299,0,1,47
+Drop to 453,0,1,47
+Grad Center D,0,18,47
+Diman House,0,35,47
+East Andrews,0,30,47
+Pass,9,47,47
+Barbour Hall Apartments,0,25,47
+Mead House,0,10,47
+Drop to 379,0,1,47
+Caswell Hall,0,39,48
+Olney House,0,26,48
+Harkness House,0,23,48
+Drop to 199,0,1,48
+Marcy House,0,20,48
+Drop to 191,0,2,48
+Goddard House,0,34,48
+New Pembroke #3,0,8,48
+Young Orchard #4,0,14,48
+Young Orchard #2,0,13,48
+Hope College,0,11,48
+Drop to 545,0,1,48
+Morriss Hall,0,4,48
+New Pembroke #2,0,19,48
+Champlin,0,5,48
+No Show,2,54,48
+Woolley,0,28,48
+Grad Center C,0,19,48
+New Pembroke #4,0,20,48
+Drop to 159,0,1,48
+Metcalf,0,48,48
+Drop to 113,0,1,48
+Drop to 368,0,1,48
+Drop to 320,0,1,48
+Drop to 249,0,1,48
+Slater Hall,0,24,48
+Drop to 588,0,1,48
+Sears House,0,26,48
+Jameson House,0,7,48
+Chapin House,0,11,48
+Gregorian Quad A,0,51,48
+Drop to 430,0,1,48
+Grad Center A,0,17,48
+Barbour Hall,0,19,48
+111 Brown Street,0,4,48
+Minden,0,57,48
+Bronson House,0,7,48
+Young Orchard #10,0,13,48
+Machado,0,19,48
+Drop to 433,0,1,48
+Emery,0,17,48
+Grad Center B,0,18,48
+Drop to 266,0,1,48
+Drop to 235,0,1,48
+Everett House,0,3,48
+West Andrews,0,30,48
+Poland House,0,19,48
+New Pembroke #1,0,16,48
+Wayland House,0,18,48
+Drop to 399,0,1,48
+Archibald House,0,14,48
+Gregorian Quad B,0,53,48
+Drop to 517,0,1,48
+Drop to 679,0,1,48
+Miller,0,11,48
+Drop to 393,0,1,48
+Drop to 415,0,1,48
+Hegeman,0,41,48
+Drop to 299,0,1,48
+Drop to 453,0,1,48
+Grad Center D,0,18,48
+Diman House,0,35,48
+East Andrews,0,30,48
+Pass,0,47,48
+Barbour Hall Apartments,0,25,48
+Mead House,0,10,48
+Drop to 379,0,1,48
