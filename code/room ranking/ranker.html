@@ -6,21 +6,156 @@
     
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <style>
+        body {
+            padding: 20px;
+        }
+        
+        #searchDiv {
+            margin-bottom: 30px;
+        }
+        #roomSearchDiv {
+            margin-bottom: 15px;
+        }
+        
+        #tableDiv {
+            height: 500px;
+            overflow: scroll;
+            
+            border-radius: 5px;
+            border: 1px lightgray solid;
+        }
+    </style>
 </head>
 <body>
 
-
+<div id="rankingsDiv">
+    <div id="searchDiv">
+        <div id="roomSearchDiv">
+            <label for="roomSearchInput">Search Your Room: </label>
+            <div class="input-group">
+               <input id="roomSearchInput" type="text" class="form-control" placeholder="[Residence Hall] [Room #]">
+               <span class="input-group-btn">
+                    <button id="roomSearchButton" class="btn btn-info" type="button">Go!</button>
+               </span>
+            </div>
+        </div>
+        
+        
+        <div id="numSearchDiv">
+            <label for="numSearchInput">Search A Ranking: </label>
+            <div class="input-group">
+               <input id="numSearchInput" type="text" class="form-control" placeholder="Rank Number">
+               <span class="input-group-btn">
+                    <button id="numSearchButton" class="btn btn-info" type="button">Go!</button>
+               </span>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="tableDiv">
+        <table id="rankTable" class = "table table-striped">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Room</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="rankingsList">
+            </tbody>
+        </table>
+    </div>
+    
+</div>
 
 </body>
 </html>
 
 <script>
+    allData = []
+    activeRow = null;
+    
     d3.csv('sorted.csv', function(data) {
         console.log(data);
-
-//        generateVis(data);
+        
+        allData = data;
+        
+        displayRooms(allData)
+        
     });
     
-    function displayRooms
+    function displayRooms(rooms) {
+        var list = $('#rankingsList');
+        
+        var html = ''
+        for (var i = 0; i < rooms.length; i++) {
+            html += '<tr id="row'+i+'">'
+            html += '<td class="rankNumber">';
+            html += rooms[i]['rank']
+            html += '</td>'
+            html += '<td class="rankRoom">';
+            html += rooms[i]['room']
+            html += '</td>'
+            html += '<td class="rankScore">';
+            html += rooms[i]['score']
+            html += '</td>'
+            html += '</tr>'
+        }
+        
+        list.html(html);
+    }
+    
+    $('#roomSearchButton').click(function(event) {
+        var name = $('#roomSearchInput').val();
+//        alert(name)
+        
+        for (var i = 0; i < allData.length; i++) {
+            if (allData[i].room === name) {
+                scrollToRow(i);
+                return;
+            }
+        }
+        alert("Couldn't find room");
+    });
+    
+    
+    function scrollToRow(rowIndex) {
+        var w = $('#rankTable');
+        var row = $('#rankTable').find('tr').eq( rowIndex );
+
+        if (row.length){            
+            $('#rankTable').scrollTo('#row'+rowIndex)                
+        }
+        
+        
+    }
+
+    function setActive(row) {
+        if (activeRow) {
+            $('#row'+activeRow).removeClass('.active');
+        }
+        
+        activeRow = row;
+        
+        if (activeRow) {
+            $('#row'+activeRow).addClass('.active');
+        }
+    }
+    
+    
+    jQuery.fn.scrollTo = function(elem, speed) { 
+        console.log($(this).scrollTop() - $(this).offset().top + $(elem).offset().top);
+        console.log($(this));
+        console.log($(elem));
+        
+        $(this).animate({
+            scrollTop:  $(this).scrollTop() - $(this).offset().top + $(elem).offset().top 
+        }, speed == undefined ? 1000 : speed); 
+        return this; 
+    };
 
 </script>
