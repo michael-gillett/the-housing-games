@@ -1,0 +1,1180 @@
+Number,Residence Hall,Room,Occupancy,Time
+1,Gregorian Quad B,405C,1,4/10/13 6:09
+2,Gregorian Quad B,405B,1,4/10/13 6:10
+3,Minden,807,1,4/10/13 6:11
+4,Slater Hall,205,1,4/10/13 6:11
+5,Minden,709,1,4/10/13 6:11
+6,Minden,609,1,4/10/13 6:11
+7,Gregorian Quad B,404D,1,4/10/13 6:12
+8,Minden,209,1,4/10/13 6:12
+9,Minden,205,1,4/10/13 6:13
+10,Minden,605,1,4/10/13 6:13
+11,Gregorian Quad B,401B,1,4/10/13 6:13
+12,Gregorian Quad A,410A,1,4/10/13 6:13
+13,Minden,805,1,4/10/13 6:14
+14,315 Thayer,417,1,4/10/13 6:14
+15,Slater Hall,106,1,4/10/13 6:14
+16,315 Thayer,415,1,4/10/13 6:14
+17,Minden,705,1,4/10/13 6:15
+18,Gregorian Quad B,405A,1,4/10/13 6:15
+19,Drop to 22,,,4/10/13 6:15
+20,315 Thayer,418,1,4/10/13 6:15
+21,Slater Hall,206,1,4/10/13 6:16
+22,315 Thayer,430,3,4/10/13 6:16
+23,315 Thayer,419,1,4/10/13 6:16
+24,Hegeman,A102,1,4/10/13 6:17
+24,Hegeman,A202,1,4/10/13 6:17
+25,315 Thayer,420,1,4/10/13 6:17
+26,No Show,,,4/10/13 6:18
+27,No Show,,,4/10/13 6:18
+28,Gregorian Quad B,403B,1,4/10/13 6:18
+29,Slater Hall,306,1,4/10/13 6:19
+30,Grad Center D,411,1,4/10/13 6:19
+31,Gregorian Quad B,403A,1,4/10/13 6:19
+32,New Pembroke #2,307,1,4/10/13 6:20
+33,Gregorian Quad B,401C,1,4/10/13 6:20
+34,315 Thayer,130,3,4/10/13 6:20
+35,Gregorian Quad B,402B,1,4/10/13 6:20
+35,Gregorian Quad B,402C,1,4/10/13 6:20
+36,Gregorian Quad B,402A,1,4/10/13 6:21
+37,Gregorian Quad A,408D,1,4/10/13 6:21
+38,Gregorian Quad A,408B,1,4/10/13 6:22
+39,Gregorian Quad B,403F,1,4/10/13 6:22
+40,315 Thayer,320,2,4/10/13 6:22
+41,Gregorian Quad A,409A,1,4/10/13 6:23
+41,New Pembroke #1,302,1,4/10/13 6:23
+42,Hegeman,E115,1,4/10/13 6:23
+43,Gregorian Quad A,612,2,4/10/13 6:24
+44,Gregorian Quad B,404B,1,4/10/13 6:24
+45,Grad center A,642,1,4/10/13 6:24
+46,Gregorian Quad A,409D,1,4/10/13 6:25
+47,Hegeman,A302,1,4/10/13 6:25
+48,Gregorian Quad A,409E,1,4/10/13 6:25
+49,315 Thayer,210,4,4/10/13 6:26
+50,Gregorian Quad A,408E,1,4/10/13 6:26
+51,Gregorian Quad A,410D,1,4/10/13 6:26
+51,Gregorian Quad A,410E,1,4/10/13 6:26
+51,Gregorian Quad A,410F,1,4/10/13 6:26
+52,Gregorian Quad A,409F,1,4/10/13 6:27
+53,Grad Center D,233,1,4/10/13 6:27
+54,Gregorian Quad B,403C,1,4/10/13 6:28
+55,Young Orchard #2,320,4,4/10/13 6:28
+55,Young Orchard #2,330,4,4/10/13 6:28
+56,Gregorian Quad B,401F,1,4/10/13 6:28
+57,Gregorian Quad B,402F,1,4/10/13 6:28
+58,Young Orchard #2,340,4,4/10/13 6:29
+59,Gregorian Quad A,408C,1,4/10/13 6:29
+60,Gregorian Quad B,403D,1,4/10/13 6:29
+61,New Pembroke #2,207,1,4/10/13 6:29
+62,Gregorian Quad A,313,4,4/10/13 6:30
+63,315 Thayer,310,4,4/10/13 6:30
+64,Gregorian Quad A,411,3,4/10/13 6:30
+65,Gregorian Quad A,409C,1,4/10/13 6:31
+66,Gregorian Quad B,401A,1,4/10/13 6:31
+67,Young Orchard #2,420,4,4/10/13 6:31
+68,Grad Center D,431,1,4/10/13 6:32
+68,Grad Center D,432,1,4/10/13 6:32
+68,Grad Center D,433,1,4/10/13 6:32
+68,Grad Center D,434,1,4/10/13 6:32
+69,Gregorian Quad A,205,3,4/10/13 6:32
+70,New Pembroke #1,405,1,4/10/13 6:33
+71,Gregorian Quad A,409B,1,4/10/13 6:33
+72,Drop to 97,,,4/10/13 6:34
+73,Gregorian Quad A,410C,1,4/10/13 6:34
+74,Gregorian Quad B,306,4,4/10/13 6:34
+75,Gregorian Quad B,402D,1,4/10/13 6:35
+75,Gregorian Quad B,402E,1,4/10/13 6:35
+75,Gregorian Quad B,405D,1,4/10/13 6:35
+75,Gregorian Quad B,405E,1,4/10/13 6:35
+76,Slater Hall,102,2,4/10/13 6:35
+77,Hegeman,E214,2,4/10/13 6:36
+78,Hegeman,E212,2,4/10/13 6:36
+78,Young Orchard #2,230,4,4/10/13 6:36
+79,New Pembroke #1,306,1,4/10/13 6:36
+79,New Pembroke #1,307,1,4/10/13 6:36
+80,Gregorian Quad B,401D,1,4/10/13 6:37
+81,Young Orchard #4,230,4,4/10/13 6:37
+82,Gregorian Quad A,405,3,4/10/13 6:38
+83,Gregorian Quad B,401E,1,4/10/13 6:39
+83,Gregorian Quad B,403E,1,4/10/13 6:39
+84,Young Orchard #2,310,4,4/10/13 6:39
+85,Gregorian Quad B,404C,1,4/10/13 6:40
+86,New Pembroke #2,201,1,4/10/13 6:40
+87,Young Orchard #4,330,4,4/10/13 6:40
+88,Gregorian Quad A,410B,1,4/10/13 6:41
+89,New Pembroke #2,301,1,4/10/13 6:41
+90,New Pembroke #2,303,1,4/10/13 6:41
+91,New Pembroke #2,203,1,4/10/13 6:42
+92,New Pembroke #1,402,1,4/10/13 6:42
+93,New Pembroke #2,204,1,4/10/13 6:42
+94,Grad Center D,243,1,4/10/13 6:42
+95,New Pembroke #2,202,1,4/10/13 6:43
+95,New Pembroke #2,302,1,4/10/13 6:42
+95,New Pembroke #2,304,1,4/10/13 6:43
+95,New Pembroke #2,305,1,4/10/13 6:43
+96,Grad center A,421,1,4/10/13 6:43
+97,Gregorian Quad A,304,4,4/10/13 6:44
+97,Gregorian Quad A,305,3,4/10/13 6:44
+98,Hegeman,A101,3,4/10/13 6:44
+99,Pass,,,4/10/13 6:45
+100,Hegeman,D310,3,4/10/13 6:45
+101,Young Orchard #4,340,4,4/10/13 6:45
+102,Grad center A,141,1,4/10/13 6:46
+102,Grad center A,415,1,4/10/13 6:45
+103,Grad center A,411,1,4/10/13 6:46
+103,New Pembroke #1,206,1,4/10/13 6:46
+103,New Pembroke #1,304,1,4/10/13 6:46
+103,New Pembroke #1,404,1,4/10/13 6:46
+103,New Pembroke #1,406,1,4/10/13 6:46
+103,New Pembroke #2,104,1,4/10/13 6:46
+103,New Pembroke #2,205,1,4/10/13 6:46
+104,Drop to 121,,,4/10/13 6:47
+105,No Show,,,4/10/13 6:47
+106,Gregorian Quad A,408,2,4/10/13 6:47
+107,Fake Building,1,1,4/10/13 6:48
+108,Minden,301,3,4/10/13 6:48
+109,315 Thayer,240,6,4/10/13 6:49
+109,Minden,715,3,4/10/13 6:49
+110,Grad Center D,333,1,4/10/13 6:49
+111,Young Orchard #4,220,4,4/10/13 6:49
+112,Young Orchard #2,430,4,4/10/13 6:50
+113,Young Orchard #4,310,4,4/10/13 6:50
+114,Grad center A,614,1,4/10/13 6:52
+114,Grad center A,615,1,4/10/13 6:52
+114,Gregorian Quad B,307,5,4/10/13 6:52
+114,Gregorian Quad B,310,4,4/10/13 6:52
+115,Grad Center D,342,1,4/10/13 6:52
+116,No Show,,,4/10/13 6:52
+116,No Show,,,4/10/13 6:54
+117,Drop to 162,,,4/10/13 6:54
+118,315 Thayer,340,6,4/10/13 6:54
+119,Minden,207,2,4/10/13 6:55
+120,Young Orchard #2,240,4,4/10/13 6:55
+121,Minden,707,2,4/10/13 6:55
+122,Grad Center D,612,1,4/10/13 6:56
+122,Young Orchard #4,320,4,4/10/13 6:56
+123,Minden,215,3,4/10/13 6:57
+123,Minden,307,2,4/10/13 6:57
+124,Minden,415,3,4/10/13 6:57
+125,Young Orchard #10,210,4,4/10/13 6:57
+126,Gregorian Quad A,208,5,4/10/13 6:57
+127,Young Orchard #4,420,4,4/10/13 6:58
+128,Young Orchard #2,440,4,4/10/13 6:58
+129,Drop to 134,,,4/10/13 6:58
+130,Grad Center D,441,1,4/10/13 6:59
+130,Grad Center D,444,1,4/10/13 6:59
+131,Minden,814,2,4/10/13 6:59
+132,Hegeman,C209,3,4/10/13 7:02
+133,Grad center A,643,1,4/10/13 7:03
+134,315 Thayer,140,6,4/10/13 7:03
+135,Grad Center D,315,1,4/10/13 7:03
+136,Grad Center D,211,1,4/10/13 7:03
+136,Grad Center D,213,1,4/10/13 7:04
+137,Minden,812,2,4/10/13 7:04
+138,Minden,607,2,4/10/13 7:04
+139,Grad Center D,343,1,4/10/13 7:04
+140,Young Orchard #4,410,4,4/10/13 7:04
+141,Grad Center D,421,1,4/10/13 7:05
+142,No Show,,,4/10/13 7:05
+143,Fake Building,160,1,4/10/13 7:05
+144,Young Orchard #10,320,4,4/10/13 7:06
+145,Hegeman,C307,3,4/10/13 7:06
+146,Minden,113,3,4/10/13 7:06
+147,Drop to 164,,,4/10/13 7:06
+148,Grad Center D,442,1,4/10/13 7:07
+149,Grad Center D,242,1,4/10/13 7:07
+150,Drop to 157,,,4/10/13 7:07
+151,No Show,,,4/10/13 7:07
+152,Grad Center D,414,1,4/10/13 7:08
+152,Grad Center D,415,1,4/10/13 7:08
+153,Grad center A,441,1,4/10/13 7:08
+154,Drop to 178,,,4/10/13 7:08
+155,Grad Center D,321,1,4/10/13 7:08
+156,Grad Center D,525,1,4/10/13 7:08
+157,Hegeman,E215,3,4/10/13 7:09
+158,Grad Center D,413,1,4/10/13 7:09
+159,Grad center A,315,1,4/10/13 7:09
+160,Grad Center D,121,1,4/10/13 7:10
+161,Young Orchard #4,430,4,4/10/13 7:10
+162,Fake Building,10,1,4/10/13 7:11
+162,Grad Center D,221,1,4/10/13 7:10
+162,Grad Center D,222,1,4/10/13 7:10
+162,Grad Center D,223,1,4/10/13 7:10
+162,Grad Center D,224,1,4/10/13 7:10
+163,Grad center A,444,1,4/10/13 7:11
+163,Grad center A,445,1,4/10/13 7:11
+164,Gregorian Quad B,308,4,4/10/13 7:12
+165,Grad Center D,435,1,4/10/13 7:12
+166,Minden,809,2,4/10/13 7:12
+167,Grad center A,432,1,4/10/13 7:13
+167,Grad center A,433,1,4/10/13 7:13
+168,Grad Center D,311,1,4/10/13 7:13
+169,Grad Center D,542,1,4/10/13 7:13
+169,Grad Center D,543,1,4/10/13 7:14
+170,Hegeman,E213,3,4/10/13 7:14
+171,No Show,,,4/10/13 7:14
+172,Grad center A,624,1,4/10/13 7:14
+172,Grad center A,625,1,4/10/13 7:14
+172,Grad center A,626,1,4/10/13 7:14
+173,Grad center A,442,1,4/10/13 7:15
+174,Grad Center D,314,1,4/10/13 7:15
+175,Grad Center D,641,1,4/10/13 7:15
+176,Young Orchard #10,330,4,4/10/13 7:16
+177,Grad center A,341,1,4/10/13 7:16
+178,Gregorian Quad A,209,4,4/10/13 7:16
+178,Gregorian Quad A,212,4,4/10/13 7:18
+179,Grad Center D,231,1,4/10/13 7:18
+179,Grad Center D,232,1,4/10/13 7:18
+180,Young Orchard #10,430,4,4/10/13 7:18
+181,Grad Center D,521,1,4/10/13 7:18
+182,Grad Center D,541,1,4/10/13 7:19
+183,Grad Center D,445,1,4/10/13 7:19
+184,No Show,,,4/10/13 7:19
+185,No Show,,,4/10/13 7:20
+186,No Show,,,4/10/13 7:20
+187,Gregorian Quad A,406,4,4/10/13 7:20
+188,Pass,,,4/10/13 7:20
+189,Young Orchard #10,340,4,4/10/13 7:21
+190,Grad Center D,633,1,4/10/13 7:21
+190,Grad Center D,635,1,4/10/13 7:21
+191,Grad Center D,241,1,4/10/13 7:22
+192,Grad Center D,324,1,4/10/13 7:22
+193,Gregorian Quad B,105,4,4/10/13 7:22
+194,Grad center A,621,1,4/10/13 7:23
+195,Grad Center D,225,1,4/10/13 7:23
+196,Minden,407,2,4/10/13 7:23
+197,Hegeman,E116,3,4/10/13 7:24
+198,Grad center A,313,1,4/10/13 7:24
+199,Grad Center D,214,1,4/10/13 7:24
+200,Drop to 257,,,4/10/13 7:24
+201,No Show,,,4/10/13 7:25
+202,Drop to 217,,,4/10/13 7:25
+203,No Show,,,4/10/13 7:25
+204,Grad Center D,145,1,4/10/13 7:25
+205,Grad center A,426,1,4/10/13 7:26
+206,Grad center A,412,1,4/10/13 7:26
+207,No Show,,,4/10/13 7:27
+208,No Show,,,4/10/13 7:27
+209,Young Orchard #10,420,4,4/10/13 7:27
+210,Hegeman,A201,3,4/10/13 7:27
+211,Grad Center D,423,1,4/10/13 7:28
+212,Drop to 295,,,4/10/13 7:28
+213,Fake Building,100,1,4/10/13 7:28
+214,Grad Center D,341,1,4/10/13 7:29
+215,No Show,,,4/10/13 7:29
+216,Young Orchard #4,440,4,4/10/13 7:29
+217,Hegeman,C208,3,4/10/13 7:29
+218,Grad Center C,130,4,4/10/13 7:30
+219,Gregorian Quad A,611,2,4/10/13 7:30
+220,Grad center A,446,1,4/10/13 7:30
+221,Grad Center D,144,1,4/10/13 7:31
+222,Grad center A,424,1,4/10/13 7:31
+223,Grad center A,623,1,4/10/13 7:31
+224,Pass,,,4/10/13 7:31
+225,Grad Center D,322,1,4/10/13 7:32
+226,No Show,,,4/10/13 7:32
+227,Gregorian Quad A,203,4,4/10/13 7:32
+228,Grad Center D,632,1,4/10/13 7:33
+229,Grad Center D,544,1,4/10/13 7:33
+230,No Show,,,4/10/13 7:33
+231,Grad Center D,226,1,4/10/13 7:33
+232,Grad Center D,313,1,4/10/13 7:34
+233,No Show,,,4/10/13 7:35
+234,Pass,,,4/10/13 7:35
+235,Gregorian Quad A,512,2,4/10/13 7:35
+236,Grad center A,334,1,4/10/13 7:36
+237,Drop to 312,,,4/10/13 7:36
+238,Grad Center D,424,1,4/10/13 7:36
+239,Gregorian Quad B,204,4,4/10/13 7:37
+240,No Show,,,4/10/13 7:37
+241,No Show,,,4/10/13 7:37
+242,Grad center A,431,1,4/10/13 7:38
+243,No Show,,,4/10/13 7:38
+244,No Show,,,4/10/13 7:39
+245,Drop to 454,,,4/10/13 7:39
+246,Hegeman,A203,3,4/10/13 7:39
+247,Grad center A,314,1,4/10/13 7:40
+248,Grad Center D,331,1,4/10/13 7:48
+248,Grad Center D,332,1,4/10/13 7:48
+249,No Show,,,4/10/13 7:49
+250,Young Orchard #10,230,4,4/10/13 7:49
+251,Gregorian Quad A,508,2,4/10/13 7:49
+252,Minden,501,3,4/10/13 7:50
+253,No Show,,,4/10/13 7:50
+254,Fake Building,12,1,4/10/13 7:50
+255,No Show,,,4/10/13 7:51
+256,Grad Center D,235,1,4/10/13 7:51
+257,Gregorian Quad A,306,4,4/10/13 7:51
+258,Grad center A,345,1,4/10/13 7:52
+258,Grad center A,346,1,4/10/13 7:52
+259,Grad center A,221,1,4/10/13 7:52
+260,Hegeman,E112,3,4/10/13 7:52
+261,Gregorian Quad A,210,5,4/10/13 7:55
+262,Grad Center D,335,1,4/10/13 7:55
+263,Minden,806,2,4/10/13 7:56
+264,Drop to 316,,,4/10/13 7:56
+265,Grad Center D,531,1,4/10/13 7:56
+266,Grad Center D,524,1,4/10/13 7:57
+266,Gregorian Quad A,507,2,4/10/13 7:57
+266,Hegeman,D210,3,4/10/13 7:57
+267,Grad center A,641,1,4/10/13 7:57
+268,Grad Center D,345,1,4/10/13 7:58
+269,Grad Center D,344,1,4/10/13 7:58
+270,Hegeman,C308,3,4/10/13 7:58
+271,Grad center A,422,1,4/10/13 7:58
+272,Hegeman,D111,3,4/10/13 7:59
+273,Grad Center D,244,1,4/10/13 7:59
+274,Grad Center D,325,1,4/10/13 7:59
+275,Gregorian Quad B,206,4,4/10/13 8:00
+276,Grad Center D,334,1,4/10/13 8:00
+277,Grad center A,131,1,4/10/13 8:00
+277,Grad center A,132,1,4/10/13 8:01
+277,Gregorian Quad B,203,4,4/10/13 8:00
+278,Gregorian Quad A,207,5,4/10/13 8:01
+279,Minden,315,3,4/10/13 8:01
+280,Hegeman,D211,3,4/10/13 8:02
+281,Fake Building,9,1,4/10/13 8:02
+282,Hegeman,D403,3,4/10/13 8:02
+283,Grad Center D,323,1,4/10/13 8:03
+284,Hegeman,C109,3,4/10/13 8:03
+285,No Show,,,4/10/13 8:03
+286,Gregorian Quad A,314,4,4/10/13 8:04
+287,Minden,706,2,4/10/13 8:04
+288,Hegeman,D404,3,4/10/13 8:04
+289,Minden,606,2,4/10/13 8:04
+290,Grad center A,241,1,4/10/13 8:05
+290,Minden,708,2,4/10/13 8:05
+291,Young Orchard #10,240,4,4/10/13 8:06
+292,Slater Hall,403,2,4/10/13 8:06
+293,No Show,,,4/10/13 8:07
+294,Hegeman,C401,3,4/10/13 8:08
+294,Slater Hall,204,4,4/10/13 8:08
+295,Young Orchard #4,120,4,4/10/13 8:08
+296,Grad Center D,533,1,4/10/13 8:09
+297,Minden,206,2,4/10/13 8:09
+297,Minden,208,2,4/10/13 8:09
+298,Grad Center D,446,1,4/10/13 8:09
+299,Grad Center D,412,1,4/10/13 8:09
+300,Minden,513,3,4/10/13 8:10
+301,Grad Center D,615,1,4/10/13 8:10
+302,Slater Hall,402,2,4/10/13 8:11
+302,Young Orchard #10,410,4,4/10/13 8:10
+303,No Show,,,4/10/13 8:11
+304,No Show,,,4/10/13 8:12
+305,Minden,406,2,4/10/13 8:12
+305,Minden,506,2,4/10/13 8:12
+306,No Show,,,4/10/13 8:12
+307,Grad Center D,246,1,4/10/13 8:13
+308,Gregorian Quad B,305,4,4/10/13 8:14
+309,Grad Center C,110,4,4/10/13 8:14
+310,Gregorian Quad A,301,4,4/10/13 8:15
+311,No Show,,,4/10/13 8:15
+312,Grad Center D,112,1,4/10/13 8:16
+312,Gregorian Quad B,207,5,4/10/13 8:16
+312,Gregorian Quad B,208,4,4/10/13 8:16
+313,Grad Center D,642,1,4/10/13 8:18
+313,Grad Center D,644,1,4/10/13 8:18
+313,Grad Center D,646,1,4/10/13 8:18
+314,Gregorian Quad A,501,2,4/10/13 8:18
+315,Grad Center D,422,1,4/10/13 8:19
+316,Young Orchard #4,110,4,4/10/13 8:20
+317,Hegeman,A301,3,4/10/13 8:20
+318,Young Orchard #10,440,4,4/10/13 8:20
+319,Drop to 370,,,4/10/13 8:21
+320,Drop to 329,,,4/10/13 8:21
+321,Hegeman,C108,3,4/10/13 8:21
+321,Hegeman,C402,3,4/10/13 8:21
+322,Gregorian Quad B,304,4,4/10/13 8:22
+323,Grad center A,644,1,4/10/13 8:23
+323,Grad center A,645,1,4/10/13 8:23
+323,Grad center A,646,1,4/10/13 8:23
+324,Grad Center D,443,1,4/10/13 8:23
+325,Gregorian Quad A,307,5,4/10/13 8:23
+326,Grad Center D,532,1,4/10/13 8:24
+327,Young Orchard #10,110,4,4/10/13 8:24
+328,Minden,401,3,4/10/13 8:24
+329,Grad center A,331,1,4/10/13 8:25
+329,Grad center A,332,1,4/10/13 8:25
+329,Grad center A,333,1,4/10/13 8:25
+329,Young Orchard #10,120,4,4/10/13 8:25
+330,Grad Center D,546,1,4/10/13 8:25
+331,Young Orchard #2,120,4,4/10/13 8:26
+332,Grad Center D,113,1,4/10/13 8:26
+332,Grad Center D,115,1,4/10/13 8:26
+333,Minden,601,3,4/10/13 8:26
+334,Grad center A,335,1,4/10/13 8:27
+335,No Show,,,4/10/13 8:27
+336,Grad center A,142,1,4/10/13 8:28
+336,Grad center A,143,1,4/10/13 8:28
+336,Grad center A,144,1,4/10/13 8:28
+336,Grad center A,145,1,4/10/13 8:28
+336,Grad Center D,234,1,4/10/13 8:28
+336,Grad Center D,245,1,4/10/13 8:28
+337,Gregorian Quad A,310,5,4/10/13 8:28
+338,Grad Center B,330,4,4/10/13 8:29
+338,Gregorian Quad B,204,4,4/10/13 8:29
+339,Grad Center D,631,1,4/10/13 8:29
+340,Grad center A,435,1,4/10/13 8:30
+341,Gregorian Quad B,107,5,4/10/13 8:30
+342,No Show,,,4/10/13 8:31
+343,Grad center A,311,1,4/10/13 8:31
+344,Pass,,,4/10/13 8:37
+345,Grad Center D,611,1,4/10/13 8:38
+345,Grad Center D,613,1,4/10/13 8:38
+345,Hegeman,A303,3,4/10/13 8:37
+346,Gregorian Quad A,311,4,4/10/13 8:38
+347,Grad Center D,614,1,4/10/13 8:39
+347,Grad Center D,634,1,4/10/13 8:39
+347,Grad Center D,643,1,4/10/13 8:39
+347,Grad Center D,645,1,4/10/13 8:39
+348,No Show,,,4/10/13 8:39
+349,Gregorian Quad B,103,5,4/10/13 8:40
+350,Gregorian Quad A,404,4,4/10/13 8:40
+351,Pass,,,4/10/13 8:41
+352,Fake Building,88,1,4/10/13 8:41
+352,Grad Center B,530,5,4/10/13 8:41
+352,Young Orchard #2,110,4,4/10/13 8:41
+353,No Show,,,4/10/13 8:42
+354,Grad center A,343,1,4/10/13 8:42
+354,Grad center A,344,1,4/10/13 8:42
+354,Grad Center B,420,5,4/10/13 8:42
+355,No Show,,,4/10/13 8:43
+356,No Show,,,4/10/13 8:43
+357,Grad Center D,545,1,4/10/13 8:44
+358,No Show,,,4/10/13 8:44
+359,Grad Center D,346,1,4/10/13 8:44
+359,Slater Hall,104,3,4/10/13 8:44
+360,Gregorian Quad B,108,4,4/10/13 8:45
+361,No Show,,,4/10/13 8:45
+362,Minden,308,2,4/10/13 8:45
+363,Grad center A,425,1,4/10/13 8:46
+363,Minden,701,3,4/10/13 8:46
+364,Gregorian Quad A,213,4,4/10/13 8:46
+365,Grad Center D,123,1,4/10/13 8:47
+365,Gregorian Quad B,201,4,4/10/13 8:47
+365,Gregorian Quad B,202,4,4/10/13 8:47
+366,Grad Center D,111,1,4/10/13 8:47
+367,Grad Center D,312,1,4/10/13 8:48
+368,Slater Hall,203,2,4/10/13 8:48
+368,Slater Hall,302,2,4/10/13 8:48
+368,Slater Hall,303,2,4/10/13 8:48
+369,No Show,,,4/10/13 8:49
+370,Gregorian Quad A,302,4,4/10/13 8:49
+370,Gregorian Quad A,303,4,4/10/13 8:49
+371,Grad center A,413,1,4/10/13 8:50
+371,Grad center A,414,1,4/10/13 8:50
+371,Grad Center C,330,5,4/10/13 8:50
+371,Minden,306,2,4/10/13 8:50
+372,Gregorian Quad A,402,4,4/10/13 8:51
+372,Gregorian Quad A,403,4,4/10/13 8:51
+373,Grad Center C,530,5,4/10/13 8:51
+373,Gregorian Quad B,303,4,4/10/13 8:51
+374,No Show,,,4/10/13 8:52
+375,No Show,,,4/10/13 8:52
+376,Minden,508,2,4/10/13 8:52
+376,Minden,615,3,4/10/13 8:52
+377,Gregorian Quad B,302,4,4/10/13 8:53
+378,Gregorian Quad A,502,2,4/10/13 8:53
+378,Gregorian Quad A,505,2,4/10/13 8:53
+378,Gregorian Quad A,506,2,4/10/13 8:53
+378,Gregorian Quad A,510,2,4/10/13 8:53
+379,Grad center A,133,1,4/10/13 8:54
+379,Grad center A,134,1,4/10/13 8:54
+379,Minden,408,2,4/10/13 8:54
+380,Grad Center D,326,1,4/10/13 8:55
+380,Grad Center D,425,1,4/10/13 8:55
+380,Gregorian Quad A,309,4,4/10/13 8:55
+380,Gregorian Quad A,312,4,4/10/13 8:55
+381,Grad Center B,240,5,4/10/13 8:56
+382,Grad center A,213,1,4/10/13 8:57
+382,Gregorian Quad A,211,4,4/10/13 8:56
+383,Grad Center D,114,1,4/10/13 8:57
+383,Gregorian Quad A,206,4,4/10/13 8:57
+384,Gregorian Quad A,201,4,4/10/13 8:57
+385,Grad center A,231,1,4/10/13 8:58
+385,Grad center A,232,1,4/10/13 8:58
+385,Grad center A,233,1,4/10/13 8:58
+385,Grad center A,234,1,4/10/13 8:58
+385,Grad center A,242,1,4/10/13 8:58
+385,Grad center A,243,1,4/10/13 8:58
+385,Grad center A,244,1,4/10/13 8:58
+385,Grad center A,245,1,4/10/13 8:58
+386,No Show,,,4/10/13 9:01
+387,Slater Hall,101,4,4/10/13 9:01
+388,Slater Hall,404,3,4/10/13 9:01
+388,Slater Hall,405,2,4/10/13 9:01
+389,No Show,,,4/10/13 9:02
+390,Gregorian Quad A,511,2,4/10/13 9:02
+391,Fake Building,11,1,4/10/13 9:03
+391,Gregorian Quad A,204,4,4/10/13 9:03
+392,Grad center A,222,1,4/10/13 9:03
+392,Grad center A,223,1,4/10/13 9:03
+392,Grad center A,224,1,4/10/13 9:04
+393,Gregorian Quad B,104,4,4/10/13 9:04
+394,Grad center A,312,1,4/10/13 9:05
+394,Grad center A,342,1,4/10/13 9:05
+394,Gregorian Quad B,403,2,4/10/13 9:05
+394,New Pembroke #2,315,2,4/10/13 9:05
+395,Grad Center B,440,5,4/10/13 9:05
+396,Gregorian Quad A,509,2,4/10/13 9:06
+396,Hegeman,A103,3,4/10/13 9:06
+397,Grad Center D,124,1,4/10/13 9:06
+398,Grad Center B,540,5,4/10/13 9:07
+399,Gregorian Quad A,401,4,4/10/13 9:07
+400,Gregorian Quad B,102,4,4/10/13 9:07
+400,Gregorian Quad B,106,4,4/10/13 9:07
+401,Hegeman,E113,3,4/10/13 9:08
+402,Slater Hall,401,3,4/10/13 9:08
+402,Slater Hall,406,2,4/10/13 9:08
+403,Grad Center B,220,4,4/10/13 9:08
+404,Grad center A,215,1,4/10/13 9:09
+405,Gregorian Quad A,407,4,4/10/13 9:09
+406,Grad center A,423,1,4/10/13 9:09
+407,New Pembroke #1,315,2,4/10/13 9:10
+408,No Show,,,4/10/13 9:10
+409,Slater Hall,201,4,4/10/13 9:10
+410,Gregorian Quad A,214,4,4/10/13 9:11
+411,No Show,,,4/10/13 9:11
+412,Gregorian Quad A,202,4,4/10/13 9:12
+413,Grad Center B,510,6,4/10/13 9:12
+414,Slater Hall,301,4,4/10/13 9:12
+415,Grad center A,225,1,4/10/13 9:12
+416,Gregorian Quad B,110,4,4/10/13 9:13
+416,Slater Hall,304,4,4/10/13 9:13
+417,Grad Center B,640,5,4/10/13 9:13
+418,Grad center A,434,1,4/10/13 9:13
+418,Grad center A,443,1,4/10/13 9:14
+419,Grad Center D,534,1,4/10/13 9:14
+420,Drop to 421,,,4/10/13 9:14
+421,Grad center A,622,1,4/10/13 9:15
+421,Grad Center B,410,6,4/10/13 9:15
+421,Grad Center B,430,6,4/10/13 9:15
+422,Gregorian Quad A,607,2,4/10/13 9:15
+422,Gregorian Quad A,608,2,4/10/13 9:15
+423,Grad Center D,522,1,4/10/13 9:16
+424,Grad center A,214,1,4/10/13 9:16
+424,Grad center A,611,1,4/10/13 9:16
+424,Grad center A,612,1,4/10/13 9:16
+424,Grad center A,613,1,4/10/13 9:16
+425,Pass,,,4/10/13 9:16
+426,No Show,,,4/10/13 9:17
+427,Grad Center D,125,1,4/10/13 9:17
+427,Grad Center D,142,1,4/10/13 9:17
+427,Grad Center D,143,1,4/10/13 9:17
+428,No Show,,,4/10/13 9:18
+429,New Pembroke #1,201,2,4/10/13 9:18
+430,No Show,,,4/10/13 9:18
+431,No Show,,,4/10/13 9:19
+432,Grad center A,135,1,4/10/13 9:19
+433,Drop to 459,,,4/10/13 9:19
+434,Grad Center D,523,1,4/10/13 9:20
+434,Grad Center D,526,1,4/10/13 9:20
+434,Slater Hall,202,2,4/10/13 9:20
+435,Gregorian Quad A,601,2,4/10/13 9:20
+436,Grad Center C,340,5,4/10/13 9:21
+437,Pass,,,4/10/13 9:22
+438,Gregorian Quad A,602,2,4/10/13 9:23
+438,Gregorian Quad A,603,2,4/10/13 9:23
+439,Grad center A,246,1,4/10/13 9:23
+440,Grad Center B,630,6,4/10/13 9:24
+441,Pass,,,4/10/13 9:24
+442,New Pembroke #2,105,2,4/10/13 9:24
+443,Fake Building,13,1,4/10/13 9:25
+444,Drop to 459,,,4/10/13 9:25
+445,Pass,,,4/10/13 9:25
+446,Pass,,,4/10/13 9:26
+447,Grad Center C,430,5,4/10/13 9:26
+448,Pass,,,4/10/13 9:26
+449,Gregorian Quad A,410,2,4/10/13 9:26
+450,Grad Center B,110,5,4/10/13 9:27
+450,Gregorian Quad A,604,2,4/10/13 9:27
+451,No Show,,,4/10/13 9:28
+452,Pass,,,4/10/13 9:28
+453,Gregorian Quad A,605,2,4/10/13 9:29
+453,Gregorian Quad A,606,2,4/10/13 9:29
+454,Gregorian Quad A,408F,2,4/10/13 9:29
+454,Gregorian Quad A,409,2,4/10/13 9:29
+455,No Show,,,4/10/13 9:29
+456,New Pembroke #1,415,2,4/10/13 9:30
+457,Drop to 462,,,4/10/13 9:30
+458,No Show,,,4/10/13 9:31
+459,Grad Center C,210,6,4/10/13 9:31
+459,Grad Center C,230,6,4/10/13 9:31
+460,Grad Center B,520,5,4/10/13 9:32
+461,Gregorian Quad A,125,8,4/10/13 9:32
+462,Grad Center C,440,5,4/10/13 9:32
+463,Grad Center C,640,5,4/10/13 9:33
+464,Pass,,,4/10/13 9:33
+465,Gregorian Quad B,402,2,4/10/13 9:33
+466,Drop to 473,,,4/10/13 9:33
+467,Pass,,,4/10/13 9:34
+468,No Show,,,4/10/13 9:34
+469,Pass,,,4/10/13 9:34
+470,Drop to 483,,,4/10/13 9:34
+471,Pass,,,4/10/13 9:34
+472,Pass,,,4/10/13 9:34
+473,Grad Center C,520,5,4/10/13 9:35
+474,Grad Center B,310,6,4/10/13 9:35
+475,Drop to 491,,,4/10/13 9:35
+476,No Show,,,4/10/13 9:35
+477,No Show,,,4/10/13 9:36
+478,No Show,,,4/10/13 9:36
+479,Pass,,,4/10/13 9:36
+480,New Pembroke #2,215,2,4/10/13 9:36
+481,Grad Center C,510,6,4/10/13 9:37
+481,Gregorian Quad B,401,2,4/10/13 9:37
+482,Grad Center B,340,5,4/10/13 9:37
+483,Grad Center C,540,5,4/10/13 9:37
+484,Pass,,,4/10/13 9:37
+485,New Pembroke #1,401,2,4/10/13 9:38
+486,Pass,,,4/10/13 9:38
+487,No Show,,,4/10/13 9:38
+488,No Show,,,4/10/13 9:38
+489,No Show,,,4/10/13 9:38
+490,Pass,,,4/10/13 9:39
+491,Drop to 493,,,4/10/13 9:40
+492,Pass,,,4/10/13 9:41
+493,Grad Center B,320,5,4/10/13 9:41
+494,Pass,,,4/10/13 9:41
+495,No Show,,,4/10/13 9:41
+496,No Show,,,4/10/13 9:41
+497,No Show,,,4/10/13 9:42
+498,Pass,,,4/10/13 9:42
+499,No Show,,,4/10/13 9:42
+500,Pass,,,4/10/13 9:42
+501,No Show,,,4/10/13 9:42
+502,No Show,,,4/10/13 9:43
+503,Grad Center C,610,6,4/10/13 9:43
+504,Drop to 508,,,4/10/13 9:43
+505,Drop to 509,,,4/10/13 9:43
+506,No Show,,,4/10/13 9:43
+507,No Show,,,4/10/13 9:44
+508,Drop to 515,,,4/10/13 9:44
+509,Grad Center B,210,6,4/10/13 9:44
+510,Drop to 533,,,4/10/13 9:45
+511,No Show,,,4/10/13 9:45
+512,No Show,,,4/10/13 9:45
+513,No Show,,,4/10/13 9:45
+514,Pass,,,4/10/13 9:45
+515,Grad Center C,240,5,4/10/13 9:46
+516,Pass,,,4/10/13 9:46
+517,Pass,,,4/10/13 9:46
+518,No Show,,,4/10/13 9:46
+519,No Show,,,4/10/13 9:47
+520,No Show,,,4/10/13 9:47
+521,Pass,,,4/10/13 9:47
+522,No Show,,,4/10/13 9:47
+523,Pass,,,4/10/13 9:47
+524,No Show,,,4/10/13 9:47
+525,No Show,,,4/10/13 9:48
+526,No Show,,,4/10/13 9:48
+527,No Show,,,4/10/13 9:48
+528,No Show,,,4/10/13 9:48
+529,No Show,,,4/10/13 9:48
+530,Pass,,,4/10/13 9:48
+531,No Show,,,4/10/13 9:49
+532,Pass,,,4/10/13 9:49
+533,New Pembroke #1,301,2,4/10/13 9:50
+534,No Show,,,4/10/13 9:50
+535,No Show,,,4/10/13 9:50
+536,Minden,815,3,4/16/13 6:11
+537,Wayland House,318,1,4/16/13 6:12
+537,Wayland House,322,1,4/16/13 6:12
+537,Wayland House,332,1,4/16/13 6:12
+537,Wayland House,346,1,4/16/13 6:12
+538,Wayland House,326,1,4/16/13 6:13
+538,Wayland House,330,1,4/16/13 6:13
+538,Wayland House,338,1,4/16/13 6:13
+539,Fake Building,14,1,4/16/13 6:13
+539,Fake Building,15,1,4/16/13 6:13
+539,Hope College,108,1,4/16/13 6:13
+539,Minden,801,3,4/16/13 6:14
+540,No Show,,,4/16/13 6:14
+541,Hope College,308,1,4/16/13 6:15
+542,New Pembroke #4,320,1,4/16/13 6:15
+543,Barbour Hall,204,1,4/16/13 6:15
+544,Plantations House,304,1,4/16/13 6:15
+545,Caswell Hall,402,2,4/16/13 6:16
+546,Diman House,310,1,4/16/13 6:16
+547,Hope College,214,1,4/16/13 6:16
+548,Hope College,306,1,4/16/13 6:17
+549,Olney House,314,1,4/16/13 6:17
+550,No Show,,,4/16/13 6:17
+551,Hope College,114,1,4/16/13 6:17
+552,New Pembroke #3,103,1,4/16/13 6:18
+553,No Show,,,4/16/13 6:18
+554,Caswell Hall,410,2,4/16/13 6:18
+554,Caswell Hall,411,2,4/16/13 6:18
+555,Hope College,406,1,4/16/13 6:19
+556,Diman House,309,1,4/16/13 6:19
+557,New Pembroke #4,209,1,4/16/13 6:19
+557,New Pembroke #4,227,1,4/16/13 6:19
+558,Plantations House,206,1,4/16/13 6:19
+559,Minden,802,3,4/16/13 6:20
+560,Hope College,116,1,4/16/13 6:20
+560,Hope College,312,2,4/16/13 6:20
+560,Hope College,314,1,4/16/13 6:20
+560,Hope College,414,1,4/16/13 6:20
+560,Hope College,416,1,4/16/13 6:20
+561,Diman House,311,1,4/16/13 6:21
+562,Minden,507,3,4/16/13 6:21
+563,Hope College,112,2,4/16/13 6:21
+564,Minden,702,3,4/16/13 6:21
+565,Barbour Hall,304,1,4/16/13 6:22
+566,Minden,602,3,4/16/13 6:22
+567,Hope College,412,2,4/16/13 6:22
+567,Hope College,419,2,4/16/13 6:22
+567,Hope College,420,2,4/16/13 6:22
+568,Machado House,36,1,4/16/13 6:22
+569,Minden,612,4,4/16/13 6:23
+570,Plantations House,204,1,4/16/13 6:23
+571,Hope College,119,2,4/16/13 6:23
+571,Hope College,120,2,4/16/13 6:23
+572,Hope College,212,2,4/16/13 6:23
+573,Caswell Hall,102,2,4/16/13 6:24
+574,Caswell Hall,301,2,4/16/13 6:24
+574,Caswell Hall,401,2,4/16/13 6:24
+575,Goddard House,319,1,4/16/13 6:24
+576,Plantations House,101,1,4/16/13 6:24
+577,Caswell Hall,302,2,4/16/13 6:25
+578,Caswell Hall,206,2,4/16/13 6:25
+578,Caswell Hall,207,2,4/16/13 6:25
+578,Caswell Hall,306,2,4/16/13 6:25
+579,Sears House,321,1,4/16/13 6:25
+579,Wayland House,400A,7,4/16/13 6:25
+580,New Pembroke #3,217,1,4/16/13 6:26
+580,New Pembroke #3,218,1,4/16/13 6:26
+581,Caswell Hall,405,2,4/16/13 6:26
+581,Caswell Hall,406,2,4/16/13 6:26
+581,Caswell Hall,407,2,4/16/13 6:26
+581,Caswell Hall,408,2,4/16/13 6:26
+582,Goddard House,216,1,4/16/13 6:26
+583,Goddard House,400A,6,4/16/13 6:26
+584,Goddard House,335,1,4/16/13 6:27
+584,Goddard House,336,1,4/16/13 6:27
+584,New Pembroke #3,212,1,4/16/13 6:27
+585,Barbour Hall Apartments,240,4,4/16/13 6:27
+586,Littlefield Hall,208,2,4/16/13 6:27
+586,Littlefield Hall,211,2,4/16/13 6:28
+587,Olney House,316,1,4/16/13 6:28
+587,Sears House,400B,7,4/16/13 6:28
+588,Marcy House,312,1,4/16/13 6:28
+588,Marcy House,313,1,4/16/13 6:28
+588,Marcy House,314,1,4/16/13 6:29
+588,Marcy House,315,1,4/16/13 6:29
+589,Olney House,312,1,4/16/13 6:29
+589,Wayland House,400B,7,4/16/13 6:29
+590,111 Brown Street,301,2,4/16/13 6:29
+591,Minden,402,3,4/16/13 6:30
+592,Caswell Hall,305,2,4/16/13 6:30
+592,Caswell Hall,307,2,4/16/13 6:30
+593,Hope College,107,2,4/16/13 6:30
+593,New Pembroke #3,203,1,4/16/13 6:30
+594,Caswell Hall,409,2,4/16/13 6:31
+594,Caswell Hall,412,2,4/16/13 6:31
+595,Hope College,219,2,4/16/13 6:31
+595,Hope College,220,2,4/16/13 6:31
+595,Hope College,401,2,4/16/13 6:31
+595,Hope College,402,2,4/16/13 6:31
+595,Hope College,417,2,4/16/13 6:31
+596,111 Brown Street,102,2,4/16/13 6:32
+596,111 Brown Street,201,2,4/16/13 6:32
+596,111 Brown Street,202,2,4/16/13 6:32
+596,111 Brown Street,203,2,4/16/13 6:32
+596,111 Brown Street,302,2,4/16/13 6:32
+597,Caswell Hall,109,2,4/16/13 6:32
+597,Caswell Hall,110,2,4/16/13 6:32
+598,New Pembroke #3,215,1,4/16/13 6:33
+599,Barbour Hall,106,2,4/16/13 6:33
+599,Barbour Hall Apartments,140,4,4/16/13 6:33
+600,Barbour Hall Apartments,60,6,4/16/13 6:33
+601,Barbour Hall Apartments,340,4,4/16/13 6:34
+602,Caswell Hall,309,2,4/16/13 6:34
+602,Caswell Hall,310,2,4/16/13 6:34
+602,Caswell Hall,311,2,4/16/13 6:34
+602,Caswell Hall,312,2,4/16/13 6:34
+603,Caswell Hall,403,2,4/16/13 6:34
+603,Caswell Hall,404,2,4/16/13 6:34
+603,Machado House,37,1,4/16/13 6:34
+604,Caswell Hall,201,2,4/16/13 6:35
+604,Caswell Hall,203,2,4/16/13 6:35
+604,Caswell Hall,204,2,4/16/13 6:35
+605,Barbour Hall Apartments,130,3,4/16/13 6:36
+606,Littlefield Hall,201,2,4/16/13 6:36
+606,Littlefield Hall,209,2,4/16/13 6:36
+606,Littlefield Hall,212,2,4/16/13 6:36
+607,Caswell Hall,303,2,4/16/13 6:36
+607,Caswell Hall,304,2,4/16/13 6:36
+608,Caswell Hall,205,2,4/16/13 6:37
+608,Caswell Hall,208,2,4/16/13 6:37
+609,Barbour Hall,308,2,4/16/13 6:37
+609,Barbour Hall Apartments,370,4,4/16/13 6:37
+610,Littlefield Hall,101,2,4/16/13 6:38
+610,Littlefield Hall,107,2,4/16/13 6:38
+610,Littlefield Hall,109,2,4/16/13 6:38
+610,Littlefield Hall,112,2,4/16/13 6:38
+611,Drop to 702,,,4/16/13 6:38
+611,Drop to 720,,,4/16/13 6:38
+612,Caswell Hall,211,2,4/16/13 6:39
+613,Barbour Hall Apartments,230,3,4/16/13 6:39
+613,Barbour Hall Apartments,330,3,4/16/13 6:39
+614,Caswell Hall,209,2,4/16/13 6:39
+615,Caswell Hall,308,2,4/16/13 6:40
+616,Barbour Hall,201,2,4/16/13 6:40
+616,Barbour Hall,301,2,4/16/13 6:40
+616,Barbour Hall,306,2,4/16/13 6:40
+616,New Pembroke #4,217,1,4/16/13 6:40
+616,New Pembroke #4,325,1,4/16/13 6:40
+617,Hope College,201,2,4/16/13 6:41
+618,Caswell Hall,106,2,4/16/13 6:41
+618,Caswell Hall,107,2,4/16/13 6:41
+618,Caswell Hall,108,2,4/16/13 6:41
+619,Minden,302,3,4/16/13 6:42
+619,Minden,502,3,4/16/13 6:42
+620,Harkness House,400A,7,4/16/13 6:43
+621,Olney House,221,1,4/16/13 6:43
+622,Caswell Hall,212,2,4/16/13 6:44
+623,Marcy House,225,3,4/16/13 6:44
+624,Littlefield Hall,105,2,4/16/13 6:44
+624,Littlefield Hall,108,2,4/16/13 6:44
+624,Littlefield Hall,202,2,4/16/13 6:44
+624,Littlefield Hall,205,2,4/16/13 6:44
+625,Goddard House,231,1,4/16/13 6:45
+626,Minden,202,3,4/16/13 6:46
+627,New Pembroke #3,315,1,4/16/13 6:46
+628,Harkness House,400B,8,4/16/13 6:46
+629,Caswell Hall,105,2,4/16/13 6:47
+629,Caswell Hall,111,2,4/16/13 6:47
+630,Barbour Hall Apartments,360,5,4/16/13 6:47
+631,Minden,312,4,4/16/13 6:47
+632,Barbour Hall Apartments,40,4,4/16/13 6:48
+632,Caswell Hall,101,2,4/16/13 6:48
+633,Caswell Hall,103,2,4/16/13 6:48
+633,Caswell Hall,104,2,4/16/13 6:48
+633,Caswell Hall,112,2,4/16/13 6:48
+633,Hope College,301,2,4/16/13 6:48
+633,Hope College,320,2,4/16/13 6:48
+634,Littlefield Hall,102,2,4/16/13 6:49
+634,Littlefield Hall,111,2,4/16/13 6:49
+634,Littlefield Hall,207,2,4/16/13 6:49
+635,Machado House,32,1,4/16/13 6:49
+635,Machado House,33,1,4/16/13 6:49
+636,Hope College,202,2,4/16/13 6:50
+636,Hope College,302,2,4/16/13 6:50
+636,Hope College,415,2,4/16/13 6:50
+637,Hope College,203,2,4/16/13 6:50
+637,Hope College,207,2,4/16/13 6:50
+637,Hope College,303,2,4/16/13 6:50
+637,Hope College,307,2,4/16/13 6:50
+638,Minden,212,4,4/16/13 6:50
+639,Diman House,321,2,4/16/13 6:51
+639,Hope College,215,1,4/16/13 6:51
+639,Plantations House,303,2,4/16/13 6:51
+639,Wayland House,348,2,4/16/13 6:51
+640,Goddard House,313,1,4/16/13 6:52
+640,Goddard House,314,1,4/16/13 6:52
+640,Goddard House,315,1,4/16/13 6:52
+640,Goddard House,316,1,4/16/13 6:52
+641,Diman House,400A,8,4/16/13 6:52
+642,New Pembroke #4,327,1,4/16/13 6:53
+643,Barbour Hall,206,2,4/16/13 6:54
+643,Barbour Hall,208,2,4/16/13 6:53
+643,Hope College,403,2,4/16/13 6:53
+644,Hope College,217,2,4/16/13 6:54
+644,Hope College,407,2,4/16/13 6:54
+645,Barbour Hall Apartments,30,4,4/16/13 6:54
+645,Wayland House,301,2,4/16/13 6:54
+645,Wayland House,303,2,4/16/13 6:54
+645,Wayland House,305,2,4/16/13 6:54
+646,Wayland House,307,2,4/16/13 6:55
+646,Wayland House,311,2,4/16/13 6:55
+646,Wayland House,314,2,4/16/13 6:55
+647,Perkins Hall,316,2,4/16/13 6:55
+648,Minden,412,4,4/16/13 6:56
+648,Minden,512,4,4/16/13 6:56
+649,Olney House,324,1,4/16/13 6:56
+649,Sears House,400A,7,4/16/13 6:56
+650,Barbour Hall,108,2,4/16/13 6:57
+650,Wayland House,325,2,4/16/13 6:57
+650,Wayland House,336,2,4/16/13 6:57
+650,Wayland House,343,2,4/16/13 6:57
+651,Diman House,221,3,4/16/13 7:00
+651,New Pembroke #4,321,1,4/16/13 7:00
+651,New Pembroke #4,323,1,4/16/13 7:00
+651,New Pembroke #4,326,1,4/16/13 7:00
+652,Chapin House,214,2,4/16/13 7:00
+653,Plantations House,201,2,4/16/13 7:02
+653,Plantations House,202,2,4/16/13 7:02
+654,Barbour Hall Apartments,120,4,4/16/13 7:02
+654,Barbour Hall Apartments,220,4,4/16/13 7:02
+655,Barbour Hall,202,2,4/16/13 7:03
+655,Barbour Hall,305,2,4/16/13 7:03
+655,Harkness House,223,2,4/16/13 7:03
+656,Diman House,117,2,4/16/13 7:04
+656,Diman House,121,2,4/16/13 7:04
+657,New Pembroke #3,205,1,4/16/13 7:04
+658,Sears House,323,2,4/16/13 7:04
+658,Sears House,324,2,4/16/13 7:04
+659,Sears House,317,2,4/16/13 7:04
+660,Barbour Hall Apartments,270,4,4/16/13 7:05
+660,Diman House,217,2,4/16/13 7:05
+661,Barbour Hall Apartments,50,3,4/16/13 7:05
+662,Harkness House,323,2,4/16/13 7:06
+662,Harkness House,324,2,4/16/13 7:06
+662,Harkness House,328,2,4/16/13 7:06
+663,Goddard House,229,1,4/16/13 7:06
+663,Goddard House,230,1,4/16/13 7:06
+664,Barbour Hall Apartments,180,4,4/16/13 7:06
+665,New Pembroke #4,305,2,4/16/13 7:07
+665,New Pembroke #4,307,2,4/16/13 7:07
+666,Barbour Hall Apartments,260,5,4/16/13 7:07
+667,New Pembroke #4,425,1,4/16/13 7:07
+667,New Pembroke #4,426,1,4/16/13 7:07
+667,New Pembroke #4,427,1,4/16/13 7:07
+668,Minden,712,4,4/16/13 7:08
+669,Harkness House,201,2,4/16/13 7:08
+669,Harkness House,202,2,4/16/13 7:08
+669,Harkness House,302,2,4/16/13 7:08
+670,Chapin House,400B,5,4/16/13 7:08
+671,New Pembroke #3,303,1,4/16/13 7:09
+672,No Show,,,4/16/13 7:09
+673,Perkins Hall,21,2,4/16/13 7:10
+674,Fake Building,16,1,4/16/13 7:11
+674,Marcy House,210,1,4/16/13 7:10
+674,Marcy House,215,1,4/16/13 7:10
+674,Marcy House,308,2,4/16/13 7:10
+674,New Pembroke #3,317,1,4/16/13 7:10
+674,Plantations House,203,2,4/16/13 7:10
+675,Goddard House,317,1,4/16/13 7:12
+675,Goddard House,318,1,4/16/13 7:12
+675,Marcy House,208,2,4/16/13 7:12
+676,New Pembroke #4,225,2,4/16/13 7:12
+677,Sears House,213,2,4/16/13 7:12
+677,Sears House,214,2,4/16/13 7:12
+677,Sears House,217,2,4/16/13 7:12
+677,Sears House,223,2,4/16/13 7:12
+678,Marcy House,400A,6,4/16/13 7:13
+679,Barbour Hall Apartments,160,5,4/16/13 7:13
+679,Fake Building,17,1,4/16/13 7:13
+679,Fake Building,18,1,4/16/13 7:13
+679,Minden,101,3,4/16/13 7:13
+680,Marcy House,306B,1,4/16/13 7:14
+680,Marcy House,400B,6,4/16/13 7:14
+681,Barbour Hall Apartments,320,4,4/16/13 7:14
+682,New Pembroke #3,318,1,4/16/13 7:14
+683,Harkness House,329,2,4/16/13 7:15
+683,Harkness House,330,2,4/16/13 7:15
+684,New Pembroke #4,405,2,4/16/13 7:15
+684,New Pembroke #4,407,2,4/16/13 7:15
+685,New Pembroke #4,203,2,4/16/13 7:15
+685,New Pembroke #4,205,2,4/16/13 7:15
+685,New Pembroke #4,207,2,4/16/13 7:15
+686,New Pembroke #4,301,1,4/16/13 7:16
+686,New Pembroke #4,302,1,4/16/13 7:16
+686,New Pembroke #4,303,1,4/16/13 7:16
+686,New Pembroke #4,309,2,4/16/13 7:16
+686,New Pembroke #4,401,1,4/16/13 7:16
+686,New Pembroke #4,402,1,4/16/13 7:16
+687,Barbour Hall Apartments,170,4,4/16/13 7:16
+688,New Pembroke #4,313,1,4/16/13 7:16
+689,Harkness House,224,2,4/16/13 7:17
+689,Harkness House,301,2,4/16/13 7:17
+689,Harkness House,304,2,4/16/13 7:17
+690,Barbour Hall Apartments,280,4,4/16/13 7:18
+690,New Pembroke #3,207,2,4/16/13 7:18
+690,New Pembroke #3,307,2,4/16/13 7:18
+691,Goddard House,223,2,4/16/13 7:18
+691,Goddard House,323,2,4/16/13 7:18
+692,Olney House,313,2,4/16/13 7:19
+692,Olney House,317,2,4/16/13 7:19
+692,Olney House,321,1,4/16/13 7:19
+692,Olney House,322,1,4/16/13 7:19
+693,Goddard House,219,1,4/16/13 7:19
+693,Sears House,113,2,4/16/13 7:19
+694,Barbour Hall Apartments,290,4,4/16/13 7:20
+694,New Pembroke #4,421,1,4/16/13 7:19
+694,New Pembroke #4,423,1,4/16/13 7:19
+695,Barbour Hall Apartments,380,4,4/16/13 7:20
+695,Barbour Hall Apartments,390,4,4/16/13 7:20
+696,Chapin House,213,2,4/16/13 7:20
+696,Machado House,315,3,4/16/13 7:21
+696,New Pembroke #3,109,2,4/16/13 7:21
+697,Perkins Hall,330,1,4/16/13 7:21
+698,Goddard House,227,2,4/16/13 7:21
+698,Goddard House,327,2,4/16/13 7:21
+699,New Pembroke #3,111,2,4/16/13 7:22
+700,Barbour Hall Apartments,190,4,4/16/13 7:22
+701,Goddard House,232,1,4/16/13 7:23
+701,Goddard House,338,1,4/16/13 7:23
+701,Olney House,222,1,4/16/13 7:23
+701,Olney House,323,1,4/16/13 7:23
+702,Sears House,117,2,4/16/13 7:23
+702,Sears House,313,2,4/16/13 7:24
+702,Sears House,314,2,4/16/13 7:24
+703,Barbour Hall Apartments,80,4,4/16/13 7:24
+704,Diman House,317,2,4/16/13 7:25
+704,New Pembroke #4,215,2,4/16/13 7:24
+704,Olney House,217,2,4/16/13 7:25
+705,New Pembroke #3,201,2,4/16/13 7:26
+706,No Show,,,4/16/13 7:27
+707,Marcy House,221,2,4/16/13 7:27
+707,Marcy House,310,1,4/16/13 7:27
+707,New Pembroke #4,315,1,4/16/13 7:28
+708,Perkins Hall,8,1,4/16/13 7:28
+709,New Pembroke #3,208,2,4/16/13 7:28
+709,New Pembroke #3,209,2,4/16/13 7:28
+710,Barbour Hall Apartments,150,5,4/16/13 7:29
+710,Marcy House,301,2,4/16/13 7:30
+710,Perkins Hall,134,1,4/16/13 7:29
+711,Marcy House,302,2,4/16/13 7:31
+711,New Pembroke #4,411,2,4/16/13 7:31
+711,New Pembroke #4,413,1,4/16/13 7:30
+711,Perkins Hall,22,2,4/16/13 7:30
+711,Perkins Hall,102,1,4/16/13 7:30
+712,Chapin House,217,2,4/16/13 7:31
+712,Plantations House,301,3,4/16/13 7:31
+713,Chapin House,117,2,4/16/13 7:32
+714,Olney House,113,2,4/16/13 7:32
+714,Olney House,116,2,4/16/13 7:32
+714,Olney House,117,2,4/16/13 7:32
+714,Olney House,213,2,4/16/13 7:32
+715,New Pembroke #3,301,2,4/16/13 7:33
+715,New Pembroke #3,309,2,4/16/13 7:33
+715,New Pembroke #3,311,2,4/16/13 7:33
+715,New Pembroke #3,313,2,4/16/13 7:33
+716,Chapin House,113,2,4/16/13 7:33
+716,Goddard House,127,2,4/16/13 7:33
+717,Machado House,34,1,4/16/13 7:33
+717,Machado House,35,1,4/16/13 7:33
+717,Machado House,39,2,4/16/13 7:34
+718,Machado House,30,2,4/16/13 7:34
+718,Machado House,38,1,4/16/13 7:34
+718,Perkins Hall,215,1,4/16/13 7:34
+719,New Pembroke #3,213,2,4/16/13 7:35
+720,New Pembroke #3,310,2,4/16/13 7:35
+720,New Pembroke #4,201,2,4/16/13 7:36
+720,New Pembroke #4,409,2,4/16/13 7:35
+720,Perkins Hall,133,2,4/16/13 7:36
+721,Perkins Hall,4,2,4/16/13 7:36
+721,Perkins Hall,5,2,4/16/13 7:36
+721,Perkins Hall,6,2,4/16/13 7:36
+721,Perkins Hall,7,2,4/16/13 7:36
+722,Fake Building,19,1,4/16/13 7:36
+722,New Pembroke #3,115,2,4/16/13 7:36
+723,New Pembroke #3,202,2,4/16/13 7:37
+723,New Pembroke #3,211,2,4/16/13 7:37
+723,New Pembroke #3,302,2,4/16/13 7:37
+723,New Pembroke #3,308,2,4/16/13 7:37
+724,New Pembroke #4,310,2,4/16/13 7:38
+725,New Pembroke #3,102,2,4/16/13 7:38
+726,Machado House,326,2,4/16/13 7:38
+727,New Pembroke #3,110,2,4/16/13 7:39
+727,New Pembroke #3,113,2,4/16/13 7:39
+728,New Pembroke #3,107,2,4/16/13 7:39
+728,New Pembroke #3,108,2,4/16/13 7:39
+729,Drop to 741,,,4/16/13 7:39
+730,Barbour Hall,205,3,4/16/13 7:39
+731,Diman House,215,3,4/16/13 7:40
+731,Marcy House,319,3,4/16/13 7:40
+732,New Pembroke #4,311,2,4/16/13 7:40
+733,Perkins Hall,224,2,4/16/13 7:41
+733,Perkins Hall,236,2,4/16/13 7:41
+733,Perkins Hall,237,2,4/16/13 7:41
+734,New Pembroke #3,117,2,4/16/13 7:41
+734,New Pembroke #4,316,1,4/16/13 7:41
+734,New Pembroke #4,318,2,4/16/13 7:41
+735,Diman House,115,3,4/16/13 7:42
+735,Perkins Hall,114,2,4/16/13 7:42
+735,Perkins Hall,115,2,4/16/13 7:42
+736,Fake Building,2,1,4/16/13 7:43
+736,Fake Building,20,1,4/16/13 7:43
+736,Fake Building,21,1,4/16/13 7:43
+736,Fake Building,22,1,4/16/13 7:43
+736,New Pembroke #4,213,2,4/16/13 7:43
+737,New Pembroke #4,408,2,4/16/13 7:43
+738,New Pembroke #4,308,2,4/16/13 7:44
+738,New Pembroke #4,317,2,4/16/13 7:44
+738,New Pembroke #4,319,2,4/16/13 7:44
+739,Perkins Hall,121,2,4/16/13 7:44
+739,Perkins Hall,123,2,4/16/13 7:44
+740,Pass,,,4/16/13 7:45
+741,Barbour Hall Apartments,250,5,4/16/13 7:45
+742,Perkins Hall,137,2,4/16/13 7:45
+742,Perkins Hall,138,2,4/16/13 7:45
+742,Perkins Hall,139,2,4/16/13 7:45
+743,New Pembroke #4,416,2,4/16/13 7:46
+743,New Pembroke #4,418,2,4/16/13 7:46
+744,Diman House,315,3,4/16/13 7:46
+744,Marcy House,219,3,4/16/13 7:46
+745,Perkins Hall,116,2,4/16/13 7:46
+745,Perkins Hall,117,2,4/16/13 7:46
+746,New Pembroke #4,410,2,4/16/13 7:47
+746,New Pembroke #4,417,2,4/16/13 7:47
+747,Perkins Hall,3,2,4/16/13 7:47
+747,Perkins Hall,113,2,4/16/13 7:47
+747,Perkins Hall,221,2,4/16/13 7:47
+747,Perkins Hall,230,2,4/16/13 7:47
+748,New Pembroke #3,210,2,4/16/13 7:48
+748,Perkins Hall,239,2,4/16/13 7:48
+748,Perkins Hall,240,2,4/16/13 7:48
+749,Barbour Hall,105,3,4/16/13 7:49
+750,Pass,,,4/16/13 7:49
+751,Barbour Hall,103,3,4/16/13 7:49
+752,Barbour Hall Apartments,350,5,4/16/13 7:50
+753,New Pembroke #4,419,2,4/16/13 7:50
+753,Perkins Hall,234,2,4/16/13 7:51
+753,Perkins Hall,235,2,4/16/13 7:50
+754,Pass,,,4/16/13 7:51
+755,Perkins Hall,11,2,4/16/13 7:52
+755,Perkins Hall,12,2,4/16/13 7:52
+755,Perkins Hall,14,2,4/16/13 7:52
+756,Perkins Hall,344,2,4/16/13 7:52
+757,Perkins Hall,118,2,4/16/13 7:52
+757,Perkins Hall,119,2,4/16/13 7:52
+757,Perkins Hall,136,2,4/16/13 7:52
+758,No Show,,,4/16/13 7:53
+759,Perkins Hall,125,2,4/16/13 7:53
+759,Perkins Hall,126,2,4/16/13 7:53
+760,Perkins Hall,103,2,4/16/13 7:53
+760,Perkins Hall,122,2,4/16/13 7:53
+760,Perkins Hall,132,2,4/16/13 7:53
+761,Perkins Hall,324,2,4/16/13 7:54
+762,Pass,,,4/16/13 7:54
+763,Barbour Hall,303,3,4/16/13 7:54
+764,Perkins Hall,2,2,4/16/13 7:54
+765,Perkins Hall,130,2,4/16/13 7:55
+765,Perkins Hall,131,2,4/16/13 7:55
+766,Pass,,,4/16/13 7:55
+767,Perkins Hall,336,2,4/16/13 7:55
+768,Pass,,,4/16/13 7:56
+769,Perkins Hall,127,2,4/16/13 7:56
+769,Perkins Hall,128,2,4/16/13 7:56
+770,Pass,,,4/16/13 7:56
+771,Pass,,,4/16/13 7:56
+772,Perkins Hall,321,2,4/16/13 7:56
+773,Pass,,,4/16/13 7:56
+774,Pass,,,4/16/13 7:57
+775,Pass,,,4/16/13 7:57
+776,Perkins Hall,216,2,4/16/13 7:57
+776,Perkins Hall,244,2,4/16/13 7:57
+777,No Show,,,4/16/13 7:57
+778,Perkins Hall,315,2,4/16/13 7:58
+778,Perkins Hall,331,2,4/16/13 7:57
+778,Perkins Hall,339,2,4/16/13 7:57
+778,Perkins Hall,340,2,4/16/13 7:58
+779,Pass,,,4/16/13 7:58
+780,Perkins Hall,225,2,4/16/13 7:58
+780,Perkins Hall,226,2,4/16/13 7:58
+781,Perkins Hall,337,2,4/16/13 7:59
+781,Perkins Hall,338,2,4/16/13 7:59
+782,Perkins Hall,343,2,4/16/13 7:59
+783,Pass,,,4/16/13 8:00
+784,No Show,,,4/16/13 8:00
+785,No Show,,,4/16/13 8:00
+786,Perkins Hall,325,2,4/16/13 8:01
+786,Perkins Hall,329,2,4/16/13 8:01
+787,Pass,,,4/16/13 8:01
+788,Perkins Hall,220,2,4/16/13 8:01
+789,Pass,,,4/16/13 8:01
+790,Pass,,,4/16/13 8:02
+791,No Show,,,4/16/13 8:03
