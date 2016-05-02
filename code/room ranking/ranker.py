@@ -32,14 +32,18 @@ for row in data:
 		rankings[room] = [score]
 
 #avg rankings
-ranked_list = []
+scored_list = []
 for room in rankings:
-	ranked_list.append((np.mean(rankings[room]), room[0]+' '+room[1]))
+	scored_list.append((np.mean(rankings[room]), room[0]+' '+room[1]))
 
 #sort
-ranked_list.sort()
+scored_list.sort()
+ranked_list = []
+for i, row in enumerate(scored_list, start=1):
+	ranked_list.append((row[0], row[1], i))
 
 #output
 print ranked_list
 writer = csv.writer(open(output_path, 'wb'))
+writer.writerow(['score', 'room', 'rank'])
 writer.writerows(ranked_list)
