@@ -2,12 +2,28 @@ html, body {
   margin: 0;
   padding: 0;
   padding-bottom: 10px;
+  overflow-x: hidden;
 }
 
 h1 {
   margin-bottom: -10px;
   color: #555;
 }
+
+.dorm-table {
+  height: 550px !important;
+  overflow-y: scroll;
+}
+
+.highlight-row {
+  background-color: orange !important;
+  color: white !important;
+}
+
+td {
+  cursor: pointer;
+}
+
 
 h3 {
   color: #555;
@@ -46,10 +62,6 @@ h3 {
 
 .second {
   color: rgba(33,150,243, 0.7);
-}
-
-#stackedarea {
-  text-align: center;
 }
 
 .y_axis path,

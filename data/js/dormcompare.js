@@ -1,24 +1,8 @@
 (function() {
+
   var category_to_color = {".first": 'rgba(244,67,54,0.7)', ".second": 'rgba(33,150,243,0.5)'};
 
-  function lotsOfGrey(total) {
-    var THRESHOLD = 30
-    r = []
-    for(i = 0; i < total; i++) {
-      switch(i % 3) {
-        case 0: grey = 160; break;
-        case 1: grey = 180; break;
-        case 2: grey = 200; break;
-      }
-      r.push(grey)
-    }
-    for (i = 0; i < total; i++) {
-      r[i] = "rgb("+r[i]+","+r[i]+","+r[i]+")"
-    }
-    return r;
-  }
-
-  var width = 1000;
+  var width = 1100;
   var height = 567;
   var x_offset = 85;
   var y_offset = 40;
@@ -27,10 +11,10 @@
   var x_range = [y_offset];
   var y, x;
 
-  var file_name = 'data/2013_sa.csv';
+  var file_name = 'data/2006_sa.csv';
 
   // Create the svg chart that will house the visualization
-  var svg = d3.select("#stackedarea").append("svg")
+  var svg = d3.select("#dormcompare").append("svg")
       .attr("width", width)
       .attr("height", height)
       .append("g");
@@ -69,18 +53,18 @@
   svg.append("text")//-->>this is the text that gets cut off
         .attr("class", "ylabel")
         .attr("text-anchor", "center")
-        .attr("x", - height / 2 - 110)
+        .attr("x", - height / 2 - 50)
         .attr("y", 25)
         //.attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
         .style("font-size","12pt")
-        .text("Percent of Total Rooms Remaining");
+        .text("Rooms Remaining");
 
  // Create a method for drawing an area segment
   var area = d3.svg.area()
       .interpolate("basis")
       .x(function(d)  { return x(d.x); })
-      .y0(function(d) { return y(d.y0); })
+      .y0(function(d) { return y(0); })
       .y1(function(d) { return y(d.y); });
 
   var fundsChart = function(category, csvFile) {
@@ -88,25 +72,29 @@
     dorms = []
     d3.csv(csvFile,
     function(d, i) {
-      len_x = (i + 1)
-      if (i == 0) {
+      if (i == 0)
         dorms = Object.keys(d)
-      }
-      result = [];
-      result.push(i);
-      Object.keys(d).forEach(function(key) {
-        result.push(+d[key]);
-      });
-      total = result.slice(1,result.length).reduce(function(a,b) {return a + b});
-      result.push(total);
-      return result;
+      len_x = (i + 1)
+      return [i, +d['Gregorian Quad A'], +d['Young Orchard #2']];
     },
     function(error, data) {
-
-      for(i = 0; i < dorms.length; i++) {
-        dorm = dorms[i]
-        $("#available-dorms tbody").append("<tr><td data-id="+i+">"+dorm+"</td></tr>")
-      }
+      // Update the select drop downs
+      $.each(dorms, function(key, value) {
+        $('#select-first')
+         .append($("<option></option>")
+            .attr("value", value)
+            .text(value));
+        $('#select-second')
+         .append($("<option></option>")
+            .attr("value", value)
+            .text(value));
+        if (value == 'Gregorian Quad A') {
+          $('#select-first').val(value);
+        }
+        if (value == 'Young Orchard #2') {
+          $('#select-second').val(value);
+        }
+      });
 
       // Update the x axis based on the data
       x.domain([1, len_x]);
@@ -114,7 +102,7 @@
 
       // Update the y axis
       y.domain([d3.max(data, function(d) {
-        return 1;
+        return Math.max(d[1], d[2]);
       }), 0]);
       svg.select('.y_axis').transition().duration(1000).call(y_axis);
 
@@ -130,55 +118,53 @@
          .attr("transform", "translate(-15," + (height - 36) + ")")
          .call(x_axis);
 
-      // Draw the area sections
-      colors = lotsOfGrey(dorms.length)
-      prev_sum = Array.apply(null, Array(data.length)).map(Number.prototype.valueOf,0);
-      for(i = 0; i < dorms.length; i++) {
-        subdata = []
-        data.forEach(function(d, j) {
-          // console.log(prev_sum[j])
-          subdata.push({"x": d[0], "y":(d[i+1] + prev_sum[j]) / d[dorms.length + 1], "y0": ((prev_sum[j]) / d[dorms.length + 1])})
-          prev_sum[j] += d[i+1]
-        });
+      // Legend
+      // View events
+      // svg.append("circle")
+      //   .attr("class", "legend_view")
+      //   .attr("r", 10)
+      //   .attr("fill-opacity", 0.7)
+      //   .attr("fill", category_to_color["all"])
+      //   .attr("cx", 150)
+      //   .attr("cy", 40)
 
+      // svg.append("text")
+      //   .attr("dx", 170)
+      //   .attr("dy", 45)
+      //   .text("View Events")
+
+      // // Fund events
+      // svg.append("circle")
+      //   .attr("class", "legend_fund")
+      //   .attr("r", 10)
+      //   .attr("fill", category_to_color["all"])
+      //   .attr("cx", 150)
+      //   .attr("cy", 70)
+
+      // svg.append("text")
+      //   .attr("dx", 170)
+      //   .attr("dy", 75)
+      //   .text("Fund Events")
+
+      // Draw the area sections
+      for(i = 0; i < 2; i++) {
+        subdata = []
+        data.forEach(function(d) {
+          subdata.push({"x": d[0], "y":d[i+1]})
+        })
+
+        var c = (i == 0) ? 'first' : 'second';
         svg.append("path")
-          .attr('class', 'area-'+i)
+          .attr('class', c)
           .data([subdata])
           .attr("d", area)
-          .style("fill", colors[i])
-          .style("stroke", "#888");
+          // .style("fill-opacity", 0.5)
+          .style("fill", category_to_color['.'+c]);
       }
     });
   }
   // Initially display the charr
   fundsChart('all', file_name);
-
-  var lastColor = ""
-  var last = null;
-
-  $(document).on("click", "td", function() {
-    id = $(this).data("id");
-    $(this).addClass("highlight-row");
-
-    if (last != null) {
-      old_id = last.data("id");
-      $(".area-"+old_id).css("fill", lastColor);
-      last.removeClass("highlight-row");
-    }
-    lastColor = $(".area-"+id).css("fill");
-    last = $(this);
-
-    dorm = $(this).text();
-    $(".area-"+id).css("fill", "orange");
-
-
-  });
-
-  // $(document).on("mouseleave", "td", function() {
-  //   dorm = $(this).text();
-  //   id = $(this).data("id");
-  //   $(".area-"+id).css("fill", lastColor);
-  // });
 
   // Update the chart to display the new data
   function updateData(dorm1, dorm2, csvFile) {
@@ -189,15 +175,27 @@
       if (i == 0) {
         dorms = Object.keys(d)
       }
-      result = [];
-      result.push(i);
-      Object.keys(d).forEach(function(key) {
-        result.push(+d[key]);
-      });
-      return result;
+      if (dorms.indexOf(dorm1) == -1) {
+        if (i == 0) {
+          $('.first').text('')
+          $('.vs').hide()
+          alert(dorm1 + ' was not available in the ' + $('#select-year').val() + ' housing lottery.')
+        }
+        return [i, 0, +d[dorm2]];
+      }
+      if (dorms.indexOf(dorm2) == -1) {
+        if (i == 0) {
+          $('.second').text('')
+          $('.vs').hide()
+          alert(dorm2 + ' was not available in the ' + $('#select-year').val() + ' housing lottery.')
+        }
+        return [i, +d[dorm1], 0];
+      }
+
+
+      return [i, +d[dorm1], +d[dorm2]];
     },
     function(error, data) {
-      console.log(data)
       // Update the y axis
       y.domain([d3.max(data, function(d) {
         return Math.max(d[1], d[2]);
@@ -239,48 +237,58 @@
 
 
       // Draw the area sections
-      colors = lotsOfGrey(dorms.length)
-      prev_sum = Array.apply(null, Array(data.length)).map(Number.prototype.valueOf,0);
-      for(i = 0; i < dorms.length; i++) {
+      for(i = 0; i < 2; i++) {
         subdata = []
-        data.forEach(function(d, j) {
-          // console.log(prev_sum[j])
-          subdata.push({"x": d[0], "y":(d[i+1] + prev_sum[j]) / d[dorms.length + 1], "y0": ((prev_sum[j]) / d[dorms.length + 1])})
-          prev_sum[j] += d[i+1]
-        });
+        data.forEach(function(d) {
+          subdata.push({"x": d[0], "y": d[i+1]})
+        })
 
-        svg.append("path")
-          .attr('class', 'area')
-          .data([subdata])
+        var c = (i == 0) ? '.first' : '.second';
+        svg.select(c).datum(subdata)
+          .transition().duration(1000)
           .attr("d", area)
-          .style("fill", colors[i])
-          .style("stroke", "#888");
+          .style("fill", category_to_color[c]);
       }
+
+      // Update the drawn areas
+      // for(i = 0; i < 2; i++) {
+      //   subdata = [];
+      //   data.forEach(function(d) {
+      //     subdata.push({"x": d[0], "y":d[i+1]});
+      //   })
+      //   var c = (i == 0) ? '.view-event' : '.fund-event';
+
+      //   svg.select(c).datum(subdata)
+      //     .transition().duration(1000)
+      //     .attr("d", area)
+      //     .style("fill-opacity", (0.7 + i * 0.3))
+      //     .style("fill", category_to_color[category]);
+      // }
     });
   }
 
-  // $('#select-first').change(function() {
-  //   update();
-  // });
+  $('#select-first').change(function() {
+    update();
+  });
 
-  // $('#select-second').change(function() {
-  //   update();
-  // });
+  $('#select-second').change(function() {
+    update();
+  });
 
-  // $('#select-year').change(function() {
-  //   update();
-  // });
+  $('#select-year').change(function() {
+    update();
+  });
 
-  // function update() {
-  //   $('.vs').show()
-  //   dorm1 = $("#select-first").val();
-  //   dorm2 = $("#select-second").val();
-  //   year = $("#select-year").val();
-  //   $('.first').text(dorm1);
-  //   $('.second').text(dorm2);
-  //   $('#year').text(year)
+  function update() {
+    $('.vs').show()
+    dorm1 = $("#select-first").val();
+    dorm2 = $("#select-second").val();
+    year = $("#select-year").val();
+    $('.first').text(dorm1);
+    $('.second').text(dorm2);
+    $('#year').text(year)
 
-  //   updateData(dorm1, dorm2, "data/"+year+"_sa.csv");
-  // }
+    updateData(dorm1, dorm2, "data/"+year+"_sa.csv");
+  }
 
 })();
