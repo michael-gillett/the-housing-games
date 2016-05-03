@@ -115,8 +115,13 @@
     $('#roomSearchButton').click(function(event) {
         var name = $('#roomSearchInput').val();
         
+        var cleanName = name.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+        console.log(cleanName)
+        
         for (var i = 0; i < allData.length; i++) {
-            if (allData[i].room.toLowerCase() === name.toLowerCase()) {
+            var cleanRoom = allData[i].room.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+            
+            if (cleanRoom === cleanName) {
                 $('#numSearchInput').val(i+1);
                 
                 setActive(i)
