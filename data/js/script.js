@@ -30,6 +30,75 @@ $(function() {
     //   {lat: 41.829994, lng: -71.402623}
     // ];
 
+    var dorms = {
+      "111 Brown Street": brown_street_111,
+      "315 Thayer": thayer_315,
+      "Barbour Hall": barbour,
+      "Barbour Hall Apartments": null,
+      "Caswell Hall": caswell,
+      "Chapin House": chapin,
+      "Diman House": diman,
+      "Grad Center A": gradcenter_a,
+      "Goddard House": goddard,
+      "Grad Center B": gradcenter_b,
+      "Grad Center C": gradcenter_c,
+      "Grad Center D": gradcenter_d,
+      "Gregorian Quad A": vgqa,
+      "Gregorian Quad B": vgqb,
+      "Harkness House": harkness,
+      "Hegeman": hegeman,
+      "Hope College": hope,
+      "Littlefield Hall": littlefield,
+      "Machado House": machado,
+      "Marcy House": marcy,
+      "Minden": minden,
+      "New Pembroke #1": new_pembroke_1,
+      "New Pembroke #2": new_pembroke_2,
+      "New Pembroke #3": new_pembroke_3,
+      "New Pembroke #4": new_pembroke_4,
+      "Olney House": olney,
+      "Perkins Hall": perkins,
+      "Plantations House": plantations,
+      "Sears House": sears,
+      "Slater Hall": slater,
+      "Wayland House": wayland,
+      "Young Orchard #10": young_orchard_10,
+      "Young Orchard #2": young_orchard_2,
+      "Young Orchard #4": young_orchard_4
+    };
+
+    var brown_street_111 = [
+      {lat: 41.829954, lng: -71.403391},
+      {lat: 41.829958, lng: -71.403342},
+      {lat: 41.829974, lng: -71.403340},
+      {lat: 41.829977, lng: -71.403267},
+      {lat: 41.829964, lng: -71.403263},
+      {lat: 41.829963, lng: -71.403220},
+      {lat: 41.829869, lng: -71.403216},
+      {lat: 41.829866, lng: -71.403291},
+      {lat: 41.829875, lng: -71.403290},
+      {lat: 41.829874, lng: -71.403385}
+    ];
+
+    var hegeman = [
+      {lat: 41.826075, lng: -71.401027},
+      {lat: 41.826096, lng: -71.400788},
+      {lat: 41.825699, lng: -71.400747},
+      {lat: 41.825716, lng: -71.400502},
+      {lat: 41.825605, lng: -71.400487},
+      {lat: 41.825579, lng: -71.400883},
+      {lat: 41.825975, lng: -71.400942},
+      {lat: 41.825973, lng: -71.401018}
+    ];
+
+    var machado = [
+      {lat: 41.830190, lng: -71.405223},
+      {lat: 41.830228, lng: -71.404327},
+      {lat: 41.830015, lng: -71.404308},
+      {lat: 41.829974, lng: -71.405211}
+    ];
+
+
     var plantations = [
       {lat: 41.830699, lng: -71.401840},
       {lat: 41.830704, lng: -71.401678},
@@ -173,11 +242,22 @@ $(function() {
       {lat: 41.824777, lng: -71.401551}
     ];
 
+    var barbour_hall_apts = [
+      {lat: 41.823997, lng: -71.398345},
+      {lat: 41.824026, lng: -71.397956},
+      {lat: 41.823930, lng: -71.397936},
+      {lat: 41.823910, lng: -71.398136},
+      {lat: 41.823779, lng: -71.398117},
+      {lat: 41.823806, lng: -71.397806},
+      {lat: 41.823703, lng: -71.397782},
+      {lat: 41.823666, lng: -71.398299}
+    ];
+
     var barbour = [
-      {lat: 41.823994, lng: -71.398341},
-      {lat: 41.824037, lng: -71.397795},
-      {lat: 41.823703, lng: -71.397754},
-      {lat: 41.823665, lng: -71.398301}
+      {lat: 41.824026, lng: -71.397956},
+      {lat: 41.824045, lng: -71.397798},
+      {lat: 41.823801, lng: -71.397762},
+      {lat: 41.823798, lng: -71.397917}
     ];
 
     var perkins = [
@@ -201,6 +281,24 @@ $(function() {
       {lat: 41.830483, lng: -71.400848}
     ];
 
+    var new_pembroke_1 = [
+      {lat: 41.830547, lng: -71.401208},
+      {lat: 41.830560, lng: -71.401052},
+      {lat: 41.830335, lng: -71.401027},
+      {lat: 41.830331, lng: -71.401170}
+    ];
+
+    var new_pembroke_2 = [
+      {lat: 41.830525, lng: -71.401585},
+      {lat: 41.830536, lng: -71.401465},
+      {lat: 41.830501, lng: -71.401462},
+      {lat: 41.830500, lng: -71.401422},
+      {lat: 41.830427, lng: -71.401411},
+      {lat: 41.830421, lng: -71.401453},
+      {lat: 41.830386, lng: -71.401449},
+      {lat: 41.830377, lng: -71.401569}
+    ];
+
     var new_pembroke_3 = [
       {lat: 41.830659, lng: -71.401634},
       {lat: 41.830674, lng: -71.401398},
@@ -217,8 +315,8 @@ $(function() {
     ];
 
     var new_pembroke_4 = [
-      {lat: 41.830547, lng: -71.401195},
-      {lat: 41.830558, lng: -71.401053},
+      {lat: 41.830331, lng: -71.401170},
+      {lat: 41.830335, lng: -71.401027},
       {lat: 41.830128, lng: -71.401000},
       {lat: 41.830122, lng: -71.401135}
     ];
@@ -274,11 +372,7 @@ $(function() {
 
     // Construct the polygon.
     var bermudaTriangle = new google.maps.Polygon({
-      paths: [hope, slater, vgqa, vgqb, plantations, chapin, littlefield,
-              minden, sears, wayland, olney, chapin, goddard, diman, harkness,
-              marcy, barbour, perkins, caswell, thayer_315, new_pembroke_3,
-              new_pembroke_4 ,young_orchard_2, young_orchard_4,
-              young_orchard_10, gradcenter_a, gradcenter_b, gradcenter_c, gradcenter_d],
+      paths: [barbour_hall_apts, barbour],
       strokeColor: '#FF0000',
       strokeOpacity: 0.8,
       strokeWeight: 2,
@@ -322,5 +416,5 @@ $(function() {
       map.setCenter(new google.maps.LatLng(y, x));
     }
   }
-  // initMap();
+  initMap();
 });
