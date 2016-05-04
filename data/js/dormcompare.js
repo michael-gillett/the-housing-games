@@ -11,7 +11,7 @@
   var x_range = [y_offset];
   var y, x;
 
-  var file_name = 'data/2006_sa.csv';
+  var file_name = 'data/stackedArea/2006_sa.csv';
 
   // Create the svg chart that will house the visualization
   var svg = d3.select("#dormcompare").append("svg")
@@ -288,7 +288,7 @@
     $('.second').text(dorm2);
     $('#year').text(year)
 
-    updateData(dorm1, dorm2, "data/"+year+"_sa.csv");
+    updateData(dorm1, dorm2, "data/stackedArea/"+year+"_sa.csv");
   }
 
 })();
