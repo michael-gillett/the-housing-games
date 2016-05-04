@@ -37,6 +37,7 @@
 
   // Create a y-scale for city distances
   var y = d3.scale.linear()
+      .domain([1, 0])
       .range([y_offset, height - y_offset]);
 
   var y_axis = d3.svg.axis()
@@ -99,6 +100,7 @@
       Object.keys(d).forEach(function(key) {
         result.push(+d[key]);
       });
+
       total = result.slice(1,result.length).reduce(function(a,b) {return a + b});
       result.push(total);
       return result;
@@ -116,9 +118,6 @@
       x_axis.tickValues([1, len_x*0.25, len_x*0.5, len_x*0.75, len_x*1.0])
 
       // Update the y axis
-      y.domain([d3.max(data, function(d) {
-        return 1;
-      }), 0]);
       svg.select('.y_axis').transition().duration(1000).call(y_axis);
 
       // Draw the y axis
@@ -139,8 +138,7 @@
       for(i = 0; i < dorms.length; i++) {
         subdata = []
         data.forEach(function(d, j) {
-          // console.log(prev_sum[j])
-          subdata.push({"x": d[0], "y":(d[i+1] + prev_sum[j]) / d[dorms.length + 1], "y0": ((prev_sum[j]) / d[dorms.length + 1])})
+          subdata.push({"x": d[0], "y":(d[i+1] + prev_sum[j]) / (d[dorms.length + 1] + 0.001), "y0": ((prev_sum[j]) / (d[dorms.length + 1] + 0.001))})
           prev_sum[j] += d[i+1]
         });
 

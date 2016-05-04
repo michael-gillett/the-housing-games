@@ -5,7 +5,7 @@ import datetime
 
 night1 = ''
 outfile = ''
- 
+
 def main():
 	count_total(night1)
 	write_to_csv()
@@ -18,7 +18,7 @@ def count_total(night):
 	# skip the header in the csv file
 	next(csv_reader, None)
 	for row in csv_reader:
-		res_hall = row[1]
+		res_hall = row[1].title()
 		total_rooms[res_hall] = total_rooms.get(res_hall, 0) + 1
 	csvFile.close()
 
@@ -39,7 +39,7 @@ def write_night(night, writer):
 		next(reader, None) #skip header
 		for row in reader:
 			current_number = int(row[0])
-			res_hall = row[1]
+			res_hall = row[1].title()
 			remaining_rooms[res_hall] = remaining_rooms.get(res_hall) - 1
 			if current_number % 15 == 0:
 				for k, v in remaining_rooms.iteritems():
@@ -49,7 +49,7 @@ def write_night(night, writer):
 
 	csvFile1 = open(night1, 'rb')
 	csv_reader1 = csv.reader(csvFile1)
-	
+
 if __name__ == "__main__":
 	if len(sys.argv) != 3:
 		print 'Usage: python wrangle.py yearData outfile'

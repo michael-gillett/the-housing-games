@@ -11,7 +11,7 @@ with open(inp, 'r') as f:
   reader = csv.reader(f)
   reader.next()
   for row in reader:
-    dorm = row[0]
+    dorm = row[0].title()
     remaining = row[1]
     total = row[2]
     pick = row[3]
