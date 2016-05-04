@@ -244,12 +244,11 @@
   $(document).on("click", "[class^=area]", function() {
     var id = $(this).attr('class').split('-')[1];
     var row = $('*[data-id="'+id+'"]');
+    row[0].scrollIntoView(false);
     highlightDorm(id, row);
   });
 
   function highlightDorm(id, row) {
-    row[0].scrollIntoView(false);
-
     row.addClass("highlight-row");
 
     if (last != null) {
