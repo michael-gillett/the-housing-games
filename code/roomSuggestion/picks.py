@@ -32,6 +32,6 @@ for f in [x for x in os.listdir(data_path) if x[-3:] == 'csv']:
 
 # write data
 writer = csv.writer(open(output_path, 'wb'))
-writer.writerow(['room', '2006_pick', '2007_pick', '2008_pick', '2009_pick', '2010_pick', '2011_pick', '2012_pick', '2013_pick'])
+writer.writerow(['room', 'pick_2006', 'pick_2007', 'pick_2008', 'pick_2009', 'pick_2010', 'pick_2011', 'pick_2012', 'pick_2013'])
 for key, val in data.items():
-	writer.writerow([key] + val)
+	writer.writerow([key] + (val + [0]*(8-len(val))))

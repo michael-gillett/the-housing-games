@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <style>
+        body {
+            padding: 20px;
+        }
+        
+        #searchDiv {
+            margin-bottom: 30px;
+        }
+        #roomSearchDiv {
+            margin-bottom: 15px;
+        }
+        
+        #tableDiv {
+            height: 500px;
+            overflow: auto;
+            
+            border-radius: 5px;
+            border: 1px lightgray solid;
+        }
+        
+        tr {
+            transition: all 0.3s;
+        }
+        .selected {
+            background-color: #D9EDF7 !important;
+        }
+    </style>
+</head>
+<body>
+
+<div id="rankingsDiv">
+    <div id="rankingExplanationDiv">
+        <h1>Room Ranking</h1>
+        <p>In an effort to rank every room on campus in terms of desirability, we scraped and aggregated all of the housing lottery data since 2006. Every room was assigned a score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
+    </div>
+    
+    <hr />
+    
+    <div id="searchDiv">
+        <div id="roomSearchDiv">
+            <label for="roomSearchInput">Search Your Lottery Number: </label>
+            <div class="input-group">
+               <input id="lotterySearchInput" type="text" class="form-control" placeholder="[Lottery #]">
+               <span class="input-group-btn">
+                    <button id="lotterySearchButton" class="btn btn-info" type="button">Go!</button>
+               </span>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="tableDiv">
+        <table id="rankTable" class = "table table-striped">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Room</th>
+                    <th>Score</th>
+                    <th>Percent Chance Remains</th>
+                </tr>
+            </thead>
+            <tbody id="rankingsList">
+            </tbody>
+        </table>
+    </div>
+    
+</div>
+
+</body>
+</html>
+
+<script>
+    picksData = []
+    sortedData = []
+    resultData = []
+    activeRow = -1;
+    
+    d3.csv('picks.csv', function(data) {
+        console.log(data);
+        
+        picksData = data;
+        
+    });
+
+    d3.csv('sorted.csv', function(data) {
+        console.log(data);
+        
+        sortedData = data;
+        
+    });
+    
+    function computeAveragePick(picksData) {
+         for (var i = 0; i < picksData.length; i++) {
+            var pick2006 = +picksData[i].pick_2006;
+            var pick2007 = +picksData[i].pick_2007;
+            var pick2008 = +picksData[i].pick_2008;
+            var pick2009 = +picksData[i].pick_2009;
+            var pick2010 = +picksData[i].pick_2010;
+            var pick2011 = +picksData[i].pick_2011;
+            var pick2012 = +picksData[i].pick_2012;
+            var pick2013 = +picksData[i].pick_2013;
+            
+            var numOk = 0;
+            var totalPick = 0;
+            // num okay rooms
+            if (pick2006 != 0) {
+                numOk++
+                totalPick += pick2006
+            }
+
+            if (pick2007 != 0) {
+                numOk++
+                totalPick += pick2007
+            }
+
+            if (pick2008 != 0) {
+                numOk++
+                totalPick += pick2008
+            }
+
+            if (pick2009 != 0) {
+                numOk++
+                totalPick += pick2009
+            }
+
+            if (pick2010 != 0) {
+                numOk++
+                totalPick += pick2010
+            }
+
+            if (pick2011 != 0) {
+                numOk++
+                totalPick += pick2011
+            }
+
+            if (pick2012 != 0) {
+                numOk++
+                totalPick += pick2012
+            }
+
+            if (pick2013 != 0) {
+                numOk++
+                totalPick += pick2013
+            }
+            var avgPick = totalPick/numOk;
+            pickData.push({room:picksData[i].room, avgPick:avgPick})
+        }
+        console.log(pickData)
+    }
+
+    function displayRooms(rooms) {
+        var list = $('#rankingsList');
+        
+        var html = ''
+        for (var i = 0; i < rooms.length; i++) {
+            html += '<tr id="row'+i+'">'
+            html += '<td class="rankNumber">';
+            html += rooms[i]['rank']
+            html += '</td>'
+            html += '<td class="rankRoom">';
+            html += rooms[i]['room']
+            html += '</td>'
+            html += '<td class="rankScore">';
+            html += rooms[i]['score']
+            html += '</td>'
+            html += '<td class="percentRemain">';
+            html += (rooms[i]['percent'] * 100).toFixed(1) + "%"
+            html += '</td>'
+            html += '</tr>'
+        }
+        
+        list.html(html);
+    }
+
+
+    $('#roomSearchButton').click(function(event) {
+        var name = $('#roomSearchInput').val();
+        
+        var cleanName = name.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+        console.log(cleanName)
+        
+        for (var i = 0; i < allData.length; i++) {
+            var cleanRoom = allData[i].room.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+            
+            if (cleanRoom === cleanName) {
+                $('#numSearchInput').val(i+1);
+                
+                setActive(i)
+                scrollToRow(i);
+                return;
+            }
+        }
+        alert("Couldn't find "+name);
+    });
+    
+    $('#lotterySearchButton').click(function(event) {
+        var number = $('#lotterySearchInput').val();
+        
+        findRemainingRooms(number, "0.5")
+    });
+    
+    function findRemainingRooms(lotteryNum, percentChance) {
+        okayRooms = [];
+        lotteryNum = +lotteryNum;
+        // go through pickData and find rooms where 
+        // percent chance of remaining >= percentChance
+        for (var i = 0; i < picksData.length; i++) {
+            var pick2006 = +picksData[i].pick_2006;
+            var pick2007 = +picksData[i].pick_2007;
+            var pick2008 = +picksData[i].pick_2008;
+            var pick2009 = +picksData[i].pick_2009;
+            var pick2010 = +picksData[i].pick_2010;
+            var pick2011 = +picksData[i].pick_2011;
+            var pick2012 = +picksData[i].pick_2012;
+            var pick2013 = +picksData[i].pick_2013;
+            
+            var numOk = 0;
+            var numGreater = 0;
+            // num okay rooms
+            if (pick2006 != 0) {
+                numOk++;
+                if (pick2006 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2007 != 0) {
+                numOk++;
+                if (pick2007 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2008 != 0) {
+                numOk++;
+                if (pick2008 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2009 != 0) {
+                numOk++;
+                if (pick2009 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2010 != 0) {
+                numOk++;
+                if (pick2010 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2011 != 0) {
+                numOk++;
+                if (pick2011 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2012 != 0) {
+                numOk++;
+                if (pick2012 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            if (pick2013 != 0) {
+                numOk++;
+                if (pick2013 >= lotteryNum) {
+                    numGreater++;
+                }
+            }
+
+            var percent = numGreater/numOk;
+            if (percent >= +percentChance) {
+                okayRooms.push({room:picksData[i].room, percent:percent})
+            }
+        }
+        getTopRooms(okayRooms)
+       
+    }
+
+    function getTopRooms(rooms) {
+        remainingRooms = [];
+        for (var i = 0; i < sortedData.length; i++) {
+            var roomName = sortedData[i].room;
+            for (var x = 0; x < rooms.length; x++) {
+                if (roomName === rooms[x].room) {
+                    var data = sortedData[i];
+                    data.percent = rooms[x].percent;
+                    remainingRooms.push(data);
+                    break;
+                }
+            }
+        }
+        console.log(remainingRooms);
+        displayRooms(remainingRooms);
+    }
+
+    function scrollToRow(rowIndex) {
+        var w = $('#rankTable');
+        var row = $('#rankTable').find('tr').eq( rowIndex );
+
+        if (row.length){            
+            $('#tableDiv').scrollTo('#row'+rowIndex)                
+        }
+        
+        
+    }
+
+    function setActive(row) {
+        if (activeRow >= 0) {
+            $('#row'+activeRow).removeClass('selected');
+        }
+        
+        activeRow = row;
+        console.log(activeRow)
+        
+        if (activeRow >= 0) {
+            console.log("A")
+            $('#row'+activeRow).addClass('selected');
+            console.log($('#row'+activeRow));
+        }
+    }
+    
+    
+    jQuery.fn.scrollTo = function(elem, speed) { 
+//        console.log($(this).scrollTop() - $(this).offset().top + $(elem).offset().top);
+//        console.log($(this));
+//        console.log($(elem));
+        
+        $(this).animate({
+            scrollTop:  $(this).scrollTop() - $(this).offset().top + $(elem).offset().top 
+        }, speed == undefined ? 1000 : speed); 
+        
+        return this; 
+    };
+
+</script>
