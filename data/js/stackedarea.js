@@ -90,7 +90,9 @@
     function(d, i) {
       len_x = (i + 1)
       if (i == 0) {
-        dorms = Object.keys(d)
+        Object.keys(d).forEach(function(key, i) {
+          dorms.push([key, i])
+        })
       }
       result = [];
       result.push(i);
@@ -104,8 +106,9 @@
     function(error, data) {
       dorms.sort()
       for(i = 0; i < dorms.length; i++) {
-        dorm = dorms[i]
-        $("#available-dorms tbody").append("<tr><td data-id="+i+">"+dorm+"</td></tr>")
+        name = dorms[i][0]
+        index = dorms[i][1]
+        $("#available-dorms tbody").append("<tr><td data-id="+index+">"+name+"</td></tr>")
       }
 
       // Update the x axis based on the data
