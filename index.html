@@ -15,17 +15,29 @@
     </div> -->
     <h1 class="text-center">Percentage of Total Dorm Rooms by Dormitory</h1>
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-lg-8">
         <div id="stackedarea"></div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <br>
+        <label for="area-year">Year: </label>
+        <select id="area-year" class="form-control">
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+        </select>
         <div class="dorm-table">
           <table id="available-dorms" class="table table-striped">
             <thead><th>Dorm</th></thead>
             <tbody></tbody>
           </table>
         </div>
+
       </div>
     </div>
 
@@ -63,9 +75,10 @@
       </div>
     </div>
     <br>
-<!--     <h1 class="text-center"> Google Map </h1>
-    <br> -->
-    <!-- <div id="map" class="center-block"></div> -->
+    <h1 class="text-center"> Google Map </h1>
+    <br>
+    <br>
+    <div id="map" class="center-block"></div>
   </body>
 </html>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
