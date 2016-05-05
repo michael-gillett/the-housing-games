@@ -6,9 +6,9 @@
     r = []
     for(i = 0; i < total; i++) {
       switch(i % 3) {
-        case 0: grey = 160; break;
-        case 1: grey = 180; break;
-        case 2: grey = 200; break;
+        case 0: grey = 200; break;
+        case 1: grey = 210; break;
+        case 2: grey = 220; break;
       }
       r.push(grey)
     }
@@ -31,8 +31,9 @@
 
   // Create the svg chart that will house the visualization
   var svg = d3.select("#stackedarea").append("svg")
-      .attr("width", width)
-      .attr("height", height)
+      .attr("width", "100%")
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 1000 650")
       .append("g");
 
   // Create a y-scale for city distances

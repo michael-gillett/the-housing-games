@@ -416,5 +416,5 @@ $(function() {
       map.setCenter(new google.maps.LatLng(y, x));
     }
   }
-  initMap();
+  // initMap();
 });

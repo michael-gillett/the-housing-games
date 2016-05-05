@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="data/css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
@@ -13,72 +13,88 @@
         <source src="data/audio/whistle.mp3" type="audio/mp3">
       </audio>
     </div> -->
-    <h1 class="text-center">Percentage of Total Dorm Rooms by Dormitory</h1>
-    <div class="row">
-      <div class="col-lg-7">
-        <div id="stackedarea"></div>
-      </div>
-      <div class="col-lg-3">
-        <br>
-        <label for="area-year">Year: </label>
-        <select id="area-year" class="form-control">
-            <option>2006</option>
-            <option>2007</option>
-            <option>2008</option>
-            <option>2009</option>
-            <option>2010</option>
-            <option>2011</option>
-            <option>2012</option>
-            <option>2013</option>
-        </select>
-        <div class="dorm-table">
-          <table id="available-dorms" class="table table-striped">
-            <thead><th>Dorm</th></thead>
-            <tbody></tbody>
-          </table>
-        </div>
-
-      </div>
-    </div>
-
-    <br>
-    <h1 class="text-center"><span class="first">Gregorian Quad A</span> <span class="vs">vs.</span> <span class="second">Young Orchard #2</span> <br>
-    </h1>
-    <h3 id="year" class="text-center">2013</h3>
-     <div id="dormcompare" class="text-center"></div>
-    <br>
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="row">
-          <div class="col-md-4">
-            <label for="select-first">Dorm 1: </label>
-            <select id="select-first" class="form-control"></select>
-          </div>
-          <div class="col-md-4">
-            <label for="select-second">Dorm 2: </label>
-            <select id="select-second" class="form-control"></select>
-          </div>
-          <div class="col-md-4">
-            <label for="select-year">Year: </label>
-            <select id="select-year" class="form-control">
-                <option>2006</option>
-                <option>2007</option>
-                <option>2008</option>
-                <option>2009</option>
-                <option>2010</option>
-                <option>2011</option>
-                <option>2012</option>
-                <option>2013</option>
-            </select>
-          </div>
+    <div class="header">
+      <div class="row">
+        <div class="col-md-7 col-md-offset-3 col-sm-offset-1">
+          <img src="data/images/housing-games-icon.png" class="icon"></img>
+          <img src="data/images/logo.png" class="logo"></img>
         </div>
       </div>
     </div>
-    <br>
-    <h1 class="text-center"> Google Map </h1>
-    <br>
-    <br>
-    <div id="map" class="center-block"></div>
+    <div class="container-fluid">
+      <h1 class="text-center">Percentage of Total Dorm Rooms by Dormitory</h1>
+      <div class="row">
+        <div class="col-md-8">
+          <div id="stackedarea"></div>
+        </div>
+        <div class="col-md-4">
+          <br><br>
+          <label for="area-year">Year: </label>
+          <select id="area-year" class="form-control">
+              <option>2006</option>
+              <option>2007</option>
+              <option>2008</option>
+              <option>2009</option>
+              <option>2010</option>
+              <option>2011</option>
+              <option>2012</option>
+              <option>2013</option>
+          </select>
+          <div class="dorm-table">
+            <table id="available-dorms" class="table table-striped">
+              <thead><th>Dorm</th></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+      <br><br>
+      <hr>
+      <br><br>
+      <h1 class="text-center"><span class="first">Gregorian Quad A</span> <span class="vs">vs.</span> <span class="second">Young Orchard #2</span> <br>
+      </h1>
+      <h3 id="year" class="text-center">2013</h3>
+      <br>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div id="dormcompare" class="text-center"></div>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="row">
+            <div class="col-sm-4">
+              <label for="select-first">Dorm 1: </label>
+              <select id="select-first" class="form-control"></select>
+            </div>
+            <div class="col-sm-4">
+              <label for="select-second">Dorm 2: </label>
+              <select id="select-second" class="form-control"></select>
+            </div>
+            <div class="col-sm-4">
+              <label for="select-year">Year: </label>
+              <select id="select-year" class="form-control">
+                  <option>2006</option>
+                  <option>2007</option>
+                  <option>2008</option>
+                  <option>2009</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+<!--       <h1 class="text-center"> Google Map </h1>
+      <br>
+      <br>
+      <div id="map" class="center-block"></div> -->
+    </div>
   </body>
 </html>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>

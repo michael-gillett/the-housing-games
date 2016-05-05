@@ -5,7 +5,7 @@
   var width = 1100;
   var height = 567;
   var x_offset = 85;
-  var y_offset = 40;
+  var y_offset = 50;
 
   var city_to_offset = {};
   var x_range = [y_offset];
@@ -15,8 +15,9 @@
 
   // Create the svg chart that will house the visualization
   var svg = d3.select("#dormcompare").append("svg")
-      .attr("width", width)
-      .attr("height", height)
+      .attr("width", "100%")
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 1100 567")
       .append("g");
 
   // Create a y-scale for city distances
@@ -45,7 +46,7 @@
     .attr("class", "xlabel")
     .attr("text-anchor", "center")
     .attr("x", width / 2 - 75)
-    .attr("y", height - 2)
+    .attr("y", height - 5)
     .style("font-size","12pt")
     .text("Lottery Progress");
 
@@ -79,6 +80,7 @@
     },
     function(error, data) {
       // Update the select drop downs
+      dorms.sort();
       $.each(dorms, function(key, value) {
         $('#select-first')
          .append($("<option></option>")
@@ -115,7 +117,7 @@
       // Draw the x axis
       svg.append('g')
          .attr('class', 'x_axis')
-         .attr("transform", "translate(-15," + (height - 36) + ")")
+         .attr("transform", "translate(-15," + (height - 45) + ")")
          .call(x_axis);
 
       // Legend
@@ -213,6 +215,7 @@
       // Update the select drop downs
       $('#select-first').find('option').remove().end()
       $('#select-second').find('option').remove().end()
+      dorms.sort();
       $.each(dorms, function(key, value) {
         $('#select-first')
          .append($("<option></option>")
