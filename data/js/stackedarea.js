@@ -260,7 +260,7 @@
     last = row;
 
     dorm = row.text();
-    $(".area-"+id).css("fill", "orange");
+    $(".area-"+id).css("fill", "#e7b12d");
   }
 
 })();

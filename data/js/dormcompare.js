@@ -1,6 +1,6 @@
 (function() {
 
-  var category_to_color = {".first": 'rgba(244,67,54,0.7)', ".second": 'rgba(33,150,243,0.5)'};
+  var category_to_color = {".first": 'rgba(231, 177, 45, 0.7)', ".second": 'rgba(30,30,30,0.5)'};
 
   var width = 1100;
   var height = 567;

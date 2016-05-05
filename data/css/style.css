@@ -16,7 +16,7 @@ h1 {
 }
 
 .highlight-row {
-  background-color: orange !important;
+  background-color: #e7b12d !important;
   color: white !important;
 }
 
@@ -57,11 +57,11 @@ h3 {
 }
 
 .first {
-  color: rgba(244,67,54,0.7);
+  color: rgba(231, 177, 45, 1.0);
 }
 
 .second {
-  color: rgba(33,150,243, 0.7);
+  color: rgba(20,20,20, 1.0);
 }
 
 .y_axis path,
