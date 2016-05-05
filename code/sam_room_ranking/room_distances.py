@@ -94,13 +94,15 @@ def find_matching_string(haystack, needle):
 
 
 
-with open('code/room_ranking/sorted.csv') as f:
+with open('sorted_with_occupancy.csv') as f:
     reader = csv.reader(f)
+    reader.next()
     keys = [key.lower() for key in d.keys()]
-    with open('code/room_ranking/locs.csv', 'w') as w:
+    with open('locs.csv', 'w') as w:
         writer = csv.writer(w)
+        writer.writerow(['room', 'occupancy', 'ratty_dist', 'main_green_dist', 'nelson_dist', 'score'])
         for line in reader:
-            ranking, room = line
+            score, room, ranking, occupancy = line
             parsed_room = room.lower()
             parsed_room = parsed_room.replace(' house', '').replace(' college', '').replace(' hall', '')
             key = find_matching_string(keys, parsed_room)
@@ -108,7 +110,7 @@ with open('code/room_ranking/sorted.csv') as f:
             ratty_dist = euclidian_dist(room_loc, ratty_loc)
             main_green_dist = euclidian_dist(room_loc, main_green_loc)
             nelson_dist = euclidian_dist(room_loc, nelson_loc)
-            row = (ranking, room, ratty_dist, main_green_dist, nelson_dist)
+            row = (room, occupancy, ratty_dist, main_green_dist, nelson_dist, score)
             writer.writerow(row)
 
         

@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 data_path = '../../data'
-output_path = 'sorted.csv'
+output_path = 'sorted_with_occupancy.csv'
 
 def get_score(num):#lower score will be better
 	return np.sqrt(num)
@@ -24,7 +24,7 @@ rankings = {}
 for row in data:
 	pick_num = int(row[0])
 	score = get_score(pick_num)
-	room = (row[1], row[2])
+	room = (row[1], row[2], row[3])
 
 	if room in rankings:
 		rankings[room].append(score)
@@ -32,16 +32,19 @@ for row in data:
 		rankings[room] = [score]
 
 #avg rankings
-ranked_list = []
+scored_list = []
 for room in rankings:
-	ranked_list.append((np.mean(rankings[room]), room[0]+' '+room[1]))
+	scored_list.append((np.mean(rankings[room]), room[0]+' '+room[1], room[2]))
 
 
 
 #sort
-ranked_list.sort()
+scored_list.sort()
+ranked_list = []
+for i, row in enumerate(scored_list, start=1):
+	ranked_list.append((row[0], row[1], i, row[2]))
 
 #output
-print ranked_list
 writer = csv.writer(open(output_path, 'wb'))
+writer.writerow(['score', 'room', 'rank', 'occupancy'])
 writer.writerows(ranked_list)
