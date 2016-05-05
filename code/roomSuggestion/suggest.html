@@ -58,6 +58,18 @@
             </div>
         </div>
     </div>
+
+    <div id="roomCapacity" class="btn-group" data-toggle="buttons-radio">
+        <label class="btn btn-primary">
+            <input type="radio" name="options" id="single" data-toggle="button" value="1"> Single
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="options" id="double" data-toggle="button" value="2"> Double
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="options" id="triple" data-toggle="button" value="3"> Triple
+        </label>
+    </div>
     
     
     <div id="tableDiv">
@@ -66,11 +78,11 @@
                 <tr>
                     <th>Rank</th>
                     <th>Room</th>
-                    <th>Score</th>
+                    <th>Percentile</th>
                     <th>Percent Chance Remains</th>
                 </tr>
             </thead>
-            <tbody id="rankingsList">
+            <tbody id="results">
             </tbody>
         </table>
     </div>
@@ -100,24 +112,33 @@
     });
 
     function displayRooms(rooms) {
-        var list = $('#rankingsList');
-        
+        var list = $('#results');
+        var min = sortedData[0]['score'];
+        var max = sortedData[sortedData.length - 1]['score'];
+        var diff = max - min; 
         var html = ''
         for (var i = 0; i < rooms.length; i++) {
             html += '<tr id="row'+i+'">'
             html += '<td class="rankNumber">';
-            html += rooms[i]['rank']
-            html += '</td>'
+            html += i + 1
+            html += '</td>';
             html += '<td class="rankRoom">';
             html += rooms[i]['room']
-            html += '</td>'
+            html += '</td>';
             html += '<td class="rankScore">';
-            html += rooms[i]['score']
-            html += '</td>'
+            // [0,1] normalization (min-max normalization) (score - min)/(max - min)
+            var score = (rooms[i]['score'] - min)/diff;
+            score = Math.floor(score * 100) + 1;
+            console.log(score)
+            if (score > 99) {
+                score = 99;
+            }
+            html += score + "%";
+            html += '</td>';
             html += '<td class="percentRemain">';
-            html += (rooms[i]['percent'] * 100).toFixed(1) + "%"
-            html += '</td>'
-            html += '</tr>'
+            html += (rooms[i]['percent'] * 100).toFixed(1) + "%";
+            html += '</td>';
+            html += '</tr>';
         }
         
         list.html(html);
@@ -126,7 +147,7 @@
     $('#lotterySearchButton').click(function(event) {
         var number = $('#lotterySearchInput').val();
         
-        findRemainingRooms(number, "0.5")
+        findRemainingRooms(number, "0.5");
     });
     
     function findRemainingRooms(lotteryNum, percentChance) {
