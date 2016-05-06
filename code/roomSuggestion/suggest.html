@@ -28,8 +28,45 @@
         tr {
             transition: all 0.3s;
         }
-        .selected {
-            background-color: #D9EDF7 !important;
+        .btn-info {
+            background-color:#e7b12d
+        }
+      input[type=range] {
+            /*removes default webkit styles*/
+            -webkit-appearance: none;
+            
+            /*fix for FF unable to apply focus style bug */
+            border: 1px solid white;
+        }
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 300px;
+            height: 5px;
+            background: #ddd;
+            border: none;
+            border-radius: 3px;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            border: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #e7b12d;
+            margin-top: -4px;
+        }
+        
+        input[type=range]::-moz-range-track {
+            height: 5px;
+            background: #ddd;
+            border: none;
+            border-radius: 3px;
+        }
+        input[type=range]::-moz-range-thumb {
+            border: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #e7b12d;
         }
     </style>
 </head>
@@ -68,8 +105,12 @@
         </div>
     </div>
 
-    <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
-    <span id="range">0</span>
+    <div class="container-fluid" id="filter">
+            <label for="percent">Filter by minimum likelihood that room will be available when it's your turn to choose a room:</label>
+            <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
+            <b><span id="range">0%</span></b>
+    </div>
+    <hr />
 
     <div id="tableDiv">
         <table id="rankTable" class = "table table-striped">
@@ -95,6 +136,10 @@
     picksData = []
     sortedData = []
 
+    $( document ).ready(function() {
+        $("#range").val(0);
+    });
+
     d3.csv('picks.csv', function(data) {
         console.log(data);
         picksData = data;
@@ -110,7 +155,8 @@
     });
   
     function showValue(newValue) {
-        document.getElementById("range").innerHTML=newValue;
+        $("#range").text(newValue + "%");
+        // document.getElementById("range").innerHTML=newValue;
         if (min != 0) {
             findRemainingRooms(number, newValue/100 , occupancy);
         }
