@@ -16,9 +16,9 @@ with open(dataFile, 'w') as f:
 		labels.append(row[-1])
 
 model = LinearRegression(normalize=True)
-print 'cross_val_score', np.mean(cross_val_score(model, features, labels, 'accuracy', 10))
-
 model.fit(features, labels)
+
+print 'cross_val_score', np.mean(cross_val_score(model, features, labels, 'accuracy', 10))
 
 for i, coef in enumerate(model.coef_):
 	print i, coef
