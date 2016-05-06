@@ -32,7 +32,16 @@
             transition: all 0.3s;
         }
         .selected {
-            background-color: #D9EDF7 !important;
+            background-color: #e7b12d !important;
+            color: white;
+        }
+        .btn-games {
+            background-color: #e7b12d;
+            color: white;
+            width: 200px;
+        }
+        .btn-games:hover {
+            color: white;
         }
     </style>
 </head>
@@ -52,7 +61,7 @@
             <div class="input-group">
                <input id="roomSearchInput" type="text" class="form-control" placeholder="[Residence Hall] [Room #]">
                <span class="input-group-btn">
-                    <button id="roomSearchButton" class="btn btn-info" type="button">Go!</button>
+                    <button id="roomSearchButton" class="btn btn-games default" type="submit">Go!</button>
                </span>
             </div>
         </div>
@@ -79,6 +88,18 @@
 </html>
 
 <script>
+        
+    $(function() {
+        $("input").keypress(function (e) {
+            if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+                $('.default').click();
+                return false;
+            } else {
+                return true;
+            }
+        });
+    });
+        
     allData = []
     activeRow = -1;
 
