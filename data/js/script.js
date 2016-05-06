@@ -7,9 +7,78 @@ $(function() {
       zoom: 16,
       center: {lat: 41.8268, lng: -71.4000},
       mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: false,
+      streetViewControl: false,
       minZoom: 16,
       maxZoom: 19,
     });
+
+    var style =  [
+  {
+      "featureType": "road.highway",
+      "elementType": "geometry",
+      "stylers": [
+        { "saturation": -100 },
+        { "lightness": -8 },
+        { "gamma": 1.18 }
+      ]
+  }, {
+      "featureType": "road.arterial",
+      "elementType": "geometry",
+      "stylers": [
+        { "saturation": -100 },
+        { "gamma": 1 },
+        { "lightness": -24 }
+      ]
+  }, {
+      "featureType": "poi",
+      "elementType": "geometry",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "administrative",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "transit",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "water",
+      "elementType": "geometry.fill",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "road",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "administrative",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "landscape",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+      "featureType": "poi",
+      "stylers": [
+        { "saturation": -100 }
+      ]
+  }, {
+  }
+            ];
+  var styledMap = new google.maps.StyledMapType(style,
+    {name: "Styled Map"});
+  map.mapTypes.set('map_style', styledMap);
+  map.setMapTypeId('map_style');
 
     // var andrews = [
     //   {lat: 41.829983, lng: -71.402798},
@@ -29,43 +98,6 @@ $(function() {
     //   {lat: 41.830344, lng: -71.402637},
     //   {lat: 41.829994, lng: -71.402623}
     // ];
-
-    var dorms = {
-      "111 Brown Street": brown_street_111,
-      "315 Thayer": thayer_315,
-      "Barbour Hall": barbour,
-      "Barbour Hall Apartments": null,
-      "Caswell Hall": caswell,
-      "Chapin House": chapin,
-      "Diman House": diman,
-      "Grad Center A": gradcenter_a,
-      "Goddard House": goddard,
-      "Grad Center B": gradcenter_b,
-      "Grad Center C": gradcenter_c,
-      "Grad Center D": gradcenter_d,
-      "Gregorian Quad A": vgqa,
-      "Gregorian Quad B": vgqb,
-      "Harkness House": harkness,
-      "Hegeman": hegeman,
-      "Hope College": hope,
-      "Littlefield Hall": littlefield,
-      "Machado House": machado,
-      "Marcy House": marcy,
-      "Minden": minden,
-      "New Pembroke #1": new_pembroke_1,
-      "New Pembroke #2": new_pembroke_2,
-      "New Pembroke #3": new_pembroke_3,
-      "New Pembroke #4": new_pembroke_4,
-      "Olney House": olney,
-      "Perkins Hall": perkins,
-      "Plantations House": plantations,
-      "Sears House": sears,
-      "Slater Hall": slater,
-      "Wayland House": wayland,
-      "Young Orchard #10": young_orchard_10,
-      "Young Orchard #2": young_orchard_2,
-      "Young Orchard #4": young_orchard_4
-    };
 
     var brown_street_111 = [
       {lat: 41.829954, lng: -71.403391},
@@ -370,16 +402,58 @@ $(function() {
       {lat: 41.823504, lng: -71.400432}
     ];
 
+    var dorms = {
+      "111 Brown Street": brown_street_111,
+      "315 Thayer": thayer_315,
+      "Barbour Hall": barbour,
+      "Barbour Hall Apartments": barbour_hall_apts,
+      "Caswell Hall": caswell,
+      "Chapin House": chapin,
+      "Diman House": diman,
+      "Grad Center A": gradcenter_a,
+      "Goddard House": goddard,
+      "Grad Center B": gradcenter_b,
+      "Grad Center C": gradcenter_c,
+      "Grad Center D": gradcenter_d,
+      "Gregorian Quad A": vgqa,
+      "Gregorian Quad B": vgqb,
+      "Harkness House": harkness,
+      "Hegeman": hegeman,
+      "Hope College": hope,
+      "Littlefield Hall": littlefield,
+      "Machado House": machado,
+      "Marcy House": marcy,
+      "Minden": minden,
+      "New Pembroke #1": new_pembroke_1,
+      "New Pembroke #2": new_pembroke_2,
+      "New Pembroke #3": new_pembroke_3,
+      "New Pembroke #4": new_pembroke_4,
+      "Olney House": olney,
+      "Perkins Hall": perkins,
+      "Plantations House": plantations,
+      "Sears House": sears,
+      "Slater Hall": slater,
+      "Wayland House": wayland,
+      "Young Orchard #10": young_orchard_10,
+      "Young Orchard #2": young_orchard_2,
+      "Young Orchard #4": young_orchard_4
+    };
+
+    dorms_to_display = []
+    Object.keys(dorms).forEach(function(key, i) {
+      dorms_to_display.push(dorms[key]);
+    })
+
     // Construct the polygon.
-    var bermudaTriangle = new google.maps.Polygon({
-      paths: [barbour_hall_apts, barbour],
-      strokeColor: '#FF0000',
+    var dorm_polys = new google.maps.Polygon({
+      paths: dorms_to_display,
+      strokeColor: '#e7b12d',
       strokeOpacity: 0.8,
       strokeWeight: 2,
-      fillColor: '#FF0000',
+      fillColor: '#e7b12d',
       fillOpacity: 0.35
     });
-    bermudaTriangle.setMap(map);
+    dorm_polys.setMap(map);
 
     // Bounds for North America
     var strictBounds = new google.maps.LatLngBounds(
@@ -416,5 +490,5 @@ $(function() {
       map.setCenter(new google.maps.LatLng(y, x));
     }
   }
-  // initMap();
+  initMap();
 });
