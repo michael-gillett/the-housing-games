@@ -3,36 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Untitled Document</title>
-    
-    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+   
     <style>
         body {
             padding: 20px;
         }
-        
         #searchDiv {
             margin-bottom: 30px;
         }
         #roomSearchDiv {
             margin-bottom: 15px;
         }
-        
         #tableDiv {
             height: 500px;
             overflow: auto;
-            
             border-radius: 5px;
             border: 1px lightgray solid;
         }
-        
         tr {
             transition: all 0.3s;
         }
-        .selected {
-            background-color: #D9EDF7 !important;
+        .btn-info {
+            background-color:#e7b12d
+        }
+      input[type=range] {
+            /*removes default webkit styles*/
+            -webkit-appearance: none;
+            
+            /*fix for FF unable to apply focus style bug */
+            border: 1px solid white;
+        }
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 300px;
+            height: 5px;
+            background: #ddd;
+            border: none;
+            border-radius: 3px;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            border: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #e7b12d;
+            margin-top: -4px;
+        }
+        
+        input[type=range]::-moz-range-track {
+            height: 5px;
+            background: #ddd;
+            border: none;
+            border-radius: 3px;
+        }
+        input[type=range]::-moz-range-thumb {
+            border: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: #e7b12d;
         }
     </style>
 </head>
@@ -40,38 +74,44 @@
 
 <div id="rankingsDiv">
     <div id="rankingExplanationDiv">
-        <h1>Room Suggestion Engine Based on Lottery Number</h1>
-        <p>Enter your lottery number to generate room suggestions. Rooms are ordered in terms of desirability</p>
-        <p>In an effort to rank every room on campus in terms of desirability, we scraped and aggregated all of the housing lottery data since 2006. Every room was assigned a score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
+        <h1>Room Suggestion Generator</h1>
+        <h4>Input your <b>lottery number</b> and <b>preferred room capacity</b> to generate room suggestions. Adjust the slider to update suggestions to only include rooms that have a certain percent chance of remaining based on your lottery number. </h4> 
+        <p>Rooms are ordered in terms of desirability. The <b>percentile</b> found next to each listing indicates a room's desirability relative to other rooms of the same capacity. For example, if a room is in the 15th percentile, it is more desireable than 85% of rooms of the same size. </p>
+        <p> <b>Desirability</b> is computed based on the the housing lottery data collected since 2006. Every room was assigned a desirability score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
     </div>
     
     <hr />
     
     <div id="searchDiv">
         <div id="roomSearchDiv">
-            <label for="roomSearchInput">Search Your Lottery Number: </label>
             <div class="input-group">
-               <input id="lotterySearchInput" type="text" class="form-control" placeholder="[Lottery #]">
-               <span class="input-group-btn">
-                    <button id="lotterySearchButton" class="btn btn-info" type="button">Go!</button>
-               </span>
+               <input id="lotterySearchInput" type="text" class="form-control" placeholder="Enter your lottery number">
+               <div class="input-group-btn dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="dropTitle">Room Occupancy</span>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Single</a></li>
+                        <li><a href="#">Double</a></li>
+                        <li><a href="#">Triple</a></li>
+                        <li><a href="#">Quad</a></li>
+                    </ul>
+                </div>
+               <div class="input-group-btn">
+                    <button id="lotterySearchButton" class="btn btn-info" type="button">Search</button>
+               </div>
             </div>
         </div>
     </div>
 
-    <div id="roomCapacity" class="btn-group" data-toggle="buttons-radio">
-        <label class="btn btn-primary">
-            <input type="radio" name="options" id="single" data-toggle="button" value="1"> Single
-        </label>
-        <label class="btn btn-primary">
-            <input type="radio" name="options" id="double" data-toggle="button" value="2"> Double
-        </label>
-        <label class="btn btn-primary">
-            <input type="radio" name="options" id="triple" data-toggle="button" value="3"> Triple
-        </label>
+    <div class="container-fluid" id="filter">
+            <label for="percent">Filter by minimum likelihood that room will be available when it's your turn to choose a room:</label>
+            <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
+            <b><span id="range">0%</span></b>
     </div>
-    
-    
+    <hr />
+
     <div id="tableDiv">
         <table id="rankTable" class = "table table-striped">
             <thead>
@@ -79,7 +119,7 @@
                     <th>Rank</th>
                     <th>Room</th>
                     <th>Percentile</th>
-                    <th>Percent Chance Remains</th>
+                    <th>Probability Room is Available</th>
                 </tr>
             </thead>
             <tbody id="results">
@@ -95,26 +135,36 @@
 <script>
     picksData = []
     sortedData = []
-    resultData = []
-    
+
+    $( document ).ready(function() {
+        $("#range").val(0);
+    });
+
     d3.csv('picks.csv', function(data) {
         console.log(data);
-        
         picksData = data;
-        
     });
 
     d3.csv('sorted.csv', function(data) {
         console.log(data);
-        
         sortedData = data;
-        
     });
 
+    $(".dropdown-menu li a").click(function(){
+        $(".dropTitle").text($(this).text());
+    });
+  
+    function showValue(newValue) {
+        $("#range").text(newValue + "%");
+        // document.getElementById("range").innerHTML=newValue;
+        if (min != 0) {
+            findRemainingRooms(number, newValue/100 , occupancy);
+        }
+    }
+    var min = 0;
+    var max = 0;
     function displayRooms(rooms) {
         var list = $('#results');
-        var min = sortedData[0]['score'];
-        var max = sortedData[sortedData.length - 1]['score'];
         var diff = max - min; 
         var html = ''
         for (var i = 0; i < rooms.length; i++) {
@@ -129,7 +179,6 @@
             // [0,1] normalization (min-max normalization) (score - min)/(max - min)
             var score = (rooms[i]['score'] - min)/diff;
             score = Math.floor(score * 100) + 1;
-            console.log(score)
             if (score > 99) {
                 score = 99;
             }
@@ -144,15 +193,43 @@
         list.html(html);
     }
     
+    var number = "";
+    var occupancy = "all";
     $('#lotterySearchButton').click(function(event) {
-        var number = $('#lotterySearchInput').val();
-        
-        findRemainingRooms(number, "0.5");
+        number = $('#lotterySearchInput').val();
+        var occ =  $(".dropTitle").text()
+        if (occ === "Single") {
+            occupancy = "1";
+        } else if (occ === "Double") {
+            occupancy = "2";
+        } else if (occ === "Triple") {
+            occupancy = "3";
+        } else if (occ === "Quad") {
+            occupancy = "4"
+        } 
+        findMinMax(number, $("input[type='range']").val()/100, occupancy);
     });
-    
-    function findRemainingRooms(lotteryNum, percentChance) {
+
+    function findMinMax(lotteryNum, percentChance, occupancy) {
+        min = 0
+        for (var i = 0; i < sortedData.length; i++) {
+            if (sortedData[i].occupancy === occupancy || occupancy === "all") {
+                if (min == 0) {
+                    min = +sortedData[i].score;
+                }
+                max = +sortedData[i].score;
+            }
+        }
+        findRemainingRooms(lotteryNum, percentChance, occupancy);
+    }
+
+    function findRemainingRooms(lotteryNum, percentChance, occupancy) {
         okayRooms = [];
         lotteryNum = +lotteryNum;
+        if (lotteryNum == 0) {
+            alert("Please enter a valid lottery number");
+            return;
+        }
         // go through pickData and find rooms where 
         // percent chance of remaining >= percentChance
         for (var i = 0; i < picksData.length; i++) {
@@ -171,27 +248,28 @@
                 }
             }
             var percent = numGreater/numOk;
-            if (percent >= +percentChance) {
+            if (percent >= percentChance) {
                 okayRooms.push({room:picksData[i].room, percent:percent});
             }
         }
-        getTopRooms(okayRooms);  
+        getTopRooms(okayRooms, occupancy);  
     }
 
-    function getTopRooms(rooms) {
+    function getTopRooms(rooms, occupancy) {
         remainingRooms = [];
         for (var i = 0; i < sortedData.length; i++) {
             var roomName = sortedData[i].room;
-            for (var x = 0; x < rooms.length; x++) {
-                if (roomName === rooms[x].room) {
-                    var data = sortedData[i];
-                    data.percent = rooms[x].percent;
-                    remainingRooms.push(data);
-                    break;
+            if (sortedData[i].occupancy === occupancy || occupancy === "all") {
+                for (var x = 0; x < rooms.length; x++) {
+                    if (roomName === rooms[x].room) {
+                        var data = sortedData[i];
+                        data.percent = rooms[x].percent;
+                        remainingRooms.push(data);
+                        break;
+                    }
                 }
-            }
+         }
         }
-        console.log(remainingRooms);
         displayRooms(remainingRooms);
     }
 
