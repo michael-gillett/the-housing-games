@@ -27,7 +27,7 @@
   var x_range = [y_offset];
   var y, x;
 
-  var file_name = 'data/stackedArea/2012_sa.csv';
+  var file_name = 'data/stackedArea/2013_sa.csv';
 
   // Create the svg chart that will house the visualization
   var svg = d3.select("#stackedarea").append("svg")

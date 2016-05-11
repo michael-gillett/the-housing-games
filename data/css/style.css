@@ -62,8 +62,21 @@ h3 {
   pointer-events: none;
 }
 
+.checkbutton {
+  margin: 10px;
+}
+
+.btn-checked {
+  background-color: #e7b12d;
+  color: white;
+}
+.btn-checked:hover {
+  background-color: #ca9617;
+  color: white;
+}
+
 #map {
-  width: 800px;
+  width: 100%;
   height: 600px;
 }
 
