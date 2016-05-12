@@ -89,6 +89,23 @@ nav a:hover, .cur-page {
   pointer-events: none;
 }
 
+.person {
+  width: 800px;
+  margin: 20px auto;
+  display: block;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 160px;
+}
+
+.name {
+  font-size: 20pt;
+  color: #555;
+  margin-left: 50px;
+}
+
 .checkbutton {
   margin: 10px;
 }
