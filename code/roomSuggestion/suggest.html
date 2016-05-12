@@ -86,60 +86,60 @@
 <body>
 
 <div id="rankingsDiv">
-                    <div id="rankingExplanationDiv">
-                        <h1 class="text-center">Room Suggestion Generator</h1>
-                        <br>
-                        <h4>Input your <b>lottery number</b> and <b>preferred room capacity</b> to generate room suggestions. Adjust the slider to update suggestions to only include rooms that have a certain percent chance of remaining based on your lottery number. </h4>
-                        <p>Rooms are ordered in terms of desirability. The <b>percentile</b> found next to each listing indicates a room's desirability relative to other rooms of the same capacity. For example, if a room is in the 15th percentile, it is more desireable than 85% of rooms of the same size. </p>
-                        <p> <b>Desirability</b> is computed based on the the housing lottery data collected since 2006. Every room was assigned a desirability score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
-                    </div>
+    <h1 class="text-center">Room Suggestion Generator</h1>
+        <div id="rankingExplanationDiv" class="text-left">
+            <br>
+            <h4>Input your <b>lottery number</b> and <b>preferred room capacity</b> to generate room suggestions. Adjust the slider to update suggestions to only include rooms that have a certain percent chance of remaining based on your lottery number. </h4>
+            <p>Rooms are ordered in terms of desirability. The <b>percentile</b> found next to each listing indicates a room's desirability relative to other rooms of the same capacity. For example, if a room is in the 15th percentile, it is more desireable than 85% of rooms of the same size. </p>
+            <p> <b>Desirability</b> is computed based on the the housing lottery data collected since 2006. Every room was assigned a desirability score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
+        </div>
 
-                    <hr />
+        <hr />
 
-                    <div id="searchDiv">
-                        <div id="roomSearchDiv">
-                            <div class="input-group">
-                               <input id="lotterySearchInput" type="text" class="form-control" placeholder="Enter your lottery number">
-                               <div class="input-group-btn dropdown">
-                                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                        <span class="dropTitle">Room Occupancy</span>
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                        <li><a href="#">Single</a></li>
-                                        <li><a href="#">Double</a></li>
-                                        <li><a href="#">Triple</a></li>
-                                        <li><a href="#">Quad</a></li>
-                                    </ul>
-                                </div>
-                               <div class="input-group-btn">
-                                    <button id="lotterySearchButton" class="btn btn-info" type="button">Search</button>
-                               </div>
-                            </div>
-                        </div>
+        <div id="searchDiv">
+            <div id="roomSearchDiv">
+                <div class="input-group">
+                   <input id="lotterySearchInput" type="text" class="form-control" placeholder="Enter your lottery number">
+                   <div class="input-group-btn dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="dropTitle">Room Occupancy</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Single</a></li>
+                            <li><a href="#">Double</a></li>
+                            <li><a href="#">Triple</a></li>
+                            <li><a href="#">Quad</a></li>
+                        </ul>
                     </div>
+                   <div class="input-group-btn">
+                        <button id="lotterySearchButton" class="btn btn-info" type="button">Search</button>
+                   </div>
+                </div>
+            </div>
+        </div>
 
-                    <div class="container-fluid" id="filter">
-                            <label for="percent">Filter by minimum likelihood that room will be available when it's your turn to choose a room:</label>
-                            <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
-                            <b><span id="range">0%</span></b>
-                    </div>
-                    <hr />
+        <div class="container-fluid" id="filter">
+                <label for="percent">Filter by minimum likelihood that room will be available when it's your turn to choose a room:</label>
+                <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
+                <b><span id="range">0%</span></b>
+        </div>
+        <hr />
 
-                    <div id="tableDiv">
-                        <table id="rankTable" class = "table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Rank</th>
-                                    <th>Room</th>
-                                    <th>Percentile</th>
-                                    <th>Probability Room is Available</th>
-                                </tr>
-                            </thead>
-                            <tbody id="results">
-                            </tbody>
-                        </table>
-                    </div>
+        <div id="tableDiv">
+            <table id="rankTable" class = "table table-striped">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Room</th>
+                        <th>Percentile</th>
+                        <th>Probability Room is Available</th>
+                    </tr>
+                </thead>
+                <tbody id="results">
+                </tbody>
+            </table>
+        </div>
 
                 </div>
             </div>
