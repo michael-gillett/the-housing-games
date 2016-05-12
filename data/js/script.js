@@ -450,6 +450,7 @@ $(function() {
 
   $('.logo').click(function() {
     $('.splash').show();
+    $('.splash').fadeTo(0, 1.0, function() {});
     $('.splash').delay(4000).fadeTo(600, 0, function() {});
     $('#audio')[0].play();
   })
