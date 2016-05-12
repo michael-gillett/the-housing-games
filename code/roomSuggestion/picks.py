@@ -18,7 +18,7 @@ for f in [x for x in os.listdir(data_path) if x[-3:] == 'csv']:
 		room_num = row[2]
 		room_name = dorm + ' ' + room_num
 		pick_num = row[0]
-		if room_num != '':#don't count no-shows
+		if room_num != '' and dorm != "Fake Building":#don't count no-shows
 			if room_name in data:
 				rooms = len(data[room_name])
 				if num - rooms > 0:
