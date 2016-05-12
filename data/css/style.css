@@ -37,17 +37,43 @@ h3 {
   display: inline-block;
 }
 
+nav {
+  margin-top: 26px;
+  font-size: 12pt;
+  color: #e7b12d;
+}
+
+nav a {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #e7b12d;
+  color: #e7b12d;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  background-color: #e7b12d;
+  color: white;
+  text-decoration: none;
+}
+
 .header {
   background-color: #333;
-  height: 120px;
+  height: 170px;
   box-shadow: 0px 2px 5px #444;
-  margin-bottom: 15px;
 }
 
 .logo {
   margin-top: 10px;
   height: 100px;
-  width: 100%;
+}
+
+.splash-logo {
+  position: fixed;
+  width: 600px;
+  left: 50%; top: 50%;
+  margin-left: -300px;
+  margin-top: -300px;
 }
 
 .splash {
@@ -58,7 +84,7 @@ h3 {
   height: 100%;
   width: 100%;
   position: fixed;
-  background-color: #d76631;
+  background-color: #333;
   pointer-events: none;
 }
 
@@ -67,11 +93,11 @@ h3 {
 }
 
 .btn-checked {
-  background-color: #e7b12d;
+  background-color: #2d63e7;
   color: white;
 }
 .btn-checked:hover {
-  background-color: #ca9617;
+  background-color: #2859cf;
   color: white;
 }
 

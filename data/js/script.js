@@ -3,7 +3,7 @@ var landmark_polys = null;
 var map = null;
 
 var dorm_color = '#e7b12d';
-var landmark_color = 'green';
+var landmark_color = '#2d63e7';
 
 // Buildings
 var sci_li = [
@@ -534,15 +534,12 @@ $(function() {
       new google.maps.LatLng(41.832433, -71.395098)
     );
 
-    closest = get_n_closest(5, ["Ratty"]);
-
     to_draw = [];
-    closest.forEach(function(dorm) {
+    Object.keys(dorms).forEach(function(dorm) {
       to_draw.push(dorms[dorm]);
     });
 
     dorm_polys = draw_buildings(to_draw, dorm_color);
-    landmark_polys = draw_buildings(landmark_map["Ratty"], landmark_color);
 
 
     // Listen for the drag and dragend event
@@ -612,6 +609,7 @@ $(function() {
     var landmark_center = get_centroid(landmark_combined);
 
     // Calculate the dist
+    console.log(Object.keys(dorms).length);
     Object.keys(dorms).forEach(function(dorm) {
       center = get_centroid(dorms[dorm]);
       dist = google.maps.geometry.spherical.computeDistanceBetween(center, landmark_center);
@@ -636,7 +634,9 @@ $(function() {
   $('.checkbutton').click(function() {
     // Remove the current dorms
     dorm_polys.setMap(null);
-    landmark_polys.setMap(null);
+    if (landmark_polys !== null) {
+      landmark_polys.setMap(null);
+    }
 
     if ($(this).data('checked') == 0) {
       $(this).data('checked', 1);
@@ -657,7 +657,9 @@ $(function() {
       var n_close = get_n_closest(10, selected)
       // Draw the dorms
       var dorms_draw = [];
-      n_close.forEach(function(dorm) {
+      $("#map-dorms tbody tr").remove();
+      n_close.forEach(function(dorm, i) {
+        $("#map-dorms tbody").append("<tr><td>"+(i+1)+"</td><td>"+dorm+"</td></tr>");
         dorms_draw.push(dorms[dorm]);
       });
       dorm_polys = draw_buildings(dorms_draw, dorm_color);
@@ -668,6 +670,14 @@ $(function() {
         landmark_draw.push(landmark_map[landmark]);
       });
       landmark_polys = draw_buildings(landmark_draw, landmark_color);
+    } else {
+      $("#map-dorms tbody tr").remove();
+      to_draw = [];
+      Object.keys(dorms).forEach(function(dorm) {
+        to_draw.push(dorms[dorm]);
+      });
+
+      dorm_polys = draw_buildings(to_draw, dorm_color);
     }
   });
 });

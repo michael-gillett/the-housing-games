@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <title>Room Suggestion</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../data/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
-   
+
     <style>
-        body {
-            padding: 20px;
-        }
         #searchDiv {
             margin-bottom: 30px;
         }
@@ -29,12 +29,13 @@
             transition: all 0.3s;
         }
         .btn-info {
-            background-color:#e7b12d
+            background-color: #e7b12d;
+            border: 1px solid #ca9617;
         }
-      input[type=range] {
+        input[type=range] {
             /*removes default webkit styles*/
             -webkit-appearance: none;
-            
+
             /*fix for FF unable to apply focus style bug */
             border: 1px solid white;
         }
@@ -54,7 +55,7 @@
             background: #e7b12d;
             margin-top: -4px;
         }
-        
+
         input[type=range]::-moz-range-track {
             height: 5px;
             background: #ddd;
@@ -70,66 +71,84 @@
         }
     </style>
 </head>
-<body>
+    <body>
+        <div class="header">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
+              <img src="../../banner-image.png" class="logo"></img>
+              <nav>
+                <a href="../../optimal-location.html">Optimal Location</a>
+                <a href="../../stacked-area.html">Room Distribution?</a>
+                <a href="../../dorm-compare.html">Dorm Comparison</a>
+                <a href="../../code/roomSuggestion/suggest.html">Room Suggestion</a>
+                <a href="../../code/roomRanking/ranker.html">Room Ranking</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                <div id="rankingsDiv">
+                    <div id="rankingExplanationDiv">
+                        <h1 class="text-center">Room Suggestion Generator</h1>
+                        <br>
+                        <h4>Input your <b>lottery number</b> and <b>preferred room capacity</b> to generate room suggestions. Adjust the slider to update suggestions to only include rooms that have a certain percent chance of remaining based on your lottery number. </h4>
+                        <p>Rooms are ordered in terms of desirability. The <b>percentile</b> found next to each listing indicates a room's desirability relative to other rooms of the same capacity. For example, if a room is in the 15th percentile, it is more desireable than 85% of rooms of the same size. </p>
+                        <p> <b>Desirability</b> is computed based on the the housing lottery data collected since 2006. Every room was assigned a desirability score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
+                    </div>
 
-<div id="rankingsDiv">
-    <div id="rankingExplanationDiv">
-        <h1>Room Suggestion Generator</h1>
-        <h4>Input your <b>lottery number</b> and <b>preferred room capacity</b> to generate room suggestions. Adjust the slider to update suggestions to only include rooms that have a certain percent chance of remaining based on your lottery number. </h4> 
-        <p>Rooms are ordered in terms of desirability. The <b>percentile</b> found next to each listing indicates a room's desirability relative to other rooms of the same capacity. For example, if a room is in the 15th percentile, it is more desireable than 85% of rooms of the same size. </p>
-        <p> <b>Desirability</b> is computed based on the the housing lottery data collected since 2006. Every room was assigned a desirability score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepency in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
-    </div>
-    
-    <hr />
-    
-    <div id="searchDiv">
-        <div id="roomSearchDiv">
-            <div class="input-group">
-               <input id="lotterySearchInput" type="text" class="form-control" placeholder="Enter your lottery number">
-               <div class="input-group-btn dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <span class="dropTitle">Room Occupancy</span>
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="#">Single</a></li>
-                        <li><a href="#">Double</a></li>
-                        <li><a href="#">Triple</a></li>
-                        <li><a href="#">Quad</a></li>
-                    </ul>
+                    <hr />
+
+                    <div id="searchDiv">
+                        <div id="roomSearchDiv">
+                            <div class="input-group">
+                               <input id="lotterySearchInput" type="text" class="form-control" placeholder="Enter your lottery number">
+                               <div class="input-group-btn dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <span class="dropTitle">Room Occupancy</span>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a href="#">Single</a></li>
+                                        <li><a href="#">Double</a></li>
+                                        <li><a href="#">Triple</a></li>
+                                        <li><a href="#">Quad</a></li>
+                                    </ul>
+                                </div>
+                               <div class="input-group-btn">
+                                    <button id="lotterySearchButton" class="btn btn-info" type="button">Search</button>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid" id="filter">
+                            <label for="percent">Filter by minimum likelihood that room will be available when it's your turn to choose a room:</label>
+                            <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
+                            <b><span id="range">0%</span></b>
+                    </div>
+                    <hr />
+
+                    <div id="tableDiv">
+                        <table id="rankTable" class = "table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Room</th>
+                                    <th>Percentile</th>
+                                    <th>Probability Room is Available</th>
+                                </tr>
+                            </thead>
+                            <tbody id="results">
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
-               <div class="input-group-btn">
-                    <button id="lotterySearchButton" class="btn btn-info" type="button">Search</button>
-               </div>
             </div>
         </div>
-    </div>
-
-    <div class="container-fluid" id="filter">
-            <label for="percent">Filter by minimum likelihood that room will be available when it's your turn to choose a room:</label>
-            <input type="range" id="percent" min="0" max="100" value="0" step="5" onchange="showValue(this.value)">
-            <b><span id="range">0%</span></b>
-    </div>
-    <hr />
-
-    <div id="tableDiv">
-        <table id="rankTable" class = "table table-striped">
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Room</th>
-                    <th>Percentile</th>
-                    <th>Probability Room is Available</th>
-                </tr>
-            </thead>
-            <tbody id="results">
-            </tbody>
-        </table>
-    </div>
-    
-</div>
-
-</body>
+    </body>
 </html>
 
 <script>
@@ -152,7 +171,7 @@
     $(".dropdown-menu li a").click(function(){
         $(".dropTitle").text($(this).text());
     });
-  
+
     function showValue(newValue) {
         $("#range").text(newValue + "%");
         // document.getElementById("range").innerHTML=newValue;
@@ -164,7 +183,7 @@
     var max = 0;
     function displayRooms(rooms) {
         var list = $('#results');
-        var diff = max - min; 
+        var diff = max - min;
         var html = ''
         for (var i = 0; i < rooms.length; i++) {
             html += '<tr id="row'+i+'">'
@@ -188,10 +207,10 @@
             html += '</td>';
             html += '</tr>';
         }
-        
+
         list.html(html);
     }
-    
+
     var number = "";
     var occupancy = "all";
     $('#lotterySearchButton').click(function(event) {
@@ -205,7 +224,7 @@
             occupancy = "3";
         } else if (occ === "Quad") {
             occupancy = "4"
-        } 
+        }
         findMinMax(number, $("input[type='range']").val()/100, occupancy);
     });
 
@@ -229,7 +248,7 @@
             alert("Please enter a valid lottery number");
             return;
         }
-        // go through pickData and find rooms where 
+        // go through pickData and find rooms where
         // percent chance of remaining >= percentChance
         for (var i = 0; i < picksData.length; i++) {
             var pickArr = Object.keys(picksData[i])
@@ -251,7 +270,7 @@
                 okayRooms.push({room:picksData[i].room, percent:percent});
             }
         }
-        getTopRooms(okayRooms, occupancy);  
+        getTopRooms(okayRooms, occupancy);
     }
 
     function getTopRooms(rooms, occupancy) {
