@@ -51,7 +51,7 @@ nav a {
   margin-right: 10px;
 }
 
-nav a:hover {
+nav a:hover, .cur-page {
   background-color: #e7b12d;
   color: white;
   text-decoration: none;
@@ -77,6 +77,7 @@ nav a:hover {
 }
 
 .splash {
+  display: none;
   overflow: hidden;
   z-index: 1;
   top: 0;

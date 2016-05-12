@@ -447,7 +447,12 @@ var dorms = {
 
 
 $(function() {
-  $('.splash').delay(4000).fadeTo(600, 0, function() {});
+
+  $('.logo').click(function() {
+    $('.splash').show();
+    $('.splash').delay(4000).fadeTo(600, 0, function() {});
+    $('#audio')[0].play();
+  })
 
   // This example creates a simple polygon representing the Bermuda Triangle.
   function initMap() {
