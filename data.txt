@@ -1,0 +1,9 @@
+We used the housing lottery data collected from 2006-2013 lottery results, which can be found here: http://www.brown.edu/Student_Services/Residential_Council/lottery/results/. These data include all lottery results from 2006-2015, excluding those from 2014. The dataset from 2015 is formatted differently than those collected from 2006-2013 and was extremely difficult to integrate with the other years. Therefore, we analyzed the data collected over the longest consecutive period of time (2006-2013).
+
+
+You can find all that data cleaned and formatted into CSV files in the data folder. They are labeled night[# night]-[year].csv. 
+
+
+In /data/aggregate you can find CSV files with all the data per year aggregated into single CSV files. Each year has its own CSV.
+
+
