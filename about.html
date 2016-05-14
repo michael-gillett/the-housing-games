@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title> About </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="data/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="splash">
+      <img src="splash.png" class="splash-logo">
+      <audio id="audio" preload>
+        <source src="data/audio/whistle.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
+          <img src="banner-image.png" class="logo"></img>
+          <nav>
+            <a href="optimal-location.html">Optimal Location</a>
+            <a href="stacked-area.html">Room Distribution</a>
+            <a href="dorm-compare.html">Dorm Comparison</a>
+            <a href="code/roomSuggestion/suggest.html">Room Suggestion</a>
+            <a href="code/roomRanking/ranker.html">Room Ranking</a>
+            <a href="about.html" class="cur-page">About</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <br>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="text-center"> About </h1>
+          <p>Brown’s housing lottery is a notoriously messy, some might even say traumatic, process. In 2012, Blog Daily Herald went as far as to call the housing lottery <strong>The Housing Games</strong>, making light of the stressful process by equating it with the fictional Hunger Games. Our goal was to transform this process using data. Using data collected during the 2006-2013 housing lotteries, we created a variety of tools that enable students to make more informed decisions about their future housing.
+          </p>
+          <br>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="person">
+                <img src="data/images/seneca_crane.png" class="profile-img" id="mike"/>
+                <span class="name"> Michael Gillett </span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="person">
+                <img src="data/images/beetee.png" class="profile-img" id="matt"/>
+                <span class="name"> Matt Cooper </span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="person">
+                <img src="data/images/katniss.png" class="profile-img" id="ali"/>
+                <span class="name"> Ali Paul </span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="person">
+                <img src="data/images/snow.png" class="profile-img" id="sam"/>
+                <span class="name"> Sam Dunietz </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="data/js/about.js" async defer></script>

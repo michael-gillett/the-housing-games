@@ -7,16 +7,23 @@
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="splash">
+      <img src="splash.png" class="splash-logo">
+      <audio id="audio" preload>
+        <source src="data/audio/whistle.mp3" type="audio/mp3">
+      </audio>
+    </div>
     <div class="header">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
           <img src="banner-image.png" class="logo"></img>
           <nav>
-            <a href="optimal-location.html">Optimal Location</a>
+            <a href="optimal-location.html" class="cur-page">Optimal Location</a>
             <a href="stacked-area.html">Room Distribution</a>
             <a href="dorm-compare.html">Dorm Comparison</a>
             <a href="code/roomSuggestion/suggest.html">Room Suggestion</a>
             <a href="code/roomRanking/ranker.html">Room Ranking</a>
+            <a href="about.html">About</a>
           </nav>
         </div>
       </div>
@@ -24,15 +31,14 @@
     <div class="container-fluid">
       <br>
       <h1 class="text-center"> Optimal Dorm Location </h1>
-      <br>
-      <br>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-        <p>This visualization allows students to enter locations on campus that are important to them, and then the page will suggest dorms that are close to those locations. This helps students minimize their commute times to the gym, eating halls, important buildings, or other important places.</p> 
-
+        <p>This visualization allows students to enter locations on campus that are important to them, and then the page will suggest dorms that are close to those locations. This helps students minimize their commute times to the gym, eating halls, important buildings, or other important places.</p>
+        <br>
           <div class="row">
             <div class="col-md-8">
               <div id="map" class="center-block"></div>
+              <strong>Select places that are important to you:</strong>
               <div id="landmarks"></div>
             </div>
             <div class="col-md-4">
@@ -45,6 +51,7 @@
         </div>
       </div>
     </div>
+    <p class="text-center">Created by Michael Gillett, Matt Cooper, Ali Paul, and Sam Dunietz</p>
   </body>
 </html>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry"></script>
