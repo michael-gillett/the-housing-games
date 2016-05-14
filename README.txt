@@ -15,7 +15,6 @@ python wrangle_web.py previous_outfile outfile
 yearData corresponds to a CSV file containing the aggregate data from a single year. These files can be found in /data/aggregate. The outfile is the file you want the wrangled data to be output to.
 
 
-
 - To run the code to create a CSV containing room numbers mapped to their pick number by year:
 
 simply go to code/roomSuggestion
@@ -32,4 +31,12 @@ occupancy: 1.33639755453
 ratty_dist: -0.370055329148
 main_green_dist: -0.154419958127
 nelson_dist: 0.37905316164
+
+- To run the code to rank the rooms:
+
+navigate to code/roomRanking
+
+run ranker.py
+
+View the results in sorted.csv or in ranker.html
 
