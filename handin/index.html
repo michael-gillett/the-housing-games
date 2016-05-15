@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="data/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="splash">
+      <img src="splash.png" class="splash-logo">
+      <audio id="audio" preload>
+        <source src="data/audio/whistle.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
+          <img src="banner-image.png" class="logo"></img>
+          <nav>
+            <a href="optimal-location.html" class="cur-page">Optimal Location</a>
+            <a href="stacked-area.html">Room Distribution</a>
+            <a href="dorm-compare.html">Dorm Comparison</a>
+            <a href="code/roomSuggestion/suggest.html">Room Suggestion</a>
+            <a href="code/roomRanking/ranker.html">Room Ranking</a>
+            <a href="about.html">About</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <br>
+      <h1 class="text-center"> Optimal Dorm Location </h1>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+         <p>This visualization allows students to enter locations on campus that are important to them, and then the page will suggest dorms that are close to those locations. This helps students minimize their commute times to the gym, eating halls, important buildings, or other important places.</p>
+          <br>
+          <div class="row">
+            <div class="col-md-8">
+              <div id="map" class="center-block"></div>
+              <div id="landmarks"></div>
+            </div>
+            <div class="col-md-4">
+              <table id="map-dorms" class="table table-striped">
+                <thead><th>#</th><th>Dorm</th></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center">Created by Michael Gillett, Matt Cooper, Ali Paul, and Sam Dunietz</p>
+  </body>
+</html>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="data/js/script.js" async defer></script>

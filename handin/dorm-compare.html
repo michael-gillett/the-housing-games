@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title> Dorm Comparison </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="data/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- <div class="splash">
+      <img src="data/images/logo.png" class="logo center-block">
+      <img src="data/images/symbol.png" class="center-block">
+      <audio autoplay preload>
+        <source src="data/audio/whistle.mp3" type="audio/mp3">
+      </audio>
+    </div> -->
+    <div class="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
+          <img src="banner-image.png" class="logo"></img>
+          <nav>
+            <a href="optimal-location.html">Optimal Location</a>
+            <a href="stacked-area.html">Room Distribution</a>
+            <a href="dorm-compare.html" class="cur-page">Dorm Comparison</a>
+            <a href="code/roomSuggestion/suggest.html">Room Suggestion</a>
+            <a href="code/roomRanking/ranker.html">Room Ranking</a>
+            <a href="about.html">About</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="text-center">Dorm Comparison</h1>
+          <br>
+          <p>Often, students want to see how quickly rooms are taken in one dorm vs. another. To aid this, we made a visualization that allows students to select two dorms and compare the number of rooms remaining over time for each. This allows students to quickly see the relative popularity of two dorms over time. It also helps to visualize how many rooms each dorm has, relative to the others.</p>
+
+
+          <h1 class="text-center"><span class="first">Gregorian Quad A</span> <span class="vs">vs.</span> <span class="second">Young Orchard #2</span> <br>
+          </h1>
+          <h3 id="year" class="text-center">2013</h3>
+          <div id="dormcompare" class="text-center"></div>
+          <br>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="row">
+            <div class="col-sm-4">
+              <label for="select-first">Dorm 1: </label>
+              <select id="select-first" class="form-control"></select>
+            </div>
+            <div class="col-sm-4">
+              <label for="select-second">Dorm 2: </label>
+              <select id="select-second" class="form-control"></select>
+            </div>
+            <div class="col-sm-4">
+              <label for="select-year">Year: </label>
+              <select id="select-year" class="form-control">
+                  <option>2006</option>
+                  <option>2007</option>
+                  <option>2008</option>
+                  <option>2009</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <p class="text-center">Created by Michael Gillett, Matt Cooper, Ali Paul, and Sam Dunietz</p>
+  </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="data/js/dormcompare.js" async defer></script>

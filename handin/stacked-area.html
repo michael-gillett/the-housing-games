@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title> Room Distribution </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="data/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- <div class="splash">
+      <img src="data/images/logo.png" class="logo center-block">
+      <img src="data/images/symbol.png" class="center-block">
+      <audio autoplay preload>
+        <source src="data/audio/whistle.mp3" type="audio/mp3">
+      </audio>
+    </div> -->
+    <div class="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
+          <img src="banner-image.png" class="logo"></img>
+          <nav>
+            <a href="optimal-location.html">Optimal Location</a>
+            <a href="stacked-area.html" class="cur-page">Room Distribution</a>
+            <a href="dorm-compare.html">Dorm Comparison</a>
+            <a href="code/roomSuggestion/suggest.html">Room Suggestion</a>
+            <a href="code/roomRanking/ranker.html">Room Ranking</a>
+            <a href="about.html">About</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h1 class="text-center">Percentage of Total Dorm Rooms by Dormitory</h1>
+          <br>
+          <p>We created a stacked area chart to visualize what percentage of the total rooms belonged to each dorm at a given time slice of the lottery. This allows students to compare availability of every dorm for a given year at the same time, and enables students to understand which residence halls will likely remain at a given point in the lottery.</p>
+          <p>To use this tool, select a year and dorm on the right to highlight it, or click a slice of the chart to find out what dorm it is.</p>
+          <div class="row">
+            <div class="col-md-8">
+              <div id="stackedarea"></div>
+            </div>
+            <div class="col-md-4">
+              <br><br>
+              <label for="area-year">Year: </label>
+              <select id="area-year" class="form-control">
+                  <option>2006</option>
+                  <option>2007</option>
+                  <option>2008</option>
+                  <option>2009</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option selected="selected">2013</option>
+              </select>
+              <div class="dorm-table">
+                <table id="available-dorms" class="table table-striped">
+                  <thead><th>Dorm</th></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">Created by Michael Gillett, Matt Cooper, Ali Paul, and Sam Dunietz</p>
+  </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="data/js/stackedarea.js" async defer></script>

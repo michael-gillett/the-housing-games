@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Room Ranking</title>
+
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../data/css/style.css">
+
+    <style>
+
+        #searchDiv {
+            margin-bottom: 30px;
+        }
+        #roomSearchDiv {
+            margin-bottom: 15px;
+        }
+
+        #tableDiv {
+            height: 500px;
+            overflow: auto;
+
+            border-radius: 5px;
+            border: 1px lightgray solid;
+        }
+
+        tr {
+            transition: all 0.3s;
+        }
+        .selected {
+            background-color: #e7b12d !important;
+            color: white;
+        }
+        .btn-games {
+            background-color: #e7b12d;
+            color: white;
+            width: 200px;
+        }
+        .btn-games:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-offset-1 text-center">
+          <img src="../../banner-image.png" class="logo"></img>
+          <nav>
+            <a href="../../optimal-location.html">Optimal Location</a>
+            <a href="../../stacked-area.html">Room Distribution</a>
+            <a href="../../dorm-compare.html">Dorm Comparison</a>
+            <a href="../../code/roomSuggestion/suggest.html">Room Suggestion</a>
+            <a href="../../code/roomRanking/ranker.html" class="cur-page">Room Ranking</a>
+            <a href="../../about.html">About</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="rankingsDiv">
+                    <div id="rankingExplanationDiv">
+                        <h1 class="text-center">Room Ranking</h1>
+                        <br>
+                        <p>Every room was assigned a score based on the average "pick number" (i.e. a room had a pick number of 3 if the group that picked third in a certain year selected that room), with a smaller score implying greater desirability. We weighted each pick number on a square root scale to reflect that a small discrepancy in earlier picks (e.g. 1<sup>st</sup> to 10<sup>th</sup> pick) likely matter more than the same difference in later picks (e.g. 1712<sup>th</sup> to 1722<sup>nd</sup>).</p>
+                    </div>
+                    <hr />
+                    <div id="searchDiv">
+                        <div id="roomSearchDiv">
+                            <label for="roomSearchInput">Search Your Room: </label>
+                            <div class="input-group">
+                               <input id="roomSearchInput" type="text" class="form-control" placeholder="[Residence Hall] [Room #]">
+                               <span class="input-group-btn">
+                                    <button id="roomSearchButton" class="btn btn-games default" type="submit">Go!</button>
+                               </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tableDiv">
+                        <table id="rankTable" class = "table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Room</th>
+                                    <th>Score</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rankingsList">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p class="text-center">Created by Michael Gillett, Matt Cooper, Ali Paul, and Sam Dunietz</p>
+</body>
+</html>
+
+<script>
+
+    $(function() {
+        $("input").keypress(function (e) {
+            if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+                $('.default').click();
+                return false;
+            } else {
+                return true;
+            }
+        });
+    });
+
+    allData = []
+    activeRow = -1;
+
+    d3.csv('sorted.csv', function(data) {
+        console.log(data);
+
+        allData = data;
+
+        displayRooms(allData)
+
+    });
+
+    function displayRooms(rooms) {
+        var list = $('#rankingsList');
+
+        var html = ''
+        for (var i = 0; i < rooms.length; i++) {
+            html += '<tr id="row'+i+'">'
+            html += '<td class="rankNumber">';
+            html += rooms[i]['rank']
+            html += '</td>'
+            html += '<td class="rankRoom">';
+            html += rooms[i]['room']
+            html += '</td>'
+            html += '<td class="rankScore">';
+            html += rooms[i]['score']
+            html += '</td>'
+            html += '</tr>'
+        }
+
+        list.html(html);
+    }
+
+    $('#roomSearchButton').click(function(event) {
+        var name = $('#roomSearchInput').val();
+
+        var cleanName = name.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+        console.log(cleanName)
+
+        for (var i = 0; i < allData.length; i++) {
+            var cleanRoom = allData[i].room.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+
+            if (cleanRoom === cleanName) {
+                $('#numSearchInput').val(i+1);
+
+                setActive(i)
+                scrollToRow(i);
+                return;
+            }
+        }
+        alert("Couldn't find "+name);
+    });
+
+
+    function scrollToRow(rowIndex) {
+        var w = $('#rankTable');
+        var row = $('#rankTable').find('tr').eq( rowIndex );
+
+        if (row.length){
+            $('#tableDiv').scrollTo('#row'+rowIndex)
+        }
+    }
+
+    function setActive(row) {
+        if (activeRow >= 0) {
+            $('#row'+activeRow).removeClass('selected');
+        }
+
+        activeRow = row;
+        console.log(activeRow)
+
+        if (activeRow >= 0) {
+            console.log("A")
+            $('#row'+activeRow).addClass('selected');
+            console.log($('#row'+activeRow));
+        }
+    }
+
+
+    jQuery.fn.scrollTo = function(elem, speed) {
+//        console.log($(this).scrollTop() - $(this).offset().top + $(elem).offset().top);
+//        console.log($(this));
+//        console.log($(elem));
+
+        $(this).animate({
+            scrollTop:  $(this).scrollTop() - $(this).offset().top + $(elem).offset().top
+        }, speed == undefined ? 1000 : speed);
+
+        return this;
+    };
+
+</script>
